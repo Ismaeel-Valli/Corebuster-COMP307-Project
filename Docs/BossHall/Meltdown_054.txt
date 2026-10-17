@@ -1,0 +1,38 @@
+BOSS HALL MELTDOWN VFX: 11 effects (5/6 emitters, 4 script-free arcs, 2 scorch decals), live-particle hard cap 92, 2 owned materials, 19/20 hall materials. Only Transform/ParticleSystem/renderers; collision/trigger/light/sub-emitter modules off; scaled time; no script, collider, light, audio, damage or gameplay state. Entry-to-turret sight line clear.
+Saved scene: 4580ae2aa656db743e2cd93e1d2b32a609953e11114b246197ff30ec5cd83ff5
+Protected scene states: 58327; shared entries: 3358. Byte-identical regenerated assets/meta; parent rebuild/Undo; negative guards; save/reload pass.
+Ring_Discharge: peak 2/4 live, all positions inside envelope over 30 s
+Clamp_Steam_South: peak 19/20 live, all positions inside envelope over 30 s
+Runway_Sparks_South: peak 9/24 live, all positions inside envelope over 30 s
+Clamp_Steam_North: peak 18/20 live, all positions inside envelope over 30 s
+Runway_Sparks_North: peak 10/24 live, all positions inside envelope over 30 s
+Combined edit-mode simulated peak 46 live particles (hard cap 92).
+Discharge Ring_Discharge on Assembly_Backdrop/Assembly_Ring at (-327.947, 11.000, 115.300); envelope X [-328.50, -327.39], Y [7.45, 14.55], Z [111.75, 118.85]; max 4, life 0.08-0.14 s, rate 0/s, bursts 1-2 p0.50 every 1.9 s
+Arc Ring_Arc_Upper_North on Assembly_Backdrop/Assembly_Ring at (-327.907, 11.000, 115.300); envelope X [-327.94, -327.87], Y [13.05, 13.76], Z [116.10, 117.28]
+Arc Ring_Arc_Upper_South on Assembly_Backdrop/Assembly_Ring at (-327.907, 11.000, 115.300); envelope X [-327.94, -327.87], Y [13.05, 13.77], Z [113.32, 114.50]
+Arc Ring_Arc_Lower_North on Assembly_Backdrop/Assembly_Ring at (-327.907, 11.000, 115.300); envelope X [-327.94, -327.87], Y [8.23, 8.95], Z [116.10, 117.28]
+Arc Ring_Arc_Lower_South on Assembly_Backdrop/Assembly_Ring at (-327.907, 11.000, 115.300); envelope X [-327.94, -327.87], Y [8.24, 8.95], Z [113.32, 114.50]
+Steam Clamp_Steam_South on Assembly_Backdrop/Assembly_Ring/Ring_Pistons at (-327.927, 14.053, 111.411); envelope X [-328.45, -327.40], Y [13.63, 15.06], Z [109.81, 111.83]; max 20, life 1.60-2.40 s, rate 8/s
+Sparks Runway_Sparks_South on Overhead/Overhead_Feeder_South at (-321.927, 24.930, 100.550); envelope X [-322.29, -321.56], Y [20.87, 25.26], Z [100.18, 100.92]; max 24, life 0.45-0.70 s, rate 2/s, bursts 5-9 p0.55 every 2.6 s
+Scorch Runway_Scorch_South on Overhead/Overhead_Feeder_South at (-321.927, 25.150, 100.238); envelope X [-322.24, -321.62], Y [24.98, 25.32], Z [100.24, 100.24]
+Steam Clamp_Steam_North on Assembly_Backdrop/Assembly_Ring/Ring_Pistons at (-327.927, 14.053, 119.189); envelope X [-328.45, -327.40], Y [13.63, 15.06], Z [118.77, 120.79]; max 20, life 1.60-2.40 s, rate 8/s
+Sparks Runway_Sparks_North on Overhead/Overhead_Feeder_North at (-321.927, 24.930, 130.050); envelope X [-322.29, -321.56], Y [20.87, 25.26], Z [129.68, 130.42]; max 24, life 0.45-0.70 s, rate 2/s, bursts 5-9 p0.55 every 2.6 s
+Scorch Runway_Scorch_North on Overhead/Overhead_Feeder_North at (-321.927, 25.150, 130.362); envelope X [-322.24, -321.62], Y [24.98, 25.32], Z [130.36, 130.36]
+Reserved env_055 warning-flicker bindings (no light created):
+  Warning_Flicker_Ring at (-326.447, 11.000, 115.300): ReactorInstabilityLight on a Lighting-section light, field = Energy/M_Energy_Contained_Field (instability 0.3, <= 2 flashes/s)
+  Warning_Flicker_South at (-321.927, 23.930, 100.550): WorkshopAmbientMotion lamp pattern (scaled time, 0.45-1.0 factor) on a Lighting-section amber practical
+  Warning_Flicker_North at (-321.927, 23.930, 130.050): WorkshopAmbientMotion lamp pattern (scaled time, 0.45-1.0 factor) on a Lighting-section amber practical
+BOSS HALL BUDGETS (provisional ceilings; material shares are planning reservations)
+Assembly_Backdrop [corebuster_env_049]: assemblies 4/4, prefabs including nested 0/10, renderers 70, colliders 1, carving 1, lights 0/0, emitters 0/0, live particles 0, assigned materials 4, initial material planning share 3
+Mechanical_Arms [corebuster_art_006]: assemblies 2/2, prefabs including nested 2/8, renderers 42, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 3, initial material planning share 2
+Power_Services [corebuster_env_050]: assemblies 2/2, prefabs including nested 0/10, renderers 44, colliders 2, carving 2, lights 0/0, emitters 0/0, live particles 0, assigned materials 3, initial material planning share 2
+Cooling_Services [corebuster_env_050]: assemblies 2/2, prefabs including nested 0/10, renderers 24, colliders 2, carving 2, lights 0/0, emitters 0/0, live particles 0, assigned materials 2, initial material planning share 2
+Catwalk_Dressing [corebuster_env_051]: assemblies 0/0, prefabs including nested 0/10, renderers 6, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 1, initial material planning share 1
+Lower_Arena_Dressing [corebuster_env_052]: assemblies 2/2, prefabs including nested 0/8, renderers 2, colliders 2, carving 2, lights 0/0, emitters 0/0, live particles 0, assigned materials 3, initial material planning share 1
+Overhead [corebuster_env_050]: assemblies 0/0, prefabs including nested 0/8, renderers 4, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 2, initial material planning share 1
+Meltdown_VFX [corebuster_env_054]: assemblies 0/0, prefabs including nested 0/0, renderers 11, colliders 0, carving 0, lights 0/0, emitters 5/6, live particles 0, assigned materials 2, initial material planning share 2
+Lighting [corebuster_env_055]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 0/24, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 2
+Wayfinding [corebuster_env_057]: assemblies 0/0, prefabs including nested 0/8, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 2
+Audio [corebuster_audio_003]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 0
+Rendering [corebuster_render_010]: assemblies 0/0, prefabs including nested 0/0, renderers 551, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 10, initial material planning share 2
+Whole pass: <=12 assembly roots, <=80 nested prefab instances, <=20 unique materials, <=24 architectural lights, <=6 emitters. Actor/core/weapon lights are separate; combined per-object limit remains 4.

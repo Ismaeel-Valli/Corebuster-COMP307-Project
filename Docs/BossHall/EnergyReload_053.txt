@@ -1,0 +1,4 @@
+BOSS HALL ENERGY: 7 owned nested groups, 9 renderers, 504 triangles, 3 owned materials, 17/20 hall materials. Only Transform/MeshFilter/MeshRenderer; no runtime script/core/health/damage, collider/carve, light, emitter or audio. Entry-to-turret sight line clear.
+Fresh reload/regeneration is byte-identical, with unchanged metadata; full scene/shared state and scene bytes unchanged.
+Hidden_Control: 99 changed pixels, 98 outside hall projection (0 above delta 32).
+Hidden_To_Enabled: 326 changed pixels, 162 outside hall projection (0 above delta 32).

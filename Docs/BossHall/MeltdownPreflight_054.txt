@@ -1,0 +1,22 @@
+READ-ONLY ENV054 PREFLIGHT
+Scene: 30c08304a9de21dae3a881743ff64bc0153bf9b60940a83556e12d39ec826af2
+Installed meltdown differs from the current recipe; the build replaces it: Unplanned meltdown emitter Valve_Steam_South
+Ring centre Y 11.000, lintel underside 15.080, upper-deck volume from Y 16.68; room X [-328.53, -263.04], Y [6.20, 26.20], Z [82.45, 147.58]
+Ring_Pistons X [-328.13, -327.43], Y [8.72, 14.28], Z [108.70, 121.90]
+Runway conductor box South X [-322.33, -321.53], Y [24.95, 25.67], Z [100.25, 100.85]
+Runway conductor box North X [-322.33, -321.53], Y [24.95, 25.67], Z [129.75, 130.35]
+Discharge Ring_Discharge on Assembly_Backdrop/Assembly_Ring at (-327.947, 11.000, 115.300); envelope X [-328.50, -327.39], Y [7.45, 14.55], Z [111.75, 118.85]; max 4, life 0.08-0.14 s, rate 0/s, bursts 1-2 p0.50 every 1.9 s
+Arc Ring_Arc_Upper_North on Assembly_Backdrop/Assembly_Ring at (-327.907, 11.000, 115.300); envelope X [-327.94, -327.87], Y [13.05, 13.76], Z [116.10, 117.28]
+Arc Ring_Arc_Upper_South on Assembly_Backdrop/Assembly_Ring at (-327.907, 11.000, 115.300); envelope X [-327.94, -327.87], Y [13.05, 13.77], Z [113.32, 114.50]
+Arc Ring_Arc_Lower_North on Assembly_Backdrop/Assembly_Ring at (-327.907, 11.000, 115.300); envelope X [-327.94, -327.87], Y [8.23, 8.95], Z [116.10, 117.28]
+Arc Ring_Arc_Lower_South on Assembly_Backdrop/Assembly_Ring at (-327.907, 11.000, 115.300); envelope X [-327.94, -327.87], Y [8.24, 8.95], Z [113.32, 114.50]
+Steam Clamp_Steam_South on Assembly_Backdrop/Assembly_Ring/Ring_Pistons at (-327.927, 14.053, 111.411); envelope X [-328.45, -327.40], Y [13.63, 15.06], Z [109.81, 111.83]; max 20, life 1.60-2.40 s, rate 8/s
+Sparks Runway_Sparks_South on Overhead/Overhead_Feeder_South at (-321.927, 24.930, 100.550); envelope X [-322.29, -321.56], Y [20.87, 25.26], Z [100.18, 100.92]; max 24, life 0.45-0.70 s, rate 2/s, bursts 5-9 p0.55 every 2.6 s
+Scorch Runway_Scorch_South on Overhead/Overhead_Feeder_South at (-321.927, 25.150, 100.238); envelope X [-322.24, -321.62], Y [24.98, 25.32], Z [100.24, 100.24]
+Steam Clamp_Steam_North on Assembly_Backdrop/Assembly_Ring/Ring_Pistons at (-327.927, 14.053, 119.189); envelope X [-328.45, -327.40], Y [13.63, 15.06], Z [118.77, 120.79]; max 20, life 1.60-2.40 s, rate 8/s
+Sparks Runway_Sparks_North on Overhead/Overhead_Feeder_North at (-321.927, 24.930, 130.050); envelope X [-322.29, -321.56], Y [20.87, 25.26], Z [129.68, 130.42]; max 24, life 0.45-0.70 s, rate 2/s, bursts 5-9 p0.55 every 2.6 s
+Scorch Runway_Scorch_North on Overhead/Overhead_Feeder_North at (-321.927, 25.150, 130.362); envelope X [-322.24, -321.62], Y [24.98, 25.32], Z [130.36, 130.36]
+Reserved env_055 warning-flicker bindings (no light created):
+  Warning_Flicker_Ring at (-326.447, 11.000, 115.300): ReactorInstabilityLight on a Lighting-section light, field = Energy/M_Energy_Contained_Field (instability 0.3, <= 2 flashes/s)
+  Warning_Flicker_South at (-321.927, 23.930, 100.550): WorkshopAmbientMotion lamp pattern (scaled time, 0.45-1.0 factor) on a Lighting-section amber practical
+  Warning_Flicker_North at (-321.927, 23.930, 130.050): WorkshopAmbientMotion lamp pattern (scaled time, 0.45-1.0 factor) on a Lighting-section amber practical

@@ -1,0 +1,7 @@
+ENV054 controlled Play-mode probe
+Registries: 15 enemies, 16 actors, 10 core targets, 0 vulnerable; zero dressing entries; renderer toggle leaves them identical.
+Live particles over 12 s (464 frames): peak 52, mean 35.1; per emitter Ring_Discharge 2/4, Clamp_Steam_South 19/20, Runway_Sparks_South 10/24, Clamp_Steam_North 19/20, Runway_Sparks_North 11/24. Every live particle stayed inside its envelope.
+Pause (Time.timeScale 0, 1.2 s real time): all particle counts/positions and system times identical; ring view 0 px changed. Resume: emitters advanced; ring view 38762 px changed.
+Moving views: Floor_Advance, Floor_Strafe_South and Upper_Tier_Walk, three frames each at standing eye height with live effects.
+Execution with live effects: real armour damage exposed a hall target; CoreExecutioner removed it from the pool; impaled capture recorded; core consumed before Health.OnDie.
+Player moved/invincible, menu disabled and time scale changed in this discarded Play session only. Not human combat or encounter/win-order verification.

@@ -1,0 +1,2 @@
+PASS: strict env053 saved-block inspection. 50 added blocks: 16 GameObjects, 16 Transforms, 9 MeshRenderers, 9 MeshFilters. No removed block or gameplay/physics/light/VFX/audio component.
+Only seven original blocks differ: five machinery-parent child lists append their Energy_053 transform; two arm prefab instances append exactly one Energy_053 added-child override. Removing only those references makes every original block identical to HEAD.

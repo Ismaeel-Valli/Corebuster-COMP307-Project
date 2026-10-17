@@ -1,0 +1,4023 @@
+{
+  "sceneSha256": "398f28174fd740665d66bb1a4cf2e0cd0b5898052d10c4d35c5b1495844803b1",
+  "surveyedUtc": "2026-10-04T14:28:06Z",
+  "unityVersion": "6000.5.7f1",
+  "entry": {
+    "centre": {
+      "x": -263.041748046875,
+      "y": 6.199999809265137,
+      "z": 115.29499816894531
+    },
+    "inward": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "clearMin": 112.45500183105469,
+    "clearMax": 118.13500213623047,
+    "width": 5.679996013641357,
+    "lintelY": 10.740062713623047,
+    "inspectedColliders": [
+      "Corridor Incline Full/Tunnel Incline Ceiling001",
+      "Corridor Incline Full/Tunnel Incline Floor001",
+      "Corridor Incline Full/Tunnel Incline Steps001",
+      "Corridor Incline Full/Tunnel Incline Walls001",
+      "Floor Tile 01 (98)",
+      "Floor Tile 01 (99)",
+      "Floor Tile 03 (1)",
+      "Floor Tile 04",
+      "Floor Tile 04 (1)",
+      "Floor Tile 04 (4)",
+      "Plane (3)",
+      "Wall Fan (2)/LP_vent_fan_snaps",
+      "Wall Fan (2)/LP_vent_guard_snaps",
+      "Wall Fan (2)/LP_vent_wall_snaps",
+      "Wall Plain (31)",
+      "Wall Plain (74)"
+    ]
+  },
+  "incline": [
+    {
+      "distance": 0.0,
+      "groundY": 0.17997343838214874,
+      "position": {
+        "x": -251.1967315673828,
+        "y": 0.17997343838214874,
+        "z": 115.45494079589844
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+      "onNavMesh": false,
+      "turretVisible": false
+    },
+    {
+      "distance": 0.5,
+      "groundY": 0.1799733191728592,
+      "position": {
+        "x": -251.6967315673828,
+        "y": 0.1799733191728592,
+        "z": 115.45494079589844
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+      "onNavMesh": false,
+      "turretVisible": false
+    },
+    {
+      "distance": 1.0,
+      "groundY": 0.17997319996356964,
+      "position": {
+        "x": -252.1967315673828,
+        "y": 0.17997319996356964,
+        "z": 115.45494079589844
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 1.5,
+      "groundY": 0.1799730807542801,
+      "position": {
+        "x": -252.6967315673828,
+        "y": 0.1799730807542801,
+        "z": 115.45494079589844
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 2.0,
+      "groundY": 0.17997296154499054,
+      "position": {
+        "x": -253.1967315673828,
+        "y": 0.17997296154499054,
+        "z": 115.45494079589844
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 2.5,
+      "groundY": 0.693438708782196,
+      "position": {
+        "x": -253.69674682617188,
+        "y": 0.693438708782196,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 3.0,
+      "groundY": 0.9233231544494629,
+      "position": {
+        "x": -254.19674682617188,
+        "y": 0.9233231544494629,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 3.5,
+      "groundY": 1.3818258047103882,
+      "position": {
+        "x": -254.69674682617188,
+        "y": 1.3818258047103882,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 4.0,
+      "groundY": 1.6109780073165894,
+      "position": {
+        "x": -255.19674682617188,
+        "y": 1.6109780073165894,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 4.5,
+      "groundY": 2.0693471431732178,
+      "position": {
+        "x": -255.69674682617188,
+        "y": 2.0693471431732178,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 5.0,
+      "groundY": 2.2985036373138428,
+      "position": {
+        "x": -256.19671630859375,
+        "y": 2.2985036373138428,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 5.5,
+      "groundY": 2.7568700313568115,
+      "position": {
+        "x": -256.69671630859375,
+        "y": 2.7568700313568115,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 6.0,
+      "groundY": 2.986013174057007,
+      "position": {
+        "x": -257.19671630859375,
+        "y": 2.986013174057007,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 6.5,
+      "groundY": 3.444310188293457,
+      "position": {
+        "x": -257.69671630859375,
+        "y": 3.444310188293457,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 7.0,
+      "groundY": 3.673527956008911,
+      "position": {
+        "x": -258.19671630859375,
+        "y": 3.673527956008911,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 7.5,
+      "groundY": 4.131818771362305,
+      "position": {
+        "x": -258.69671630859375,
+        "y": 4.131818771362305,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 8.0,
+      "groundY": 4.361037254333496,
+      "position": {
+        "x": -259.19671630859375,
+        "y": 4.361037254333496,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": false
+    },
+    {
+      "distance": 8.5,
+      "groundY": 4.819379806518555,
+      "position": {
+        "x": -259.69671630859375,
+        "y": 4.819379806518555,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 9.0,
+      "groundY": 5.277670860290527,
+      "position": {
+        "x": -260.19671630859375,
+        "y": 5.277670860290527,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 9.5,
+      "groundY": 5.506897926330566,
+      "position": {
+        "x": -260.69671630859375,
+        "y": 5.506897926330566,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 10.0,
+      "groundY": 5.965231895446777,
+      "position": {
+        "x": -261.19671630859375,
+        "y": 5.965231895446777,
+        "z": 115.45500946044922
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 10.5,
+      "groundY": 6.1799468994140625,
+      "position": {
+        "x": -261.69671630859375,
+        "y": 6.1799468994140625,
+        "z": 115.45494079589844
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 11.0,
+      "groundY": 6.1799468994140625,
+      "position": {
+        "x": -262.19671630859375,
+        "y": 6.1799468994140625,
+        "z": 115.45494079589844
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 11.5,
+      "groundY": 6.1799468994140625,
+      "position": {
+        "x": -262.69671630859375,
+        "y": 6.1799468994140625,
+        "z": 115.45494079589844
+      },
+      "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 12.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -263.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 12.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -263.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 13.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -264.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 13.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -264.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 14.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -265.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 14.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -265.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 15.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -266.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 15.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -266.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 16.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -267.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 16.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -267.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 17.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -268.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 17.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -268.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 04",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 18.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -269.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 01 (98)",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 18.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -269.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 01 (98)",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 19.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -270.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 01 (98)",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 19.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -270.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 01 (98)",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 20.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -271.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 01 (98)",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 20.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -271.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 01 (98)",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 21.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -272.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 01 (98)",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 21.5,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -272.69671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 01 (98)",
+      "onNavMesh": true,
+      "turretVisible": true
+    },
+    {
+      "distance": 22.0,
+      "groundY": 6.200000286102295,
+      "position": {
+        "x": -273.19671630859375,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+      },
+      "ground": "Floor Tile 01 (98)",
+      "onNavMesh": true,
+      "turretVisible": true
+    }
+  ],
+  "turretRevealDistance": 8.5,
+  "decks": [
+    {
+      "name": "North gallery",
+      "tier": 1,
+      "pieces": 42,
+      "samples": 8059,
+      "clearSamples": 6412,
+      "navSamples": 504,
+      "navHits": 488,
+      "navReachable": 488,
+      "bounds": {
+        "name": "North gallery",
+        "id": "",
+        "min": {
+          "x": -328.77215576171875,
+          "y": 10.214319229125977,
+          "z": 139.88601684570312
+        },
+        "max": {
+          "x": -262.771484375,
+          "y": 10.702692031860352,
+          "z": 148.0
+        }
+      },
+      "topMin": 10.700016021728516,
+      "topMax": 10.702692985534668,
+      "bottomY": 10.21431827545166,
+      "area": 510.1602783203125,
+      "widthMin": 3.25,
+      "widthP5": 6.0,
+      "widthMedian": 8.0,
+      "clearWidthMin": 1.0,
+      "clearWidthP5": 2.75,
+      "clearWidthMedian": 6.75,
+      "maxStep": 0.0,
+      "minHeadroom": 3.030177116394043,
+      "centreLine": 144.01101684570312,
+      "longAxis": "X",
+      "railedEdge": 216,
+      "wallEdge": 312,
+      "openEdge": 0,
+      "joinEdge": 80,
+      "openEdges": [],
+      "gaps": [],
+      "steps": [],
+      "unreachable": [],
+      "pinches": [
+        "clear width under 1.5 m: 49 cells around (-306.27, 146.51), extent X 3.00 m, Z 1.25 m, narrowest 1.00 m",
+        "clear width under 1.5 m: 17 cells around (-301.02, 146.51), extent X 1.00 m, Z 1.25 m, narrowest 1.00 m",
+        "clear width under 1.5 m: 5 cells around (-300.90, 144.51), extent X 0.25 m, Z 1.25 m, narrowest 1.25 m",
+        "clear width under 1.5 m: 17 cells around (-290.77, 146.51), extent X 1.00 m, Z 1.25 m, narrowest 1.00 m",
+        "clear width under 1.5 m: 5 cells around (-290.90, 144.51), extent X 0.25 m, Z 1.25 m, narrowest 1.25 m",
+        "clear width under 1.5 m: 49 cells around (-285.52, 146.51), extent X 3.00 m, Z 1.25 m, narrowest 1.00 m"
+      ],
+      "members": [
+        "Catwalk Long",
+        "Catwalk Long (1)",
+        "Catwalk Long (10)",
+        "Catwalk Long (11)",
+        "Catwalk Long (12)",
+        "Catwalk Long (13)",
+        "Catwalk Long (14)",
+        "Catwalk Long (15)",
+        "Catwalk Long (16)",
+        "Catwalk Long (17)",
+        "Catwalk Long (18)",
+        "Catwalk Long (19)",
+        "Catwalk Long (2)",
+        "Catwalk Long (20)",
+        "Catwalk Long (21)",
+        "Catwalk Long (22)",
+        "Catwalk Long (23)",
+        "Catwalk Long (24)",
+        "Catwalk Long (25)",
+        "Catwalk Long (26)",
+        "Catwalk Long (27)",
+        "Catwalk Long (28)",
+        "Catwalk Long (29)",
+        "Catwalk Long (3)",
+        "Catwalk Long (30)",
+        "Catwalk Long (31)",
+        "Catwalk Long (32)",
+        "Catwalk Long (4)",
+        "Catwalk Long (5)",
+        "Catwalk Long (6)",
+        "Catwalk Long (7)",
+        "Catwalk Long (8)",
+        "Catwalk Long (9)",
+        "Catwalk Long Rails",
+        "Catwalk Long Rails (1)",
+        "Catwalk Long Rails (2)",
+        "Catwalk Long Rails (3)",
+        "Catwalk Long Rails (4)",
+        "Catwalk Long Rails (5)",
+        "Catwalk Long Rails (6)",
+        "Catwalk Long Rails (7)",
+        "Catwalk Long Rails (8)"
+      ]
+    },
+    {
+      "name": "South gallery",
+      "tier": 1,
+      "pieces": 42,
+      "samples": 8062,
+      "clearSamples": 6402,
+      "navSamples": 504,
+      "navHits": 418,
+      "navReachable": 418,
+      "bounds": {
+        "name": "South gallery",
+        "id": "",
+        "min": {
+          "x": -328.7794189453125,
+          "y": 10.214317321777344,
+          "z": 82.15056610107422
+        },
+        "max": {
+          "x": -262.77880859375,
+          "y": 10.702693939208984,
+          "z": 90.26456451416016
+        }
+      },
+      "topMin": 10.700017929077148,
+      "topMax": 10.702693939208984,
+      "bottomY": 10.214317321777344,
+      "area": 510.1632995605469,
+      "widthMin": 3.0,
+      "widthP5": 6.0,
+      "widthMedian": 8.0,
+      "clearWidthMin": 0.75,
+      "clearWidthP5": 2.5,
+      "clearWidthMedian": 6.75,
+      "maxStep": 0.0,
+      "minHeadroom": 2.2293701171875,
+      "centreLine": 86.02556610107422,
+      "longAxis": "X",
+      "railedEdge": 216,
+      "wallEdge": 312,
+      "openEdge": 0,
+      "joinEdge": 72,
+      "openEdges": [],
+      "gaps": [],
+      "steps": [],
+      "unreachable": [],
+      "pinches": [
+        "clear width under 1.5 m: 53 cells around (-306.03, 83.53), extent X 3.50 m, Z 1.25 m, narrowest 0.75 m",
+        "clear width under 1.5 m: 13 cells around (-301.03, 83.40), extent X 1.00 m, Z 1.00 m, narrowest 0.75 m",
+        "clear width under 1.5 m: 10 cells around (-301.03, 85.28), extent X 0.50 m, Z 1.25 m, narrowest 1.25 m",
+        "clear width under 1.5 m: 17 cells around (-290.78, 83.53), extent X 1.00 m, Z 1.25 m, narrowest 1.00 m",
+        "clear width under 1.5 m: 10 cells around (-290.78, 85.53), extent X 0.50 m, Z 1.25 m, narrowest 1.25 m",
+        "clear width under 1.5 m: 51 cells around (-285.53, 83.53), extent X 3.00 m, Z 1.25 m, narrowest 1.00 m"
+      ],
+      "members": [
+        "Catwalk Long (33)",
+        "Catwalk Long (34)",
+        "Catwalk Long (35)",
+        "Catwalk Long (36)",
+        "Catwalk Long (37)",
+        "Catwalk Long (38)",
+        "Catwalk Long (39)",
+        "Catwalk Long (40)",
+        "Catwalk Long (41)",
+        "Catwalk Long (42)",
+        "Catwalk Long (43)",
+        "Catwalk Long (44)",
+        "Catwalk Long (45)",
+        "Catwalk Long (46)",
+        "Catwalk Long (47)",
+        "Catwalk Long (48)",
+        "Catwalk Long (49)",
+        "Catwalk Long (50)",
+        "Catwalk Long (51)",
+        "Catwalk Long (52)",
+        "Catwalk Long (53)",
+        "Catwalk Long (54)",
+        "Catwalk Long (55)",
+        "Catwalk Long (56)",
+        "Catwalk Long (57)",
+        "Catwalk Long (58)",
+        "Catwalk Long (59)",
+        "Catwalk Long (60)",
+        "Catwalk Long (61)",
+        "Catwalk Long (62)",
+        "Catwalk Long (63)",
+        "Catwalk Long (64)",
+        "Catwalk Long (65)",
+        "Catwalk Long Rails (10)",
+        "Catwalk Long Rails (11)",
+        "Catwalk Long Rails (12)",
+        "Catwalk Long Rails (13)",
+        "Catwalk Long Rails (14)",
+        "Catwalk Long Rails (15)",
+        "Catwalk Long Rails (16)",
+        "Catwalk Long Rails (17)",
+        "Catwalk Long Rails (9)"
+      ]
+    },
+    {
+      "name": "Upper deck network",
+      "tier": 2,
+      "pieces": 80,
+      "samples": 13191,
+      "clearSamples": 11298,
+      "navSamples": 832,
+      "navHits": 801,
+      "navReachable": 801,
+      "bounds": {
+        "name": "Upper deck network",
+        "id": "",
+        "min": {
+          "x": -328.5267333984375,
+          "y": 16.199928283691406,
+          "z": 82.44999694824219
+        },
+        "max": {
+          "x": -263.073974609375,
+          "y": 16.69861602783203,
+          "z": 147.6999969482422
+        }
+      },
+      "topMin": 16.67701530456543,
+      "topMax": 16.69861602783203,
+      "bottomY": 16.199926376342773,
+      "area": 825.7578735351562,
+      "widthMin": 3.75,
+      "widthP5": 4.0,
+      "widthMedian": 6.0,
+      "clearWidthMin": 0.25,
+      "clearWidthP5": 3.0,
+      "clearWidthMedian": 5.25,
+      "maxStep": 0.021549224853515625,
+      "minHeadroom": 9.50131607055664,
+      "centreLine": 115.07499694824219,
+      "longAxis": "X",
+      "railedEdge": 1130,
+      "wallEdge": 96,
+      "openEdge": 9,
+      "joinEdge": 95,
+      "openEdges": [
+        "open edge facing -X at X -308.40, Z [118.20, 118.45] (0.25 m)",
+        "open edge facing +X at X -304.90, Z [102.20, 102.45] (0.25 m)",
+        "open edge facing +Z at Z 127.83, X [-299.03, -298.78] (0.25 m)",
+        "open edge facing -X at X -298.65, Z [102.20, 102.45] (0.25 m)",
+        "open edge facing +X at X -292.90, Z [102.20, 102.45] (0.25 m)",
+        "open edge facing -Z at Z 102.58, X [-292.78, -292.53] (0.25 m)",
+        "open edge facing -X at X -286.90, Z [102.20, 102.45] (0.25 m)",
+        "open edge facing -Z at Z 102.33, X [-283.28, -283.03] (0.25 m)",
+        "open edge facing +X at X -283.15, Z [118.20, 118.45] (0.25 m)"
+      ],
+      "gaps": [],
+      "steps": [
+        "step up to 0.022 m along a join around (-306.53, 106.20)",
+        "step up to 0.022 m along a join around (-306.53, 112.08)"
+      ],
+      "unreachable": [],
+      "pinches": [],
+      "members": [
+        "Catwalk Long (100)",
+        "Catwalk Long (101)",
+        "Catwalk Long (102)",
+        "Catwalk Long (103)",
+        "Catwalk Long (104)",
+        "Catwalk Long (105)",
+        "Catwalk Long (106)",
+        "Catwalk Long (107)",
+        "Catwalk Long (108)",
+        "Catwalk Long (109)",
+        "Catwalk Long (110)",
+        "Catwalk Long (111)",
+        "Catwalk Long (112)",
+        "Catwalk Long (113)",
+        "Catwalk Long (114)",
+        "Catwalk Long (115)",
+        "Catwalk Long (116)",
+        "Catwalk Long (117)",
+        "Catwalk Long (118)",
+        "Catwalk Long (119)",
+        "Catwalk Long (120)",
+        "Catwalk Long (121)",
+        "Catwalk Long (122)",
+        "Catwalk Long (123)",
+        "Catwalk Long (124)",
+        "Catwalk Long (125)",
+        "Catwalk Long (126)",
+        "Catwalk Long (127)",
+        "Catwalk Long (128)",
+        "Catwalk Long (129)",
+        "Catwalk Long (66)",
+        "Catwalk Long (67)",
+        "Catwalk Long (68)",
+        "Catwalk Long (69)",
+        "Catwalk Long (70)",
+        "Catwalk Long (71)",
+        "Catwalk Long (72)",
+        "Catwalk Long (73)",
+        "Catwalk Long (74)",
+        "Catwalk Long (75)",
+        "Catwalk Long (76)",
+        "Catwalk Long (77)",
+        "Catwalk Long (78)",
+        "Catwalk Long (79)",
+        "Catwalk Long (80)",
+        "Catwalk Long (81)",
+        "Catwalk Long (82)",
+        "Catwalk Long (83)",
+        "Catwalk Long (84)",
+        "Catwalk Long (85)",
+        "Catwalk Long (86)",
+        "Catwalk Long (87)",
+        "Catwalk Long (88)",
+        "Catwalk Long (89)",
+        "Catwalk Long (90)",
+        "Catwalk Long (91)",
+        "Catwalk Long (92)",
+        "Catwalk Long (93)",
+        "Catwalk Long (94)",
+        "Catwalk Long (95)",
+        "Catwalk Long (96)",
+        "Catwalk Long (97)",
+        "Catwalk Long (98)",
+        "Catwalk Long (99)",
+        "Catwalk Short",
+        "Catwalk Short (1)",
+        "Catwalk Short (12)",
+        "Catwalk Short (13)",
+        "Catwalk Short (14)",
+        "Catwalk Short (15)",
+        "Catwalk Short (16)",
+        "Catwalk Short (17)",
+        "Catwalk Short (18)",
+        "Catwalk Short (19)",
+        "Catwalk Short (2)",
+        "Catwalk Short (3)",
+        "Catwalk Short (4)",
+        "Catwalk Short (5)",
+        "Catwalk Short (6)",
+        "Catwalk Short (7)"
+      ]
+    }
+  ],
+  "stairs": [
+    {
+      "name": "Catwalk Stairs",
+      "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-645526494",
+      "label": "Lower NW",
+      "footSurface": "lower floor",
+      "topSurface": "North gallery",
+      "path": "PathComplete",
+      "colliderLayers": "Environment",
+      "profile": "132.94:6.200 132.99:6.200 133.04:6.200 133.09:6.200 133.14:6.200 133.19:6.200 133.24:6.200 133.29:6.200 133.34:6.200 133.39:6.415 133.44:6.415 133.49:6.415 133.54:6.415 133.59:6.415 133.64:6.415 133.69:6.415 133.74:6.415 133.79:6.698 133.84:6.698 133.89:6.698 133.94:6.698 133.99:6.698 134.04:6.698 134.09:6.698 134.14:6.698 134.19:6.981 134.24:6.981 134.29:6.981 134.34:6.981 134.39:6.981 134.44:6.981 134.49:6.981 134.54:6.981 134.59:7.264 134.64:7.264 134.69:7.264 134.74:7.264 134.79:7.264 134.84:7.264 134.89:7.264 134.94:7.264 134.99:7.547 135.04:7.547 135.09:7.547 135.14:7.547 135.19:7.547 135.24:7.547 135.29:7.547 135.34:7.547 135.39:7.830 135.44:7.830 135.49:7.830 135.54:7.830 135.59:7.830 135.64:7.830 135.69:7.830 135.74:7.830 135.79:8.113 135.84:8.113 135.89:8.113 135.94:8.113 135.99:8.113 136.04:8.113 136.09:8.113 136.14:8.113 136.19:8.396 136.24:8.396 136.29:8.396 136.34:8.396 136.39:8.396 136.44:8.396 136.49:8.396 136.54:8.396 136.59:8.679 136.64:8.679 136.69:8.679 136.74:8.679 136.79:8.679 136.84:8.679 136.89:8.679 136.94:8.679 136.99:8.962 137.04:8.962 137.09:8.962 137.14:8.962 137.19:8.962 137.24:8.962 137.29:8.962 137.34:8.962 137.39:8.962 137.44:9.245 137.49:9.245 137.54:9.245 137.59:9.245 137.64:9.245 137.69:9.245 137.74:9.245 137.79:9.245 137.84:9.528 137.89:9.528 137.94:9.528 137.99:9.528 138.04:9.528 138.09:9.528 138.14:9.528 138.19:9.528 138.24:9.811 138.29:9.811 138.34:9.811 138.39:9.811 138.44:9.811 138.49:9.811 138.54:9.811 138.59:9.811 138.64:10.094 138.69:10.094 138.74:10.094 138.79:10.094 138.84:10.094 138.89:10.094 138.94:10.094 138.99:10.094 139.04:10.377 139.09:10.377 139.14:10.377 139.19:10.377 139.24:10.377 139.29:10.377 139.34:10.377 139.39:10.377 139.44:10.660 139.49:10.660 139.54:10.660 139.59:10.660 139.64:10.660 139.69:10.660 139.74:10.660 139.79:10.660 139.84:10.660 139.89:10.660 139.94:10.660 139.99:10.223 140.04:10.700 140.09:10.700 140.14:10.700 140.19:10.700 140.24:10.700 140.29:10.700 140.34:10.700",
+      "riserHeights": "0.215 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.437",
+      "fromTier": 0,
+      "toTier": 1,
+      "risers": 17,
+      "bounds": {
+        "name": "Catwalk Stairs",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-645526494",
+        "min": {
+          "x": -328.77215576171875,
+          "y": 6.1999897956848145,
+          "z": 133.33981323242188
+        },
+        "max": {
+          "x": -322.7720947265625,
+          "y": 11.661331176757812,
+          "z": 142.0
+        }
+      },
+      "steps": {
+        "name": "LP_Stair_Steps",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-4607632864002001462-645526494",
+        "min": {
+          "x": -326.86175537109375,
+          "y": 6.340666770935059,
+          "z": 133.33981323242188
+        },
+        "max": {
+          "x": -324.68255615234375,
+          "y": 10.660080909729004,
+          "z": 139.966796875
+        }
+      },
+      "axis": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "foot": {
+        "name": "Catwalk Stairs foot",
+        "position": {
+          "x": -325.77215576171875,
+          "y": 6.19999885559082,
+          "z": 132.53981018066406
+        },
+        "navPosition": {
+          "x": -325.77215576171875,
+          "y": 6.25,
+          "z": 132.53981018066406
+        },
+        "onNavMesh": true
+      },
+      "top": {
+        "name": "Catwalk Stairs top",
+        "position": {
+          "x": -325.77215576171875,
+          "y": 10.700021743774414,
+          "z": 140.7667999267578
+        },
+        "navPosition": {
+          "x": -325.77215576171875,
+          "y": 10.75,
+          "z": 140.7667999267578
+        },
+        "onNavMesh": true
+      },
+      "footY": 6.19999885559082,
+      "topY": 10.700021743774414,
+      "rise": 4.500022888183594,
+      "run": 6.626983642578125,
+      "slopeDeg": 34.178287506103516,
+      "width": 1.9000003337860107,
+      "clearWidth": 2.1500000953674316,
+      "maxRiser": 0.4371051788330078,
+      "typicalRiser": 0.2829713821411133,
+      "pathLength": 9.377279281616211,
+      "layersCollideWithPlayer": true
+    },
+    {
+      "name": "Catwalk Stairs (1)",
+      "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-722066261",
+      "label": "Lower SW",
+      "footSurface": "lower floor",
+      "topSurface": "South gallery",
+      "path": "PathComplete",
+      "colliderLayers": "Environment",
+      "profile": "89.78:10.700 89.83:10.700 89.88:10.700 89.93:10.700 89.98:10.700 90.03:10.700 90.08:10.700 90.13:10.700 90.18:10.660 90.23:10.660 90.28:10.660 90.33:10.660 90.38:10.660 90.43:10.660 90.48:10.660 90.53:10.660 90.58:10.660 90.63:10.660 90.68:10.660 90.73:10.377 90.78:10.377 90.83:10.377 90.88:10.377 90.93:10.377 90.98:10.377 91.03:10.377 91.08:10.377 91.13:10.094 91.18:10.094 91.23:10.094 91.28:10.094 91.33:10.094 91.38:10.094 91.43:10.094 91.48:10.094 91.53:10.094 91.58:9.811 91.63:9.811 91.68:9.811 91.73:9.811 91.78:9.811 91.83:9.811 91.88:9.811 91.93:9.811 91.98:9.528 92.03:9.528 92.08:9.528 92.13:9.528 92.18:9.528 92.23:9.528 92.28:9.528 92.33:9.528 92.38:9.245 92.43:9.245 92.48:9.245 92.53:9.245 92.58:9.245 92.63:9.245 92.68:9.245 92.73:9.245 92.78:8.962 92.83:8.962 92.88:8.962 92.93:8.962 92.98:8.962 93.03:8.962 93.08:8.962 93.13:8.962 93.18:8.679 93.23:8.679 93.28:8.679 93.33:8.679 93.38:8.679 93.43:8.679 93.48:8.679 93.53:8.679 93.58:8.396 93.63:8.396 93.68:8.396 93.73:8.396 93.78:8.396 93.83:8.396 93.88:8.396 93.93:8.396 93.98:8.113 94.03:8.113 94.08:8.113 94.13:8.113 94.18:8.113 94.23:8.113 94.28:8.113 94.33:8.113 94.38:7.830 94.43:7.830 94.48:7.830 94.53:7.830 94.58:7.830 94.63:7.830 94.68:7.830 94.73:7.830 94.78:7.547 94.83:7.547 94.88:7.547 94.93:7.547 94.98:7.547 95.03:7.547 95.08:7.547 95.13:7.547 95.18:7.547 95.23:7.264 95.28:7.264 95.33:7.264 95.38:7.264 95.43:7.264 95.48:7.264 95.53:7.264 95.58:7.264 95.63:6.981 95.68:6.981 95.73:6.981 95.78:6.981 95.83:6.981 95.88:6.981 95.93:6.981 95.98:6.981 96.03:6.698 96.08:6.698 96.13:6.698 96.18:6.698 96.23:6.698 96.28:6.698 96.33:6.698 96.38:6.698 96.43:6.415 96.48:6.415 96.53:6.415 96.58:6.415 96.63:6.415 96.68:6.415 96.73:6.415 96.78:6.415 96.83:6.200 96.88:6.200 96.93:6.200 96.98:6.200 97.03:6.200 97.08:6.200 97.13:6.200 97.18:6.200",
+      "riserHeights": "0.040 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.215",
+      "fromTier": 0,
+      "toTier": 1,
+      "risers": 17,
+      "bounds": {
+        "name": "Catwalk Stairs (1)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-722066261",
+        "min": {
+          "x": -328.77947998046875,
+          "y": 6.199990272521973,
+          "z": 88.15058898925781
+        },
+        "max": {
+          "x": -322.77935791015625,
+          "y": 11.661330223083496,
+          "z": 96.81077575683594
+        }
+      },
+      "steps": {
+        "name": "LP_Stair_Steps",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-4607632864002001462-722066261",
+        "min": {
+          "x": -326.8689880371094,
+          "y": 6.340666770935059,
+          "z": 90.18378448486328
+        },
+        "max": {
+          "x": -324.6897888183594,
+          "y": 10.660080909729004,
+          "z": 96.81078338623047
+        }
+      },
+      "axis": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "foot": {
+        "name": "Catwalk Stairs (1) foot",
+        "position": {
+          "x": -325.7793884277344,
+          "y": 6.2000017166137695,
+          "z": 97.61078643798828
+        },
+        "navPosition": {
+          "x": -325.7793884277344,
+          "y": 6.250000476837158,
+          "z": 97.61078643798828
+        },
+        "onNavMesh": true
+      },
+      "top": {
+        "name": "Catwalk Stairs (1) top",
+        "position": {
+          "x": -325.7793884277344,
+          "y": 10.700019836425781,
+          "z": 89.38378143310547
+        },
+        "navPosition": {
+          "x": -325.7793884277344,
+          "y": 10.75,
+          "z": 89.38378143310547
+        },
+        "onNavMesh": true
+      },
+      "footY": 6.2000017166137695,
+      "topY": 10.700019836425781,
+      "rise": 4.500018119812012,
+      "run": 6.6269989013671875,
+      "slopeDeg": 34.17819595336914,
+      "width": 1.9000003337860107,
+      "clearWidth": 2.1500000953674316,
+      "maxRiser": 0.2832927703857422,
+      "typicalRiser": 0.2829713821411133,
+      "pathLength": 9.377291679382324,
+      "layersCollideWithPlayer": true
+    },
+    {
+      "name": "Catwalk Stairs (2)",
+      "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-131841461",
+      "label": "Upper SE",
+      "footSurface": "South gallery",
+      "topSurface": "Upper deck network",
+      "path": "PathComplete",
+      "colliderLayers": "Environment",
+      "profile": "-291.16:16.666 -291.11:16.666 -291.06:16.666 -291.01:16.666 -290.96:16.666 -290.91:16.666 -290.86:16.666 -290.81:15.894 -290.76:16.602 -290.71:16.602 -290.66:16.602 -290.61:16.602 -290.56:16.602 -290.51:16.602 -290.46:16.602 -290.41:16.602 -290.36:16.602 -290.31:16.602 -290.26:16.602 -290.21:16.143 -290.16:16.143 -290.11:16.143 -290.06:16.143 -290.01:16.143 -289.96:16.143 -289.91:16.143 -289.86:16.143 -289.81:15.684 -289.76:15.684 -289.71:15.684 -289.66:15.684 -289.61:15.684 -289.56:15.684 -289.51:15.684 -289.46:15.684 -289.41:15.684 -289.36:15.226 -289.31:15.226 -289.26:15.226 -289.21:15.226 -289.16:15.226 -289.11:15.226 -289.06:15.226 -289.01:15.226 -288.96:14.768 -288.91:14.768 -288.86:14.768 -288.81:14.768 -288.76:14.768 -288.71:14.768 -288.66:14.768 -288.61:14.768 -288.56:14.768 -288.51:14.309 -288.46:14.309 -288.41:14.309 -288.36:14.309 -288.31:14.309 -288.26:14.309 -288.21:14.309 -288.16:14.309 -288.11:14.309 -288.06:13.851 -288.01:13.851 -287.96:13.851 -287.91:13.851 -287.86:13.851 -287.81:13.851 -287.76:13.851 -287.71:13.851 -287.66:13.392 -287.61:13.392 -287.56:13.392 -287.51:13.392 -287.46:13.392 -287.41:13.392 -287.36:13.392 -287.31:13.392 -287.26:13.392 -287.21:12.934 -287.16:12.934 -287.11:12.934 -287.06:12.934 -287.01:12.934 -286.96:12.934 -286.91:12.934 -286.86:12.934 -286.81:12.475 -286.76:12.475 -286.71:12.475 -286.66:12.475 -286.61:12.475 -286.56:12.475 -286.51:12.475 -286.46:12.475 -286.41:12.475 -286.36:12.017 -286.31:12.017 -286.26:12.017 -286.21:12.017 -286.16:12.017 -286.11:12.017 -286.06:12.017 -286.01:12.017 -285.96:11.559 -285.91:11.559 -285.86:11.559 -285.81:11.559 -285.76:11.559 -285.71:11.559 -285.66:11.559 -285.61:11.559 -285.56:11.559 -285.51:11.100 -285.46:11.100 -285.41:11.100 -285.36:11.100 -285.31:11.100 -285.26:11.100 -285.21:11.100 -285.16:11.100 -285.11:10.700 -285.06:10.700 -285.01:10.700 -284.96:10.700 -284.91:10.700 -284.86:10.700 -284.81:10.700 -284.76:10.700 -284.71:10.700 -284.66:10.700 -284.61:10.700 -284.56:10.700 -284.51:10.700 -284.46:10.700 -284.41:10.700 -284.36:10.700 -284.31:10.700 -284.26:10.700 -284.21:10.700 -284.16:10.700 -284.11:10.700 -284.06:10.700 -284.01:10.700 -283.96:10.700 -283.91:10.700 -283.86:10.700 -283.81:10.700 -283.76:10.700 -283.71:10.700 -283.66:10.700 -283.61:10.700 -283.56:10.700 -283.51:10.700 -283.46:10.700",
+      "riserHeights": "0.708 0.459 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.400",
+      "fromTier": 1,
+      "toTier": 2,
+      "risers": 14,
+      "bounds": {
+        "name": "Catwalk Stairs (2)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-131841461",
+        "min": {
+          "x": -292.94659423828125,
+          "y": 9.376174926757812,
+          "z": 82.49996948242188
+        },
+        "max": {
+          "x": -283.8533935546875,
+          "y": 18.223825454711914,
+          "z": 88.50003051757812
+        }
+      },
+      "steps": {
+        "name": "LP_Stair_Steps",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-4607632864002001462-131841461",
+        "min": {
+          "x": -290.811767578125,
+          "y": 9.60407829284668,
+          "z": 84.410400390625
+        },
+        "max": {
+          "x": -283.8533935546875,
+          "y": 16.601749420166016,
+          "z": 86.58956909179688
+        }
+      },
+      "axis": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "foot": {
+        "name": "Catwalk Stairs (2) foot",
+        "position": {
+          "x": -283.05340576171875,
+          "y": 10.700019836425781,
+          "z": 85.49998474121094
+        },
+        "navPosition": {
+          "x": -283.05340576171875,
+          "y": 10.800567626953125,
+          "z": 85.49998474121094
+        },
+        "onNavMesh": true
+      },
+      "top": {
+        "name": "Catwalk Stairs (2) top",
+        "position": {
+          "x": -291.61175537109375,
+          "y": 16.666454315185547,
+          "z": 85.49998474121094
+        },
+        "navPosition": {
+          "x": -291.61175537109375,
+          "y": 16.75,
+          "z": 85.49998474121094
+        },
+        "onNavMesh": true
+      },
+      "footY": 10.700019836425781,
+      "topY": 16.666454315185547,
+      "rise": 5.966434478759766,
+      "run": 6.9583740234375,
+      "slopeDeg": 40.611328125,
+      "width": 1.9000003337860107,
+      "clearWidth": 2.1500000953674316,
+      "maxRiser": 0.7081184387207031,
+      "typicalRiser": 0.45842838287353516,
+      "pathLength": 10.423104286193848,
+      "layersCollideWithPlayer": true
+    },
+    {
+      "name": "Catwalk Stairs (3)",
+      "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-784824128",
+      "label": "Upper NE",
+      "footSurface": "North gallery",
+      "topSurface": "Upper deck network",
+      "path": "PathComplete",
+      "colliderLayers": "Environment",
+      "profile": "-291.16:16.666 -291.11:16.666 -291.06:16.666 -291.01:16.666 -290.96:16.666 -290.91:16.666 -290.86:16.666 -290.81:15.894 -290.76:16.602 -290.71:16.602 -290.66:16.602 -290.61:16.602 -290.56:16.602 -290.51:16.602 -290.46:16.602 -290.41:16.602 -290.36:16.602 -290.31:16.602 -290.26:16.602 -290.21:16.143 -290.16:16.143 -290.11:16.143 -290.06:16.143 -290.01:16.143 -289.96:16.143 -289.91:16.143 -289.86:16.143 -289.81:15.684 -289.76:15.684 -289.71:15.684 -289.66:15.684 -289.61:15.684 -289.56:15.684 -289.51:15.684 -289.46:15.684 -289.41:15.684 -289.36:15.226 -289.31:15.226 -289.26:15.226 -289.21:15.226 -289.16:15.226 -289.11:15.226 -289.06:15.226 -289.01:15.226 -288.96:14.768 -288.91:14.768 -288.86:14.768 -288.81:14.768 -288.76:14.768 -288.71:14.768 -288.66:14.768 -288.61:14.768 -288.56:14.768 -288.51:14.309 -288.46:14.309 -288.41:14.309 -288.36:14.309 -288.31:14.309 -288.26:14.309 -288.21:14.309 -288.16:14.309 -288.11:14.309 -288.06:13.851 -288.01:13.851 -287.96:13.851 -287.91:13.851 -287.86:13.851 -287.81:13.851 -287.76:13.851 -287.71:13.851 -287.66:13.392 -287.61:13.392 -287.56:13.392 -287.51:13.392 -287.46:13.392 -287.41:13.392 -287.36:13.392 -287.31:13.392 -287.26:13.392 -287.21:12.934 -287.16:12.934 -287.11:12.934 -287.06:12.934 -287.01:12.934 -286.96:12.934 -286.91:12.934 -286.86:12.934 -286.81:12.475 -286.76:12.475 -286.71:12.475 -286.66:12.475 -286.61:12.475 -286.56:12.475 -286.51:12.475 -286.46:12.475 -286.41:12.475 -286.36:12.017 -286.31:12.017 -286.26:12.017 -286.21:12.017 -286.16:12.017 -286.11:12.017 -286.06:12.017 -286.01:12.017 -285.96:11.559 -285.91:11.559 -285.86:11.559 -285.81:11.559 -285.76:11.559 -285.71:11.559 -285.66:11.559 -285.61:11.559 -285.56:11.559 -285.51:11.100 -285.46:11.100 -285.41:11.100 -285.36:11.100 -285.31:11.100 -285.26:11.100 -285.21:11.100 -285.16:11.100 -285.11:10.700 -285.06:10.700 -285.01:10.700 -284.96:10.700 -284.91:10.700 -284.86:10.700 -284.81:10.700 -284.76:10.700 -284.71:10.700 -284.66:10.700 -284.61:10.700 -284.56:10.700 -284.51:10.700 -284.46:10.700 -284.41:10.700 -284.36:10.700 -284.31:10.700 -284.26:10.700 -284.21:10.700 -284.16:10.700 -284.11:10.700 -284.06:10.700 -284.01:10.700 -283.96:10.700 -283.91:10.700 -283.86:10.700 -283.81:10.700 -283.76:10.700 -283.71:10.700 -283.66:10.700 -283.61:10.700 -283.56:10.700 -283.51:10.700 -283.46:10.700",
+      "riserHeights": "0.708 0.459 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.400",
+      "fromTier": 1,
+      "toTier": 2,
+      "risers": 14,
+      "bounds": {
+        "name": "Catwalk Stairs (3)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-784824128",
+        "min": {
+          "x": -292.94659423828125,
+          "y": 9.376174926757812,
+          "z": 141.5999755859375
+        },
+        "max": {
+          "x": -283.8533935546875,
+          "y": 18.223825454711914,
+          "z": 147.60003662109375
+        }
+      },
+      "steps": {
+        "name": "LP_Stair_Steps",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-4607632864002001462-784824128",
+        "min": {
+          "x": -290.811767578125,
+          "y": 9.60407829284668,
+          "z": 143.51039123535156
+        },
+        "max": {
+          "x": -283.8533935546875,
+          "y": 16.601749420166016,
+          "z": 145.68955993652344
+        }
+      },
+      "axis": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "foot": {
+        "name": "Catwalk Stairs (3) foot",
+        "position": {
+          "x": -283.05340576171875,
+          "y": 10.700017929077148,
+          "z": 144.5999755859375
+        },
+        "navPosition": {
+          "x": -283.05340576171875,
+          "y": 10.783463478088379,
+          "z": 144.5999755859375
+        },
+        "onNavMesh": true
+      },
+      "top": {
+        "name": "Catwalk Stairs (3) top",
+        "position": {
+          "x": -291.61175537109375,
+          "y": 16.666454315185547,
+          "z": 144.5999755859375
+        },
+        "navPosition": {
+          "x": -291.61175537109375,
+          "y": 16.67225456237793,
+          "z": 144.5999755859375
+        },
+        "onNavMesh": true
+      },
+      "footY": 10.700017929077148,
+      "topY": 16.666454315185547,
+      "rise": 5.966436386108398,
+      "run": 6.9583740234375,
+      "slopeDeg": 40.61133575439453,
+      "width": 1.9000003337860107,
+      "clearWidth": 2.1500000953674316,
+      "maxRiser": 0.7081184387207031,
+      "typicalRiser": 0.45842838287353516,
+      "pathLength": 10.388609886169434,
+      "layersCollideWithPlayer": true
+    },
+    {
+      "name": "Catwalk Stairs (4)",
+      "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-892275020",
+      "label": "Upper NW",
+      "footSurface": "North gallery",
+      "topSurface": "Upper deck network",
+      "path": "PathComplete",
+      "colliderLayers": "Environment",
+      "profile": "-308.30:10.700 -308.25:10.700 -308.20:10.700 -308.15:10.700 -308.10:10.700 -308.05:10.700 -308.00:10.700 -307.95:10.700 -307.90:10.700 -307.85:10.700 -307.80:10.700 -307.75:10.700 -307.70:10.700 -307.65:10.700 -307.60:10.700 -307.55:10.700 -307.50:10.700 -307.45:10.700 -307.40:10.700 -307.35:10.700 -307.30:10.700 -307.25:10.700 -307.20:10.700 -307.15:10.700 -307.10:10.700 -307.05:10.700 -307.00:10.700 -306.95:10.700 -306.90:10.700 -306.85:10.700 -306.80:10.700 -306.75:10.700 -306.70:10.700 -306.65:11.100 -306.60:11.100 -306.55:11.100 -306.50:11.100 -306.45:11.100 -306.40:11.100 -306.35:11.100 -306.30:11.100 -306.25:11.100 -306.20:11.559 -306.15:11.559 -306.10:11.559 -306.05:11.559 -306.00:11.559 -305.95:11.559 -305.90:11.559 -305.85:11.559 -305.80:12.017 -305.75:12.017 -305.70:12.017 -305.65:12.017 -305.60:12.017 -305.55:12.017 -305.50:12.017 -305.45:12.017 -305.40:12.017 -305.35:12.475 -305.30:12.475 -305.25:12.475 -305.20:12.475 -305.15:12.475 -305.10:12.475 -305.05:12.475 -305.00:12.475 -304.95:12.934 -304.90:12.934 -304.85:12.934 -304.80:12.934 -304.75:12.934 -304.70:12.934 -304.65:12.934 -304.60:12.934 -304.55:12.934 -304.50:13.392 -304.45:13.392 -304.40:13.392 -304.35:13.392 -304.30:13.392 -304.25:13.392 -304.20:13.392 -304.15:13.392 -304.10:13.851 -304.05:13.851 -304.00:13.851 -303.95:13.851 -303.90:13.851 -303.85:13.851 -303.80:13.851 -303.75:13.851 -303.70:13.851 -303.65:14.309 -303.60:14.309 -303.55:14.309 -303.50:14.309 -303.45:14.309 -303.40:14.309 -303.35:14.309 -303.30:14.309 -303.25:14.768 -303.20:14.768 -303.15:14.768 -303.10:14.768 -303.05:14.768 -303.00:14.768 -302.95:14.768 -302.90:14.768 -302.85:14.768 -302.80:15.226 -302.75:15.226 -302.70:15.226 -302.65:15.226 -302.60:15.226 -302.55:15.226 -302.50:15.226 -302.45:15.226 -302.40:15.684 -302.35:15.684 -302.30:15.684 -302.25:15.684 -302.20:15.684 -302.15:15.684 -302.10:15.684 -302.05:15.684 -302.00:15.684 -301.95:16.143 -301.90:16.143 -301.85:16.143 -301.80:16.143 -301.75:16.143 -301.70:16.143 -301.65:16.143 -301.60:16.143 -301.55:16.602 -301.50:16.602 -301.45:16.602 -301.40:16.602 -301.35:16.602 -301.30:16.602 -301.25:16.602 -301.20:16.602 -301.15:16.602 -301.10:16.602 -301.05:16.602 -301.00:16.602 -300.95:16.666 -300.90:16.666 -300.85:16.666 -300.80:16.666 -300.75:16.666 -300.70:16.666 -300.65:16.666 -300.60:16.666",
+      "riserHeights": "0.400 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.459 0.065",
+      "fromTier": 1,
+      "toTier": 2,
+      "risers": 14,
+      "bounds": {
+        "name": "Catwalk Stairs (4)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-892275020",
+        "min": {
+          "x": -307.94659423828125,
+          "y": 9.376174926757812,
+          "z": 141.5999755859375
+        },
+        "max": {
+          "x": -298.8533935546875,
+          "y": 18.223825454711914,
+          "z": 147.60003662109375
+        }
+      },
+      "steps": {
+        "name": "LP_Stair_Steps",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-4607632864002001462-892275020",
+        "min": {
+          "x": -307.94659423828125,
+          "y": 9.60407829284668,
+          "z": 143.5104522705078
+        },
+        "max": {
+          "x": -300.98822021484375,
+          "y": 16.601749420166016,
+          "z": 145.6896209716797
+        }
+      },
+      "axis": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "foot": {
+        "name": "Catwalk Stairs (4) foot",
+        "position": {
+          "x": -308.74658203125,
+          "y": 10.700017929077148,
+          "z": 144.60003662109375
+        },
+        "navPosition": {
+          "x": -308.74658203125,
+          "y": 10.827353477478027,
+          "z": 144.60003662109375
+        },
+        "onNavMesh": true
+      },
+      "top": {
+        "name": "Catwalk Stairs (4) top",
+        "position": {
+          "x": -300.188232421875,
+          "y": 16.666454315185547,
+          "z": 144.60003662109375
+        },
+        "navPosition": {
+          "x": -300.188232421875,
+          "y": 16.67392349243164,
+          "z": 144.60003662109375
+        },
+        "onNavMesh": true
+      },
+      "footY": 10.700017929077148,
+      "topY": 16.666454315185547,
+      "rise": 5.966436386108398,
+      "run": 6.9583740234375,
+      "slopeDeg": 40.61133575439453,
+      "width": 1.9000003337860107,
+      "clearWidth": 2.1500000953674316,
+      "maxRiser": 0.45894813537597656,
+      "typicalRiser": 0.45842742919921875,
+      "pathLength": 10.364734649658203,
+      "layersCollideWithPlayer": true
+    },
+    {
+      "name": "Catwalk Stairs (5)",
+      "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-1275928866",
+      "label": "Upper SW",
+      "footSurface": "South gallery",
+      "topSurface": "Upper deck network",
+      "path": "PathComplete",
+      "colliderLayers": "Environment",
+      "profile": "-308.30:10.700 -308.25:10.700 -308.20:10.700 -308.15:10.700 -308.10:10.700 -308.05:10.700 -308.00:10.700 -307.95:10.700 -307.90:10.700 -307.85:10.700 -307.80:10.700 -307.75:10.700 -307.70:10.700 -307.65:10.700 -307.60:10.700 -307.55:10.700 -307.50:10.700 -307.45:10.700 -307.40:10.700 -307.35:10.700 -307.30:10.700 -307.25:10.700 -307.20:10.700 -307.15:10.700 -307.10:10.700 -307.05:10.700 -307.00:10.700 -306.95:10.700 -306.90:10.700 -306.85:10.700 -306.80:10.700 -306.75:10.700 -306.70:10.700 -306.65:11.100 -306.60:11.100 -306.55:11.100 -306.50:11.100 -306.45:11.100 -306.40:11.100 -306.35:11.100 -306.30:11.100 -306.25:11.100 -306.20:11.559 -306.15:11.559 -306.10:11.559 -306.05:11.559 -306.00:11.559 -305.95:11.559 -305.90:11.559 -305.85:11.559 -305.80:12.017 -305.75:12.017 -305.70:12.017 -305.65:12.017 -305.60:12.017 -305.55:12.017 -305.50:12.017 -305.45:12.017 -305.40:12.017 -305.35:12.475 -305.30:12.475 -305.25:12.475 -305.20:12.475 -305.15:12.475 -305.10:12.475 -305.05:12.475 -305.00:12.475 -304.95:12.934 -304.90:12.934 -304.85:12.934 -304.80:12.934 -304.75:12.934 -304.70:12.934 -304.65:12.934 -304.60:12.934 -304.55:12.934 -304.50:13.392 -304.45:13.392 -304.40:13.392 -304.35:13.392 -304.30:13.392 -304.25:13.392 -304.20:13.392 -304.15:13.392 -304.10:13.851 -304.05:13.851 -304.00:13.851 -303.95:13.851 -303.90:13.851 -303.85:13.851 -303.80:13.851 -303.75:13.851 -303.70:13.851 -303.65:14.309 -303.60:14.309 -303.55:14.309 -303.50:14.309 -303.45:14.309 -303.40:14.309 -303.35:14.309 -303.30:14.309 -303.25:14.768 -303.20:14.768 -303.15:14.768 -303.10:14.768 -303.05:14.768 -303.00:14.768 -302.95:14.768 -302.90:14.768 -302.85:14.768 -302.80:15.226 -302.75:15.226 -302.70:15.226 -302.65:15.226 -302.60:15.226 -302.55:15.226 -302.50:15.226 -302.45:15.226 -302.40:15.684 -302.35:15.684 -302.30:15.684 -302.25:15.684 -302.20:15.684 -302.15:15.684 -302.10:15.684 -302.05:15.684 -302.00:15.684 -301.95:16.143 -301.90:16.143 -301.85:16.143 -301.80:16.143 -301.75:16.143 -301.70:16.143 -301.65:16.143 -301.60:16.143 -301.55:16.602 -301.50:16.602 -301.45:16.602 -301.40:16.602 -301.35:16.602 -301.30:16.602 -301.25:16.602 -301.20:16.602 -301.15:16.602 -301.10:16.602 -301.05:16.602 -301.00:16.602 -300.95:16.666 -300.90:16.666 -300.85:16.666 -300.80:16.666 -300.75:16.666 -300.70:16.666 -300.65:16.666 -300.60:16.666",
+      "riserHeights": "0.400 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.458 0.459 0.065",
+      "fromTier": 1,
+      "toTier": 2,
+      "risers": 14,
+      "bounds": {
+        "name": "Catwalk Stairs (5)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6778069794998177060-1275928866",
+        "min": {
+          "x": -307.94659423828125,
+          "y": 9.376174926757812,
+          "z": 82.29997253417969
+        },
+        "max": {
+          "x": -298.8533935546875,
+          "y": 18.223825454711914,
+          "z": 88.30003356933594
+        }
+      },
+      "steps": {
+        "name": "LP_Stair_Steps",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-4607632864002001462-1275928866",
+        "min": {
+          "x": -307.94659423828125,
+          "y": 9.60407829284668,
+          "z": 84.21043395996094
+        },
+        "max": {
+          "x": -300.98822021484375,
+          "y": 16.601749420166016,
+          "z": 86.38960266113281
+        }
+      },
+      "axis": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "foot": {
+        "name": "Catwalk Stairs (5) foot",
+        "position": {
+          "x": -308.74658203125,
+          "y": 10.700019836425781,
+          "z": 85.30001831054688
+        },
+        "navPosition": {
+          "x": -308.74658203125,
+          "y": 10.828082084655762,
+          "z": 85.30001831054688
+        },
+        "onNavMesh": true
+      },
+      "top": {
+        "name": "Catwalk Stairs (5) top",
+        "position": {
+          "x": -300.188232421875,
+          "y": 16.666454315185547,
+          "z": 85.30001831054688
+        },
+        "navPosition": {
+          "x": -300.188232421875,
+          "y": 16.744447708129883,
+          "z": 85.30001831054688
+        },
+        "onNavMesh": true
+      },
+      "footY": 10.700019836425781,
+      "topY": 16.666454315185547,
+      "rise": 5.966434478759766,
+      "run": 6.9583740234375,
+      "slopeDeg": 40.611328125,
+      "width": 1.9000003337860107,
+      "clearWidth": 2.1500000953674316,
+      "maxRiser": 0.45894813537597656,
+      "typicalRiser": 0.45842742919921875,
+      "pathLength": 10.404265403747559,
+      "layersCollideWithPlayer": true
+    },
+    {
+      "name": "CatWalk Stairs Wide",
+      "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5548154041111978480-895780702",
+      "label": "Lower NE",
+      "footSurface": "lower floor",
+      "topSurface": "North gallery",
+      "path": "PathComplete",
+      "colliderLayers": "Default, PostProcessing",
+      "profile": "132.94:6.200 132.99:6.200 133.04:6.200 133.09:6.200 133.14:6.200 133.19:6.200 133.24:6.200 133.29:6.200 133.34:6.415 133.39:6.415 133.44:6.415 133.49:6.415 133.54:6.415 133.59:6.415 133.64:6.415 133.69:6.415 133.74:6.415 133.79:6.698 133.84:6.698 133.89:6.698 133.94:6.698 133.99:6.698 134.04:6.698 134.09:6.698 134.14:6.698 134.19:6.981 134.24:6.981 134.29:6.981 134.34:6.981 134.39:6.981 134.44:6.981 134.49:6.981 134.54:6.981 134.59:7.264 134.64:7.264 134.69:7.264 134.74:7.264 134.79:7.264 134.84:7.264 134.89:7.264 134.94:7.264 134.99:7.547 135.04:7.547 135.09:7.547 135.14:7.547 135.19:7.547 135.24:7.547 135.29:7.547 135.34:7.547 135.39:7.830 135.44:7.830 135.49:7.830 135.54:7.830 135.59:7.830 135.64:7.830 135.69:7.830 135.74:7.830 135.79:8.113 135.84:8.113 135.89:8.113 135.94:8.113 135.99:8.113 136.04:8.113 136.09:8.113 136.14:8.113 136.19:8.396 136.24:8.396 136.29:8.396 136.34:8.396 136.39:8.396 136.44:8.396 136.49:8.396 136.54:8.396 136.59:8.679 136.64:8.679 136.69:8.679 136.74:8.679 136.79:8.679 136.84:8.679 136.89:8.679 136.94:8.679 136.99:8.962 137.04:8.962 137.09:8.962 137.14:8.962 137.19:8.962 137.24:8.962 137.29:8.962 137.34:8.962 137.39:8.962 137.44:9.245 137.49:9.245 137.54:9.245 137.59:9.245 137.64:9.245 137.69:9.245 137.74:9.245 137.79:9.245 137.84:9.528 137.89:9.528 137.94:9.528 137.99:9.528 138.04:9.528 138.09:9.528 138.14:9.528 138.19:9.528 138.24:9.811 138.29:9.811 138.34:9.811 138.39:9.811 138.44:9.811 138.49:9.811 138.54:9.811 138.59:9.811 138.64:10.094 138.69:10.094 138.74:10.094 138.79:10.094 138.84:10.094 138.89:10.094 138.94:10.094 138.99:10.094 139.04:10.377 139.09:10.377 139.14:10.377 139.19:10.377 139.24:10.377 139.29:10.377 139.34:10.377 139.39:10.377 139.44:10.660 139.49:10.660 139.54:10.660 139.59:10.660 139.64:10.660 139.69:10.660 139.74:10.660 139.79:10.660 139.84:10.660 139.89:10.660 139.94:10.660 139.99:10.223 140.04:10.700 140.09:10.700 140.14:10.700 140.19:10.700 140.24:10.700 140.29:10.700 140.34:10.700",
+      "riserHeights": "0.215 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.437",
+      "fromTier": 0,
+      "toTier": 1,
+      "risers": 17,
+      "bounds": {
+        "name": "CatWalk Stairs Wide",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5548154041111978480-895780702",
+        "min": {
+          "x": -268.7716064453125,
+          "y": 6.199987411499023,
+          "z": 133.33981323242188
+        },
+        "max": {
+          "x": -262.771484375,
+          "y": 11.661325454711914,
+          "z": 142.00003051757812
+        }
+      },
+      "steps": {
+        "name": "Catwalk Steps Wide",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-8129798193583784660-895780702",
+        "min": {
+          "x": -267.5713806152344,
+          "y": 6.340662956237793,
+          "z": 133.33981323242188
+        },
+        "max": {
+          "x": -263.9720153808594,
+          "y": 10.660075187683105,
+          "z": 139.96682739257812
+        }
+      },
+      "axis": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "foot": {
+        "name": "CatWalk Stairs Wide foot",
+        "position": {
+          "x": -265.7716979980469,
+          "y": 6.19999885559082,
+          "z": 132.53981018066406
+        },
+        "navPosition": {
+          "x": -265.7716979980469,
+          "y": 6.25,
+          "z": 132.53981018066406
+        },
+        "onNavMesh": true
+      },
+      "top": {
+        "name": "CatWalk Stairs Wide top",
+        "position": {
+          "x": -265.7716979980469,
+          "y": 10.700016021728516,
+          "z": 140.76683044433594
+        },
+        "navPosition": {
+          "x": -265.7716979980469,
+          "y": 10.75,
+          "z": 140.76683044433594
+        },
+        "onNavMesh": true
+      },
+      "footY": 6.19999885559082,
+      "topY": 10.700016021728516,
+      "rise": 4.500017166137695,
+      "run": 6.62701416015625,
+      "slopeDeg": 34.178131103515625,
+      "width": 3.2999989986419678,
+      "clearWidth": 3.599998712539673,
+      "maxRiser": 0.4371051788330078,
+      "typicalRiser": 0.2829713821411133,
+      "pathLength": 9.37730598449707,
+      "layersCollideWithPlayer": true
+    },
+    {
+      "name": "CatWalk Stairs Wide (1)",
+      "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5548154041111978480-913587739",
+      "label": "Lower SE",
+      "footSurface": "lower floor",
+      "topSurface": "South gallery",
+      "path": "PathComplete",
+      "colliderLayers": "Default, PostProcessing",
+      "profile": "89.78:10.700 89.83:10.700 89.88:10.700 89.93:10.700 89.98:10.700 90.03:10.700 90.08:10.700 90.13:10.700 90.18:10.660 90.23:10.660 90.28:10.660 90.33:10.660 90.38:10.660 90.43:10.660 90.48:10.660 90.53:10.660 90.58:10.660 90.63:10.660 90.68:10.660 90.73:10.377 90.78:10.377 90.83:10.377 90.88:10.377 90.93:10.377 90.98:10.377 91.03:10.377 91.08:10.377 91.13:10.094 91.18:10.094 91.23:10.094 91.28:10.094 91.33:10.094 91.38:10.094 91.43:10.094 91.48:10.094 91.53:10.094 91.58:9.811 91.63:9.811 91.68:9.811 91.73:9.811 91.78:9.811 91.83:9.811 91.88:9.811 91.93:9.811 91.98:9.528 92.03:9.528 92.08:9.528 92.13:9.528 92.18:9.528 92.23:9.528 92.28:9.528 92.33:9.528 92.38:9.245 92.43:9.245 92.48:9.245 92.53:9.245 92.58:9.245 92.63:9.245 92.68:9.245 92.73:9.245 92.78:8.962 92.83:8.962 92.88:8.962 92.93:8.962 92.98:8.962 93.03:8.962 93.08:8.962 93.13:8.962 93.18:8.679 93.23:8.679 93.28:8.679 93.33:8.679 93.38:8.679 93.43:8.679 93.48:8.679 93.53:8.679 93.58:8.396 93.63:8.396 93.68:8.396 93.73:8.396 93.78:8.396 93.83:8.396 93.88:8.396 93.93:8.396 93.98:8.113 94.03:8.113 94.08:8.113 94.13:8.113 94.18:8.113 94.23:8.113 94.28:8.113 94.33:8.113 94.38:7.830 94.43:7.830 94.48:7.830 94.53:7.830 94.58:7.830 94.63:7.830 94.68:7.830 94.73:7.830 94.78:7.547 94.83:7.547 94.88:7.547 94.93:7.547 94.98:7.547 95.03:7.547 95.08:7.547 95.13:7.547 95.18:7.547 95.23:7.264 95.28:7.264 95.33:7.264 95.38:7.264 95.43:7.264 95.48:7.264 95.53:7.264 95.58:7.264 95.63:6.981 95.68:6.981 95.73:6.981 95.78:6.981 95.83:6.981 95.88:6.981 95.93:6.981 95.98:6.981 96.03:6.698 96.08:6.698 96.13:6.698 96.18:6.698 96.23:6.698 96.28:6.698 96.33:6.698 96.38:6.698 96.43:6.415 96.48:6.415 96.53:6.415 96.58:6.415 96.63:6.415 96.68:6.415 96.73:6.415 96.78:6.415 96.83:6.200 96.88:6.200 96.93:6.200 96.98:6.200 97.03:6.200 97.08:6.200 97.13:6.200 97.18:6.200",
+      "riserHeights": "0.040 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.283 0.215",
+      "fromTier": 0,
+      "toTier": 1,
+      "risers": 17,
+      "bounds": {
+        "name": "CatWalk Stairs Wide (1)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5548154041111978480-913587739",
+        "min": {
+          "x": -268.77886962890625,
+          "y": 6.199985504150391,
+          "z": 88.15058898925781
+        },
+        "max": {
+          "x": -262.77880859375,
+          "y": 11.661327362060547,
+          "z": 96.81077575683594
+        }
+      },
+      "steps": {
+        "name": "Catwalk Steps Wide",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-8129798193583784660-913587739",
+        "min": {
+          "x": -267.5783386230469,
+          "y": 6.340662002563477,
+          "z": 90.18378448486328
+        },
+        "max": {
+          "x": -263.9790344238281,
+          "y": 10.660076141357422,
+          "z": 96.81078338623047
+        }
+      },
+      "axis": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "foot": {
+        "name": "CatWalk Stairs Wide (1) foot",
+        "position": {
+          "x": -265.7786865234375,
+          "y": 6.2000017166137695,
+          "z": 97.61078643798828
+        },
+        "navPosition": {
+          "x": -265.7786865234375,
+          "y": 6.25,
+          "z": 97.61078643798828
+        },
+        "onNavMesh": true
+      },
+      "top": {
+        "name": "CatWalk Stairs Wide (1) top",
+        "position": {
+          "x": -265.7786865234375,
+          "y": 10.700016021728516,
+          "z": 89.38378143310547
+        },
+        "navPosition": {
+          "x": -265.7786865234375,
+          "y": 10.75,
+          "z": 89.38378143310547
+        },
+        "onNavMesh": true
+      },
+      "footY": 6.2000017166137695,
+      "topY": 10.700016021728516,
+      "rise": 4.500014305114746,
+      "run": 6.6269989013671875,
+      "slopeDeg": 34.17817306518555,
+      "width": 3.2999989986419678,
+      "clearWidth": 3.599998712539673,
+      "maxRiser": 0.2832918167114258,
+      "typicalRiser": 0.2829713821411133,
+      "pathLength": 9.37729263305664,
+      "layersCollideWithPlayer": true
+    }
+  ],
+  "rails": [
+    {
+      "name": "Catwalk Long Rails",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-1427721827",
+        "min": {
+          "x": -274.7915954589844,
+          "y": 11.030925750732422,
+          "z": 139.9199981689453
+        },
+        "max": {
+          "x": -268.7516174316406,
+          "y": 11.673179626464844,
+          "z": 140.0600128173828
+        }
+      },
+      "topAboveDeck": 0.973179817199707,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-1427721827",
+        "min": {
+          "x": -271.91162109375,
+          "y": 6.180002212524414,
+          "z": 139.875
+        },
+        "max": {
+          "x": -271.631591796875,
+          "y": 11.008760452270508,
+          "z": 140.10501098632812
+        }
+      },
+      "topAboveDeck": 0.3087606430053711,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (1)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (1)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-2119822711",
+        "min": {
+          "x": -280.7916564941406,
+          "y": 11.030925750732422,
+          "z": 139.9199981689453
+        },
+        "max": {
+          "x": -274.7516784667969,
+          "y": 11.673179626464844,
+          "z": 140.0600128173828
+        }
+      },
+      "topAboveDeck": 0.973179817199707,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (1)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (1)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-2119822711",
+        "min": {
+          "x": -277.91168212890625,
+          "y": 6.180002212524414,
+          "z": 139.875
+        },
+        "max": {
+          "x": -277.63165283203125,
+          "y": 11.008760452270508,
+          "z": 140.10501098632812
+        }
+      },
+      "topAboveDeck": 0.3087606430053711,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (10)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (10)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-496697695",
+        "min": {
+          "x": -280.7989501953125,
+          "y": 11.030924797058105,
+          "z": 90.09059143066406
+        },
+        "max": {
+          "x": -274.75897216796875,
+          "y": 11.673178672790527,
+          "z": 90.2305908203125
+        }
+      },
+      "topAboveDeck": 0.9731788635253906,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (10)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (10)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-496697695",
+        "min": {
+          "x": -277.9189758300781,
+          "y": 6.180001258850098,
+          "z": 90.04559326171875
+        },
+        "max": {
+          "x": -277.6389465332031,
+          "y": 11.008759498596191,
+          "z": 90.27558898925781
+        }
+      },
+      "topAboveDeck": 0.3087596893310547,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (11)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (11)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-1875674092",
+        "min": {
+          "x": -286.79901123046875,
+          "y": 11.030924797058105,
+          "z": 90.09059143066406
+        },
+        "max": {
+          "x": -280.759033203125,
+          "y": 11.673178672790527,
+          "z": 90.2305908203125
+        }
+      },
+      "topAboveDeck": 0.9731788635253906,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (11)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (11)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-1875674092",
+        "min": {
+          "x": -283.9190368652344,
+          "y": 6.180001258850098,
+          "z": 90.04559326171875
+        },
+        "max": {
+          "x": -283.6390075683594,
+          "y": 11.008759498596191,
+          "z": 90.27558898925781
+        }
+      },
+      "topAboveDeck": 0.3087596893310547,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (12)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (12)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-319394587",
+        "min": {
+          "x": -292.799072265625,
+          "y": 11.030924797058105,
+          "z": 90.09059143066406
+        },
+        "max": {
+          "x": -286.75909423828125,
+          "y": 11.673178672790527,
+          "z": 90.2305908203125
+        }
+      },
+      "topAboveDeck": 0.9731788635253906,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (12)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (12)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-319394587",
+        "min": {
+          "x": -289.9190979003906,
+          "y": 6.180001258850098,
+          "z": 90.04559326171875
+        },
+        "max": {
+          "x": -289.6390686035156,
+          "y": 11.008759498596191,
+          "z": 90.27558898925781
+        }
+      },
+      "topAboveDeck": 0.3087596893310547,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (13)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (13)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-2093083224",
+        "min": {
+          "x": -298.8199768066406,
+          "y": 11.030924797058105,
+          "z": 90.09059143066406
+        },
+        "max": {
+          "x": -292.7799987792969,
+          "y": 11.673178672790527,
+          "z": 90.2305908203125
+        }
+      },
+      "topAboveDeck": 0.9731788635253906,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (13)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (13)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-2093083224",
+        "min": {
+          "x": -295.94000244140625,
+          "y": 6.180001258850098,
+          "z": 90.04559326171875
+        },
+        "max": {
+          "x": -295.65997314453125,
+          "y": 11.008759498596191,
+          "z": 90.27558898925781
+        }
+      },
+      "topAboveDeck": 0.3087596893310547,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (14)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (14)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-1777282637",
+        "min": {
+          "x": -304.8200378417969,
+          "y": 11.030924797058105,
+          "z": 90.09059143066406
+        },
+        "max": {
+          "x": -298.7800598144531,
+          "y": 11.673178672790527,
+          "z": 90.2305908203125
+        }
+      },
+      "topAboveDeck": 0.9731788635253906,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (14)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (14)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-1777282637",
+        "min": {
+          "x": -301.9400634765625,
+          "y": 6.180001258850098,
+          "z": 90.04559326171875
+        },
+        "max": {
+          "x": -301.6600341796875,
+          "y": 11.008759498596191,
+          "z": 90.27558898925781
+        }
+      },
+      "topAboveDeck": 0.3087596893310547,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (15)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (15)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-2024649418",
+        "min": {
+          "x": -310.8200988769531,
+          "y": 11.030924797058105,
+          "z": 90.09059143066406
+        },
+        "max": {
+          "x": -304.7801208496094,
+          "y": 11.673178672790527,
+          "z": 90.2305908203125
+        }
+      },
+      "topAboveDeck": 0.9731788635253906,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (15)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (15)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-2024649418",
+        "min": {
+          "x": -307.94012451171875,
+          "y": 6.180001258850098,
+          "z": 90.04559326171875
+        },
+        "max": {
+          "x": -307.66009521484375,
+          "y": 11.008759498596191,
+          "z": 90.27558898925781
+        }
+      },
+      "topAboveDeck": 0.3087596893310547,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (16)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (16)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-742085484",
+        "min": {
+          "x": -316.8201599121094,
+          "y": 11.030924797058105,
+          "z": 90.09059143066406
+        },
+        "max": {
+          "x": -310.7801818847656,
+          "y": 11.673178672790527,
+          "z": 90.2305908203125
+        }
+      },
+      "topAboveDeck": 0.9731788635253906,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (16)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (16)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-742085484",
+        "min": {
+          "x": -313.940185546875,
+          "y": 6.180001258850098,
+          "z": 90.04559326171875
+        },
+        "max": {
+          "x": -313.66015625,
+          "y": 11.008759498596191,
+          "z": 90.27558898925781
+        }
+      },
+      "topAboveDeck": 0.3087596893310547,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (17)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (17)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-660825999",
+        "min": {
+          "x": -322.7993469238281,
+          "y": 11.030926704406738,
+          "z": 90.09059143066406
+        },
+        "max": {
+          "x": -316.7593688964844,
+          "y": 11.67318058013916,
+          "z": 90.2305908203125
+        }
+      },
+      "topAboveDeck": 0.9731807708740234,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (17)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (17)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-660825999",
+        "min": {
+          "x": -319.91937255859375,
+          "y": 6.1800031661987305,
+          "z": 90.04559326171875
+        },
+        "max": {
+          "x": -319.63934326171875,
+          "y": 11.008761405944824,
+          "z": 90.27558898925781
+        }
+      },
+      "topAboveDeck": 0.3087615966796875,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (2)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (2)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-326357016",
+        "min": {
+          "x": -286.7917175292969,
+          "y": 11.030925750732422,
+          "z": 139.9199981689453
+        },
+        "max": {
+          "x": -280.7517395019531,
+          "y": 11.673179626464844,
+          "z": 140.0600128173828
+        }
+      },
+      "topAboveDeck": 0.973179817199707,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (2)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (2)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-326357016",
+        "min": {
+          "x": -283.9117431640625,
+          "y": 6.180002212524414,
+          "z": 139.875
+        },
+        "max": {
+          "x": -283.6317138671875,
+          "y": 11.008760452270508,
+          "z": 140.10501098632812
+        }
+      },
+      "topAboveDeck": 0.3087606430053711,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (3)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (3)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-1546088149",
+        "min": {
+          "x": -292.7917785644531,
+          "y": 11.030925750732422,
+          "z": 139.9199981689453
+        },
+        "max": {
+          "x": -286.7518005371094,
+          "y": 11.673179626464844,
+          "z": 140.0600128173828
+        }
+      },
+      "topAboveDeck": 0.973179817199707,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (3)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (3)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-1546088149",
+        "min": {
+          "x": -289.91180419921875,
+          "y": 6.180002212524414,
+          "z": 139.875
+        },
+        "max": {
+          "x": -289.63177490234375,
+          "y": 11.008760452270508,
+          "z": 140.10501098632812
+        }
+      },
+      "topAboveDeck": 0.3087606430053711,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (4)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (4)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-1339807555",
+        "min": {
+          "x": -298.7918395996094,
+          "y": 11.030925750732422,
+          "z": 139.9199981689453
+        },
+        "max": {
+          "x": -292.7518615722656,
+          "y": 11.673179626464844,
+          "z": 140.0600128173828
+        }
+      },
+      "topAboveDeck": 0.973179817199707,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (4)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (4)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-1339807555",
+        "min": {
+          "x": -295.911865234375,
+          "y": 6.180002212524414,
+          "z": 139.875
+        },
+        "max": {
+          "x": -295.6318359375,
+          "y": 11.008760452270508,
+          "z": 140.10501098632812
+        }
+      },
+      "topAboveDeck": 0.3087606430053711,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (5)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (5)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-1679110615",
+        "min": {
+          "x": -304.7919006347656,
+          "y": 11.030925750732422,
+          "z": 139.9199981689453
+        },
+        "max": {
+          "x": -298.7519226074219,
+          "y": 11.673179626464844,
+          "z": 140.0600128173828
+        }
+      },
+      "topAboveDeck": 0.973179817199707,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (5)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (5)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-1679110615",
+        "min": {
+          "x": -301.91192626953125,
+          "y": 6.180002212524414,
+          "z": 139.875
+        },
+        "max": {
+          "x": -301.63189697265625,
+          "y": 11.008760452270508,
+          "z": 140.10501098632812
+        }
+      },
+      "topAboveDeck": 0.3087606430053711,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (6)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (6)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-1755104739",
+        "min": {
+          "x": -310.7919616699219,
+          "y": 11.030925750732422,
+          "z": 139.9199981689453
+        },
+        "max": {
+          "x": -304.7519836425781,
+          "y": 11.673179626464844,
+          "z": 140.0600128173828
+        }
+      },
+      "topAboveDeck": 0.973179817199707,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (6)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (6)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-1755104739",
+        "min": {
+          "x": -307.9119873046875,
+          "y": 6.180002212524414,
+          "z": 139.875
+        },
+        "max": {
+          "x": -307.6319580078125,
+          "y": 11.008760452270508,
+          "z": 140.10501098632812
+        }
+      },
+      "topAboveDeck": 0.3087606430053711,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (7)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (7)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-1696617810",
+        "min": {
+          "x": -316.7920227050781,
+          "y": 11.030925750732422,
+          "z": 139.9199981689453
+        },
+        "max": {
+          "x": -310.7520446777344,
+          "y": 11.673179626464844,
+          "z": 140.0600128173828
+        }
+      },
+      "topAboveDeck": 0.973179817199707,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (7)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (7)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-1696617810",
+        "min": {
+          "x": -313.91204833984375,
+          "y": 6.180002212524414,
+          "z": 139.875
+        },
+        "max": {
+          "x": -313.63201904296875,
+          "y": 11.008760452270508,
+          "z": 140.10501098632812
+        }
+      },
+      "topAboveDeck": 0.3087606430053711,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (8)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (8)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-730797112",
+        "min": {
+          "x": -322.79205322265625,
+          "y": 11.030925750732422,
+          "z": 139.9199981689453
+        },
+        "max": {
+          "x": -316.7520751953125,
+          "y": 11.673179626464844,
+          "z": 140.0600128173828
+        }
+      },
+      "topAboveDeck": 0.973179817199707,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (8)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (8)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-730797112",
+        "min": {
+          "x": -319.9120788574219,
+          "y": 6.1800031661987305,
+          "z": 139.875
+        },
+        "max": {
+          "x": -319.6320495605469,
+          "y": 11.008761405944824,
+          "z": 140.10501098632812
+        }
+      },
+      "topAboveDeck": 0.3087615966796875,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (9)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (9)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2170165265610384419-1084405072",
+        "min": {
+          "x": -274.79888916015625,
+          "y": 11.030924797058105,
+          "z": 90.09059143066406
+        },
+        "max": {
+          "x": -268.7589111328125,
+          "y": 11.673178672790527,
+          "z": 90.2305908203125
+        }
+      },
+      "topAboveDeck": 0.9731788635253906,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Long Rails (9)",
+      "tier": 1,
+      "bounds": {
+        "name": "Catwalk Long Rails (9)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-5294370429617578501-1084405072",
+        "min": {
+          "x": -271.9189147949219,
+          "y": 6.180001258850098,
+          "z": 90.04559326171875
+        },
+        "max": {
+          "x": -271.6388854980469,
+          "y": 11.008759498596191,
+          "z": 90.27558898925781
+        }
+      },
+      "topAboveDeck": 0.3087596893310547,
+      "crossesEye": false
+    },
+    {
+      "name": "Catwalk Rails Short",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-857948887",
+        "min": {
+          "x": -292.804443359375,
+          "y": 17.18665313720703,
+          "z": 88.46643829345703
+        },
+        "max": {
+          "x": -290.80401611328125,
+          "y": 18.21392059326172,
+          "z": 88.58588409423828
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (1)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (1)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1865321394",
+        "min": {
+          "x": -301.0002136230469,
+          "y": 17.18665313720703,
+          "z": 88.24028015136719
+        },
+        "max": {
+          "x": -298.9997863769531,
+          "y": 18.21392059326172,
+          "z": 88.35972595214844
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (10)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (10)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-67719475",
+        "min": {
+          "x": -328.7040100097656,
+          "y": 17.18665313720703,
+          "z": 112.126220703125
+        },
+        "max": {
+          "x": -308.5992126464844,
+          "y": 18.21392059326172,
+          "z": 112.24566650390625
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (11)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (11)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1556567910",
+        "min": {
+          "x": -328.7040100097656,
+          "y": 17.18665313720703,
+          "z": 118.32621765136719
+        },
+        "max": {
+          "x": -308.6032409667969,
+          "y": 18.21392059326172,
+          "z": 118.44566345214844
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (12)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (12)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-142221446",
+        "min": {
+          "x": -292.87359619140625,
+          "y": 17.18665313720703,
+          "z": 127.84075927734375
+        },
+        "max": {
+          "x": -292.754150390625,
+          "y": 18.21392059326172,
+          "z": 141.6168212890625
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (13)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (13)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1860187739",
+        "min": {
+          "x": -299.07379150390625,
+          "y": 17.18665313720703,
+          "z": 127.84075927734375
+        },
+        "max": {
+          "x": -298.954345703125,
+          "y": 18.21392059326172,
+          "z": 141.6168212890625
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (14)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (14)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1178021532",
+        "min": {
+          "x": -292.87359619140625,
+          "y": 17.18665313720703,
+          "z": 88.32669067382812
+        },
+        "max": {
+          "x": -292.754150390625,
+          "y": 18.21392059326172,
+          "z": 102.10275268554688
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (15)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (15)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1159579227",
+        "min": {
+          "x": -299.07379150390625,
+          "y": 17.18665313720703,
+          "z": 88.32669067382812
+        },
+        "max": {
+          "x": -298.954345703125,
+          "y": 18.21392059326172,
+          "z": 102.10275268554688
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (16)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (16)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1271854603",
+        "min": {
+          "x": -308.57379150390625,
+          "y": 17.18665313720703,
+          "z": 102.06629943847656
+        },
+        "max": {
+          "x": -308.454345703125,
+          "y": 18.21392059326172,
+          "z": 112.30204772949219
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (17)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (17)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-407370350",
+        "min": {
+          "x": -308.57379150390625,
+          "y": 17.18665313720703,
+          "z": 118.32657623291016
+        },
+        "max": {
+          "x": -308.454345703125,
+          "y": 18.21392059326172,
+          "z": 127.90190887451172
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (18)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (18)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-2056505757",
+        "min": {
+          "x": -283.1737976074219,
+          "y": 17.18665313720703,
+          "z": 102.06629943847656
+        },
+        "max": {
+          "x": -283.0543518066406,
+          "y": 18.21392059326172,
+          "z": 112.30204772949219
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (19)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (19)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-639934893",
+        "min": {
+          "x": -283.1737976074219,
+          "y": 17.18665313720703,
+          "z": 118.32657623291016
+        },
+        "max": {
+          "x": -283.0543518066406,
+          "y": 18.21392059326172,
+          "z": 127.90190887451172
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (2)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (2)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-592138773",
+        "min": {
+          "x": -301.0002136230469,
+          "y": 17.18665313720703,
+          "z": 141.540283203125
+        },
+        "max": {
+          "x": -298.9997863769531,
+          "y": 18.21392059326172,
+          "z": 141.65972900390625
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (20)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (20)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1388022989",
+        "min": {
+          "x": -287.1737976074219,
+          "y": 17.18665313720703,
+          "z": 106.52794647216797
+        },
+        "max": {
+          "x": -287.0543518066406,
+          "y": 18.21392059326172,
+          "z": 124.10350799560547
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (21)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (21)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1971887256",
+        "min": {
+          "x": -304.57379150390625,
+          "y": 17.18665313720703,
+          "z": 106.52794647216797
+        },
+        "max": {
+          "x": -304.454345703125,
+          "y": 18.21392059326172,
+          "z": 124.10350799560547
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (22)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (22)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-877134955",
+        "min": {
+          "x": -304.5035095214844,
+          "y": 17.18665313720703,
+          "z": 124.02621459960938
+        },
+        "max": {
+          "x": -286.9279479980469,
+          "y": 18.21392059326172,
+          "z": 124.14566040039062
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (23)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (23)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1544560499",
+        "min": {
+          "x": -304.4720458984375,
+          "y": 17.18665313720703,
+          "z": 106.45433807373047
+        },
+        "max": {
+          "x": -286.896484375,
+          "y": 18.21392059326172,
+          "z": 106.57378387451172
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (3)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (3)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1605639333",
+        "min": {
+          "x": -292.80023193359375,
+          "y": 17.18665313720703,
+          "z": 141.540283203125
+        },
+        "max": {
+          "x": -290.7998046875,
+          "y": 18.21392059326172,
+          "z": 141.65972900390625
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (4)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (4)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-901590405",
+        "min": {
+          "x": -292.802001953125,
+          "y": 17.18665313720703,
+          "z": 127.84028625488281
+        },
+        "max": {
+          "x": -282.90435791015625,
+          "y": 18.21392059326172,
+          "z": 127.95973205566406
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (5)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (5)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-159953962",
+        "min": {
+          "x": -308.4018859863281,
+          "y": 17.18665313720703,
+          "z": 127.84028625488281
+        },
+        "max": {
+          "x": -298.9719543457031,
+          "y": 18.21392059326172,
+          "z": 127.95973205566406
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (6)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (6)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1178031760",
+        "min": {
+          "x": -292.5858154296875,
+          "y": 17.18665313720703,
+          "z": 102.02621459960938
+        },
+        "max": {
+          "x": -283.1558837890625,
+          "y": 18.21392059326172,
+          "z": 102.14566040039062
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (7)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (7)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-1686228035",
+        "min": {
+          "x": -308.5019226074219,
+          "y": 17.18665313720703,
+          "z": 102.02621459960938
+        },
+        "max": {
+          "x": -298.8400573730469,
+          "y": 18.21392059326172,
+          "z": 102.14566040039062
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (8)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (8)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-536956301",
+        "min": {
+          "x": -283.10400390625,
+          "y": 17.18665313720703,
+          "z": 112.126220703125
+        },
+        "max": {
+          "x": -263.00323486328125,
+          "y": 18.21392059326172,
+          "z": 112.24566650390625
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    },
+    {
+      "name": "Catwalk Rails Short (9)",
+      "tier": 2,
+      "bounds": {
+        "name": "Catwalk Rails Short (9)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-6596534231319726901-833609734",
+        "min": {
+          "x": -283.10400390625,
+          "y": 17.18665313720703,
+          "z": 118.32621765136719
+        },
+        "max": {
+          "x": -263.00323486328125,
+          "y": 18.21392059326172,
+          "z": 118.44566345214844
+        }
+      },
+      "topAboveDeck": 1.5339202880859375,
+      "crossesEye": true
+    }
+  ],
+  "railTests": [
+    {
+      "station": "North gallery edge facing -Z at (-322.6, 140.0)",
+      "tier": 1,
+      "shots": 52,
+      "railBlocked": 4,
+      "otherBlocked": 9,
+      "eye": {
+        "x": -322.64715576171875,
+        "y": 12.142692565917969,
+        "z": 140.4110107421875
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (8)"
+      ]
+    },
+    {
+      "station": "North gallery edge facing -Z at (-316.6, 140.0)",
+      "tier": 1,
+      "shots": 59,
+      "railBlocked": 7,
+      "otherBlocked": 6,
+      "eye": {
+        "x": -316.64715576171875,
+        "y": 12.142692565917969,
+        "z": 140.4110107421875
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (7)",
+        "Catwalk Long Rails (8)"
+      ]
+    },
+    {
+      "station": "North gallery edge facing -Z at (-310.6, 140.0)",
+      "tier": 1,
+      "shots": 71,
+      "railBlocked": 7,
+      "otherBlocked": 8,
+      "eye": {
+        "x": -310.64715576171875,
+        "y": 12.142692565917969,
+        "z": 140.4110107421875
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (6)",
+        "Catwalk Long Rails (7)"
+      ]
+    },
+    {
+      "station": "North gallery edge facing -Z at (-304.6, 140.0)",
+      "tier": 1,
+      "shots": 74,
+      "railBlocked": 8,
+      "otherBlocked": 6,
+      "eye": {
+        "x": -304.64715576171875,
+        "y": 12.142692565917969,
+        "z": 140.4110107421875
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (5)",
+        "Catwalk Long Rails (6)"
+      ]
+    },
+    {
+      "station": "North gallery edge facing -Z at (-298.6, 140.0)",
+      "tier": 1,
+      "shots": 82,
+      "railBlocked": 7,
+      "otherBlocked": 8,
+      "eye": {
+        "x": -298.64715576171875,
+        "y": 12.142692565917969,
+        "z": 140.4110107421875
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (4)",
+        "Catwalk Long Rails (5)"
+      ]
+    },
+    {
+      "station": "North gallery edge facing -Z at (-292.6, 140.0)",
+      "tier": 1,
+      "shots": 77,
+      "railBlocked": 8,
+      "otherBlocked": 6,
+      "eye": {
+        "x": -292.64715576171875,
+        "y": 12.142692565917969,
+        "z": 140.4110107421875
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (3)",
+        "Catwalk Long Rails (4)"
+      ]
+    },
+    {
+      "station": "North gallery edge facing -Z at (-286.6, 140.0)",
+      "tier": 1,
+      "shots": 76,
+      "railBlocked": 7,
+      "otherBlocked": 6,
+      "eye": {
+        "x": -286.64715576171875,
+        "y": 12.142692565917969,
+        "z": 140.4110107421875
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (2)",
+        "Catwalk Long Rails (3)"
+      ]
+    },
+    {
+      "station": "North gallery edge facing -Z at (-280.6, 140.0)",
+      "tier": 1,
+      "shots": 65,
+      "railBlocked": 8,
+      "otherBlocked": 3,
+      "eye": {
+        "x": -280.64715576171875,
+        "y": 12.142692565917969,
+        "z": 140.4110107421875
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (1)",
+        "Catwalk Long Rails (2)"
+      ]
+    },
+    {
+      "station": "North gallery edge facing -Z at (-274.6, 140.0)",
+      "tier": 1,
+      "shots": 59,
+      "railBlocked": 6,
+      "otherBlocked": 4,
+      "eye": {
+        "x": -274.64715576171875,
+        "y": 12.142692565917969,
+        "z": 140.4110107421875
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails",
+        "Catwalk Long Rails (1)"
+      ]
+    },
+    {
+      "station": "South gallery edge facing +Z at (-322.7, 90.0)",
+      "tier": 1,
+      "shots": 53,
+      "railBlocked": 2,
+      "otherBlocked": 9,
+      "eye": {
+        "x": -322.6544189453125,
+        "y": 12.142693519592285,
+        "z": 89.62556457519531
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (17)"
+      ]
+    },
+    {
+      "station": "South gallery edge facing +Z at (-316.7, 90.0)",
+      "tier": 1,
+      "shots": 63,
+      "railBlocked": 4,
+      "otherBlocked": 10,
+      "eye": {
+        "x": -316.6544189453125,
+        "y": 12.142691612243652,
+        "z": 89.62556457519531
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (16)",
+        "Catwalk Long Rails (17)"
+      ]
+    },
+    {
+      "station": "South gallery edge facing +Z at (-310.7, 90.0)",
+      "tier": 1,
+      "shots": 73,
+      "railBlocked": 3,
+      "otherBlocked": 11,
+      "eye": {
+        "x": -310.6544189453125,
+        "y": 12.142691612243652,
+        "z": 89.62556457519531
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (15)",
+        "Catwalk Long Rails (16)"
+      ]
+    },
+    {
+      "station": "South gallery edge facing +Z at (-304.7, 90.0)",
+      "tier": 1,
+      "shots": 80,
+      "railBlocked": 4,
+      "otherBlocked": 10,
+      "eye": {
+        "x": -304.6544189453125,
+        "y": 12.142691612243652,
+        "z": 89.62556457519531
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (14)",
+        "Catwalk Long Rails (15)"
+      ]
+    },
+    {
+      "station": "South gallery edge facing +Z at (-298.7, 90.0)",
+      "tier": 1,
+      "shots": 84,
+      "railBlocked": 3,
+      "otherBlocked": 12,
+      "eye": {
+        "x": -298.6544189453125,
+        "y": 12.142691612243652,
+        "z": 89.62556457519531
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (13)",
+        "Catwalk Long Rails (14)"
+      ]
+    },
+    {
+      "station": "South gallery edge facing +Z at (-292.7, 90.0)",
+      "tier": 1,
+      "shots": 83,
+      "railBlocked": 4,
+      "otherBlocked": 11,
+      "eye": {
+        "x": -292.6544189453125,
+        "y": 12.142691612243652,
+        "z": 89.62556457519531
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (12)",
+        "Catwalk Long Rails (13)"
+      ]
+    },
+    {
+      "station": "South gallery edge facing +Z at (-286.7, 90.0)",
+      "tier": 1,
+      "shots": 78,
+      "railBlocked": 3,
+      "otherBlocked": 10,
+      "eye": {
+        "x": -286.6544189453125,
+        "y": 12.142691612243652,
+        "z": 89.62556457519531
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (11)",
+        "Catwalk Long Rails (12)"
+      ]
+    },
+    {
+      "station": "South gallery edge facing +Z at (-280.7, 90.0)",
+      "tier": 1,
+      "shots": 69,
+      "railBlocked": 4,
+      "otherBlocked": 7,
+      "eye": {
+        "x": -280.6544189453125,
+        "y": 12.142691612243652,
+        "z": 89.62556457519531
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (10)",
+        "Catwalk Long Rails (11)"
+      ]
+    },
+    {
+      "station": "South gallery edge facing +Z at (-274.7, 90.0)",
+      "tier": 1,
+      "shots": 60,
+      "railBlocked": 3,
+      "otherBlocked": 8,
+      "eye": {
+        "x": -274.6544189453125,
+        "y": 12.142691612243652,
+        "z": 89.62556457519531
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": false,
+      "levelBlocker": "",
+      "blockers": [
+        "Catwalk Long Rails (10)",
+        "Catwalk Long Rails (9)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-328.4, 112.3)",
+      "tier": 2,
+      "shots": 42,
+      "railBlocked": 26,
+      "otherBlocked": 10,
+      "eye": {
+        "x": -328.4017333984375,
+        "y": 18.117067337036133,
+        "z": 112.7249984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (10)",
+      "blockers": [
+        "Catwalk Rails Short (10)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-326.7, 118.1)",
+      "tier": 2,
+      "shots": 41,
+      "railBlocked": 24,
+      "otherBlocked": 11,
+      "eye": {
+        "x": -326.6517333984375,
+        "y": 18.117067337036133,
+        "z": 117.67499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (11)",
+      "blockers": [
+        "Catwalk Rails Short (11)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-322.4, 112.3)",
+      "tier": 2,
+      "shots": 52,
+      "railBlocked": 33,
+      "otherBlocked": 12,
+      "eye": {
+        "x": -322.4017333984375,
+        "y": 18.117067337036133,
+        "z": 112.7249984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (10)",
+      "blockers": [
+        "Catwalk Rails Short (10)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-320.7, 118.1)",
+      "tier": 2,
+      "shots": 52,
+      "railBlocked": 32,
+      "otherBlocked": 12,
+      "eye": {
+        "x": -320.6517333984375,
+        "y": 18.117067337036133,
+        "z": 117.67499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (11)",
+      "blockers": [
+        "Catwalk Rails Short (11)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-316.4, 112.3)",
+      "tier": 2,
+      "shots": 63,
+      "railBlocked": 41,
+      "otherBlocked": 13,
+      "eye": {
+        "x": -316.4017333984375,
+        "y": 18.117067337036133,
+        "z": 112.7249984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (10)",
+      "blockers": [
+        "Catwalk Rails Short (10)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-314.7, 118.1)",
+      "tier": 2,
+      "shots": 61,
+      "railBlocked": 38,
+      "otherBlocked": 14,
+      "eye": {
+        "x": -314.6517333984375,
+        "y": 18.117067337036133,
+        "z": 117.67499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (11)",
+      "blockers": [
+        "Catwalk Rails Short (11)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-310.4, 112.3)",
+      "tier": 2,
+      "shots": 72,
+      "railBlocked": 47,
+      "otherBlocked": 19,
+      "eye": {
+        "x": -310.4017333984375,
+        "y": 18.117067337036133,
+        "z": 112.7249984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (10)",
+      "blockers": [
+        "Catwalk Rails Short (10)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-308.7, 118.1)",
+      "tier": 2,
+      "shots": 69,
+      "railBlocked": 28,
+      "otherBlocked": 37,
+      "eye": {
+        "x": -308.6517333984375,
+        "y": 18.117067337036133,
+        "z": 117.67499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (11)",
+      "blockers": [
+        "Catwalk Rails Short (11)",
+        "Catwalk Rails Short (17)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -X at (-308.4, 102.3)",
+      "tier": 2,
+      "shots": 57,
+      "railBlocked": 45,
+      "otherBlocked": 11,
+      "eye": {
+        "x": -308.0017395019531,
+        "y": 18.11707305908203,
+        "z": 102.32499694824219
+      },
+      "outward": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (16)",
+      "blockers": [
+        "Catwalk Rails Short (16)",
+        "Catwalk Rails Short (7)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -X at (-308.4, 124.1)",
+      "tier": 2,
+      "shots": 61,
+      "railBlocked": 44,
+      "otherBlocked": 17,
+      "eye": {
+        "x": -308.0017395019531,
+        "y": 18.117063522338867,
+        "z": 124.07499694824219
+      },
+      "outward": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (17)",
+      "blockers": [
+        "Catwalk Rails Short (17)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +X at (-304.7, 107.1)",
+      "tier": 2,
+      "shots": 74,
+      "railBlocked": 49,
+      "otherBlocked": 25,
+      "eye": {
+        "x": -305.0517272949219,
+        "y": 18.13861656188965,
+        "z": 107.07499694824219
+      },
+      "outward": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (21)",
+      "blockers": [
+        "Catwalk Rails Short (21)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-303.7, 127.8)",
+      "tier": 2,
+      "shots": 63,
+      "railBlocked": 43,
+      "otherBlocked": 20,
+      "eye": {
+        "x": -303.6517333984375,
+        "y": 18.117067337036133,
+        "z": 127.42499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (5)",
+      "blockers": [
+        "Catwalk Rails Short (5)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-300.7, 102.6)",
+      "tier": 2,
+      "shots": 64,
+      "railBlocked": 26,
+      "otherBlocked": 29,
+      "eye": {
+        "x": -300.6517333984375,
+        "y": 18.117067337036133,
+        "z": 102.9749984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (7)",
+      "blockers": [
+        "Catwalk Rails Short (7)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-298.9, 124.1)",
+      "tier": 2,
+      "shots": 82,
+      "railBlocked": 61,
+      "otherBlocked": 21,
+      "eye": {
+        "x": -298.9017333984375,
+        "y": 18.117067337036133,
+        "z": 124.4749984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (22)",
+      "blockers": [
+        "Catwalk Rails Short (22)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -X at (-298.7, 88.3)",
+      "tier": 2,
+      "shots": 51,
+      "railBlocked": 24,
+      "otherBlocked": 27,
+      "eye": {
+        "x": -298.2517395019531,
+        "y": 18.117015838623047,
+        "z": 88.32499694824219
+      },
+      "outward": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (1)",
+      "blockers": [
+        "Catwalk Rails Short (15)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -X at (-298.7, 94.3)",
+      "tier": 2,
+      "shots": 63,
+      "railBlocked": 37,
+      "otherBlocked": 26,
+      "eye": {
+        "x": -298.2517395019531,
+        "y": 18.1170654296875,
+        "z": 94.32499694824219
+      },
+      "outward": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (15)",
+      "blockers": [
+        "Catwalk Rails Short (15)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -X at (-298.7, 131.3)",
+      "tier": 2,
+      "shots": 68,
+      "railBlocked": 40,
+      "otherBlocked": 28,
+      "eye": {
+        "x": -298.2517395019531,
+        "y": 18.117067337036133,
+        "z": 131.3249969482422
+      },
+      "outward": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (13)",
+      "blockers": [
+        "Catwalk Rails Short (13)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -X at (-298.7, 137.3)",
+      "tier": 2,
+      "shots": 58,
+      "railBlocked": 33,
+      "otherBlocked": 25,
+      "eye": {
+        "x": -298.2517395019531,
+        "y": 18.117067337036133,
+        "z": 137.3249969482422
+      },
+      "outward": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (13)",
+      "blockers": [
+        "Catwalk Rails Short (13)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-295.9, 106.3)",
+      "tier": 2,
+      "shots": 76,
+      "railBlocked": 55,
+      "otherBlocked": 21,
+      "eye": {
+        "x": -295.9017333984375,
+        "y": 18.1170654296875,
+        "z": 105.92499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (23)",
+      "blockers": [
+        "Catwalk Rails Short (23)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +X at (-292.9, 90.1)",
+      "tier": 2,
+      "shots": 52,
+      "railBlocked": 40,
+      "otherBlocked": 12,
+      "eye": {
+        "x": -293.3017272949219,
+        "y": 18.117067337036133,
+        "z": 90.07499694824219
+      },
+      "outward": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (14)",
+      "blockers": [
+        "Catwalk Rails Short (14)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +X at (-292.9, 96.1)",
+      "tier": 2,
+      "shots": 60,
+      "railBlocked": 47,
+      "otherBlocked": 13,
+      "eye": {
+        "x": -293.3017272949219,
+        "y": 18.1170654296875,
+        "z": 96.07499694824219
+      },
+      "outward": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (14)",
+      "blockers": [
+        "Catwalk Rails Short (14)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-292.9, 124.1)",
+      "tier": 2,
+      "shots": 84,
+      "railBlocked": 63,
+      "otherBlocked": 21,
+      "eye": {
+        "x": -292.9017333984375,
+        "y": 18.117067337036133,
+        "z": 124.4749984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (22)",
+      "blockers": [
+        "Catwalk Rails Short (22)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +X at (-292.9, 133.1)",
+      "tier": 2,
+      "shots": 60,
+      "railBlocked": 47,
+      "otherBlocked": 13,
+      "eye": {
+        "x": -293.3017272949219,
+        "y": 18.117067337036133,
+        "z": 133.0749969482422
+      },
+      "outward": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (12)",
+      "blockers": [
+        "Catwalk Rails Short (12)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +X at (-292.9, 139.1)",
+      "tier": 2,
+      "shots": 52,
+      "railBlocked": 40,
+      "otherBlocked": 12,
+      "eye": {
+        "x": -293.3017272949219,
+        "y": 18.117067337036133,
+        "z": 139.0749969482422
+      },
+      "outward": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (12)",
+      "blockers": [
+        "Catwalk Rails Short (12)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-291.2, 102.6)",
+      "tier": 2,
+      "shots": 64,
+      "railBlocked": 26,
+      "otherBlocked": 29,
+      "eye": {
+        "x": -291.1517333984375,
+        "y": 18.117063522338867,
+        "z": 102.9749984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (6)",
+      "blockers": [
+        "Catwalk Rails Short (6)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-288.2, 127.8)",
+      "tier": 2,
+      "shots": 63,
+      "railBlocked": 42,
+      "otherBlocked": 21,
+      "eye": {
+        "x": -288.1517333984375,
+        "y": 18.1170654296875,
+        "z": 127.42499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (4)",
+      "blockers": [
+        "Catwalk Rails Short (4)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -X at (-286.9, 106.8)",
+      "tier": 2,
+      "shots": 81,
+      "railBlocked": 43,
+      "otherBlocked": 30,
+      "eye": {
+        "x": -286.5017395019531,
+        "y": 18.1170711517334,
+        "z": 106.82499694824219
+      },
+      "outward": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (20)",
+      "blockers": [
+        "Catwalk Rails Short (20)",
+        "Catwalk Rails Short (23)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -X at (-286.9, 112.8)",
+      "tier": 2,
+      "shots": 82,
+      "railBlocked": 50,
+      "otherBlocked": 18,
+      "eye": {
+        "x": -286.5017395019531,
+        "y": 18.117069244384766,
+        "z": 112.82499694824219
+      },
+      "outward": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (20)",
+      "blockers": [
+        "Catwalk Rails Short (20)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -X at (-286.9, 118.8)",
+      "tier": 2,
+      "shots": 84,
+      "railBlocked": 50,
+      "otherBlocked": 21,
+      "eye": {
+        "x": -286.5017395019531,
+        "y": 18.117067337036133,
+        "z": 118.82499694824219
+      },
+      "outward": {
+        "x": -1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (20)",
+      "blockers": [
+        "Catwalk Rails Short (20)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +X at (-283.2, 123.6)",
+      "tier": 2,
+      "shots": 62,
+      "railBlocked": 43,
+      "otherBlocked": 19,
+      "eye": {
+        "x": -283.5517272949219,
+        "y": 18.117067337036133,
+        "z": 123.57499694824219
+      },
+      "outward": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (19)",
+      "blockers": [
+        "Catwalk Rails Short (19)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-280.9, 112.3)",
+      "tier": 2,
+      "shots": 70,
+      "railBlocked": 46,
+      "otherBlocked": 17,
+      "eye": {
+        "x": -280.9017333984375,
+        "y": 18.117069244384766,
+        "z": 112.7249984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (8)",
+      "blockers": [
+        "Catwalk Rails Short (8)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-279.2, 118.1)",
+      "tier": 2,
+      "shots": 63,
+      "railBlocked": 40,
+      "otherBlocked": 14,
+      "eye": {
+        "x": -279.1517333984375,
+        "y": 18.117069244384766,
+        "z": 117.67499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (9)",
+      "blockers": [
+        "Catwalk Rails Short (9)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-274.9, 112.3)",
+      "tier": 2,
+      "shots": 59,
+      "railBlocked": 38,
+      "otherBlocked": 12,
+      "eye": {
+        "x": -274.9017333984375,
+        "y": 18.117069244384766,
+        "z": 112.7249984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (8)",
+      "blockers": [
+        "Catwalk Rails Short (8)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-273.2, 118.1)",
+      "tier": 2,
+      "shots": 53,
+      "railBlocked": 32,
+      "otherBlocked": 12,
+      "eye": {
+        "x": -273.1517333984375,
+        "y": 18.117069244384766,
+        "z": 117.67499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (9)",
+      "blockers": [
+        "Catwalk Rails Short (9)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing -Z at (-268.9, 112.3)",
+      "tier": 2,
+      "shots": 50,
+      "railBlocked": 32,
+      "otherBlocked": 10,
+      "eye": {
+        "x": -268.9017333984375,
+        "y": 18.117069244384766,
+        "z": 112.7249984741211
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (8)",
+      "blockers": [
+        "Catwalk Rails Short (8)"
+      ]
+    },
+    {
+      "station": "Upper deck network edge facing +Z at (-267.2, 118.1)",
+      "tier": 2,
+      "shots": 44,
+      "railBlocked": 27,
+      "otherBlocked": 10,
+      "eye": {
+        "x": -267.1517333984375,
+        "y": 18.117069244384766,
+        "z": 117.67499542236328
+      },
+      "outward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "levelBlocked": true,
+      "levelBlocker": "Catwalk Rails Short (9)",
+      "blockers": [
+        "Catwalk Rails Short (9)"
+      ]
+    }
+  ]
+}

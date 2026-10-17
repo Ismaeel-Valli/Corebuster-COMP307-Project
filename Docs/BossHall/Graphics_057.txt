@@ -1,0 +1,19 @@
+FINAL ASSEMBLY: printed identity and safety border; no interaction or route arrow.
+Three measured backed identity plates: cradle and both first-tier gallery walls; above walking headroom.
+Five negative guards, isolated clear/Undo, saved reload and framework validation passed.
+65731 protected states and 3508 shared assets unchanged.
+Scene SHA-256 bf7e765e42c0a0239e051904ab827735ba573e5a451490fba8594ba16e6b4f3f
+BOSS HALL BUDGETS (provisional ceilings; material shares are planning reservations)
+Assembly_Backdrop [corebuster_env_049]: assemblies 4/4, prefabs including nested 0/10, renderers 70, colliders 1, carving 1, lights 0/0, emitters 0/0, live particles 0, assigned materials 4, initial material planning share 3
+Mechanical_Arms [corebuster_art_006]: assemblies 2/2, prefabs including nested 2/8, renderers 42, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 3, initial material planning share 2
+Power_Services [corebuster_env_050]: assemblies 2/2, prefabs including nested 0/10, renderers 44, colliders 2, carving 2, lights 0/0, emitters 0/0, live particles 0, assigned materials 3, initial material planning share 2
+Cooling_Services [corebuster_env_050]: assemblies 2/2, prefabs including nested 0/10, renderers 24, colliders 2, carving 2, lights 0/0, emitters 0/0, live particles 0, assigned materials 2, initial material planning share 2
+Catwalk_Dressing [corebuster_env_051]: assemblies 0/0, prefabs including nested 0/10, renderers 6, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 1, initial material planning share 1
+Lower_Arena_Dressing [corebuster_env_052]: assemblies 2/2, prefabs including nested 0/8, renderers 2, colliders 2, carving 2, lights 0/0, emitters 0/0, live particles 0, assigned materials 3, initial material planning share 1
+Overhead [corebuster_env_050]: assemblies 0/0, prefabs including nested 0/8, renderers 4, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 2, initial material planning share 1
+Meltdown_VFX [corebuster_env_054]: assemblies 0/0, prefabs including nested 0/0, renderers 11, colliders 0, carving 0, lights 0/0, emitters 5/6, live particles 0, assigned materials 2, initial material planning share 2
+Lighting [corebuster_env_055]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 24/24, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 2
+Wayfinding [corebuster_env_057]: assemblies 0/0, prefabs including nested 0/8, renderers 3, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 1, initial material planning share 2
+Audio [corebuster_audio_003]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 0
+Rendering [corebuster_render_010]: assemblies 0/0, prefabs including nested 0/0, renderers 551, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 10, initial material planning share 2
+Whole pass: <=12 assembly roots, <=80 nested prefab instances, <=20 unique materials, <=24 architectural lights, <=6 emitters. Actor/core/weapon lights are separate; combined per-object limit remains 4.

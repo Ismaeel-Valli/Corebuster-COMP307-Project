@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="967" height="900" viewBox="0 0 966.5538940429688 899.8042449951172">
+<rect width="100%" height="100%" fill="#111923"/>
+<g font-family="sans-serif" font-size="13" fill="#e1e8f0">
+<text x="180.0" y="31.0" font-size="21" text-anchor="start">NORTH-WEST ROOM / measured dressing reservations</text>
+<text x="180.0" y="55.0" font-size="13" text-anchor="start">corebuster_env_029 | world X/Z metres | north (+Z) up | open centre, perimeter machinery</text>
+<rect x="180.00" y="85.00" width="606.55" height="604.80" stroke="#8595aa" fill="#8595aa" fill-opacity="0.05"/>
+<rect x="180.00" y="85.00" width="256.50" height="57.00" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="541.00" y="85.00" width="245.10" height="57.00" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="180.00" y="632.80" width="279.30" height="57.00" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="516.30" y="632.80" width="269.80" height="57.00" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="459.30" y="632.80" width="57.00" height="57.00" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.08" stroke-dasharray="4 3"/>
+<rect x="729.55" y="553.00" width="57.00" height="136.80" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="729.55" y="418.10" width="57.00" height="57.00" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="729.55" y="85.60" width="57.00" height="269.80" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="729.55" y="355.40" width="57.00" height="62.70" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.08" stroke-dasharray="4 3"/>
+<rect x="180.00" y="619.50" width="57.00" height="70.30" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="180.00" y="85.60" width="57.00" height="267.90" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="180.00" y="617.60" width="72.20" height="72.20" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="699.15" y="602.40" width="87.40" height="87.40" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="180.00" y="85.00" width="91.20" height="91.20" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<rect x="699.15" y="85.00" width="87.40" height="87.40" stroke="#d9a14a" fill="#d9a14a" fill-opacity="0.22"/>
+<circle cx="483.28" cy="387.40" r="152.00" stroke="#63cba4" fill="#63cba4" fill-opacity="0.1"/>
+<circle cx="483.28" cy="387.40" r="76.00" stroke="#63cba4" fill="#63cba4" fill-opacity="0"/>
+<text x="483.3" y="382.4" font-size="13" text-anchor="middle">Open centre</text>
+<text x="483.3" y="399.4" font-size="13" text-anchor="middle">annulus 4-8 m</text>
+<polyline points="299.70,574.34 403.40,468.74" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="487.80,605.69 485.64,501.38" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="675.90,574.34 565.09,466.80" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="268.35,386.24 369.28,386.78" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="707.25,386.24 597.28,386.81" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="299.70,198.14 403.91,305.57" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="487.80,166.79 485.61,273.43" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="675.90,198.14 564.59,307.50" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="738.99,513.44 585.53,437.80" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="227.56,387.09 369.28,387.26" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="485.26,273.42 487.85,124.88" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="389.15,451.71 220.81,566.74" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<polyline points="220.81,566.74 227.56,387.09" fill="none" stroke="#63cba4" stroke-width="1.2"/>
+<rect x="719.99" y="474.68" width="76.00" height="78.28" stroke="#67c9e6" fill="#67c9e6" fill-opacity="0.25"/>
+<text x="804.0" y="517.4" font-size="13" text-anchor="start">East door</text>
+<rect x="170.56" y="353.27" width="76.00" height="67.64" stroke="#67c9e6" fill="#67c9e6" fill-opacity="0.25"/>
+<text x="162.6" y="391.1" font-size="13" text-anchor="end">Boss Hall Door</text>
+<rect x="435.60" y="85.96" width="105.45" height="67.42" stroke="#ebce66" fill="#ebce66" fill-opacity="0.22"/>
+<text x="487.8" y="82.7" font-size="13" text-anchor="middle">Red Terminal</text>
+<rect x="180.38" y="513.54" width="68.93" height="105.45" stroke="#ebce66" fill="#ebce66" fill-opacity="0.22"/>
+<text x="172.4" y="570.7" font-size="13" text-anchor="end">Master Terminal</text>
+<circle cx="299.70" cy="574.34" r="38.00" stroke="#e8a780" fill="#e8a780" fill-opacity="0.15"/>
+<text x="299.7" y="579.3" font-size="13" text-anchor="middle">1</text>
+<circle cx="487.80" cy="605.69" r="38.00" stroke="#e8a780" fill="#e8a780" fill-opacity="0.15"/>
+<text x="487.8" y="610.7" font-size="13" text-anchor="middle">2</text>
+<circle cx="675.90" cy="574.34" r="38.00" stroke="#e8a780" fill="#e8a780" fill-opacity="0.15"/>
+<text x="675.9" y="579.3" font-size="13" text-anchor="middle">3</text>
+<circle cx="268.35" cy="386.24" r="38.00" stroke="#e8a780" fill="#e8a780" fill-opacity="0.15"/>
+<text x="268.3" y="391.2" font-size="13" text-anchor="middle">4</text>
+<circle cx="707.25" cy="386.24" r="38.00" stroke="#e8a780" fill="#e8a780" fill-opacity="0.15"/>
+<text x="707.2" y="391.2" font-size="13" text-anchor="middle">5</text>
+<circle cx="299.70" cy="198.14" r="38.00" stroke="#e8a780" fill="#e8a780" fill-opacity="0.15"/>
+<text x="299.7" y="203.1" font-size="13" text-anchor="middle">6</text>
+<circle cx="487.80" cy="166.79" r="38.00" stroke="#e8a780" fill="#e8a780" fill-opacity="0.15"/>
+<text x="487.8" y="171.8" font-size="13" text-anchor="middle">7</text>
+<circle cx="675.90" cy="198.14" r="38.00" stroke="#e8a780" fill="#e8a780" fill-opacity="0.15"/>
+<text x="675.9" y="203.1" font-size="13" text-anchor="middle">8</text>
+<text x="832.5" y="454.0" font-size="13" text-anchor="start">Access (Yellow)</text>
+<circle cx="824.49" cy="450.03" r="2.85" stroke="#ebce66" fill="#ebce66" fill-opacity="1"/>
+<text x="180.0" y="741.8" font-size="13" text-anchor="start">Interior X [-250.70, -218.78], Z [99.52, 131.35]</text>
+<text x="180.0" y="762.8" font-size="13" text-anchor="start">Visible floor Y 0.18 · ceiling underside Y 11.08 · physical ground Y 0.00</text>
+<text x="180.0" y="783.8" font-size="13" text-anchor="start">Cyan: door approaches · Yellow: terminal access, reach and sightline · Orange discs: 2 m spawn reservations</text>
+<text x="180.0" y="804.8" font-size="13" text-anchor="start">Green: 4-8 m annulus and connectors (reserve 1.5 m each side of each connector)</text>
+<text x="180.0" y="825.8" font-size="13" text-anchor="start">Amber: safe floor zones (solid: 3 m heavy perimeter and corners; dashed: wall-flush only)</text>
+<text x="180.0" y="846.8" font-size="13" text-anchor="start">Red dots: NavMesh sample misses. Edit-mode evidence; the owner&#x27;s Play-mode walk is still required.</text>
+<text x="180.0" y="867.8" font-size="13" text-anchor="start">Scene SHA-256 8ce1fe7a4bae82e3... · Unity 6000.5.7f1</text>
+</g>
+</svg>

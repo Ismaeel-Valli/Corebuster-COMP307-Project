@@ -1,0 +1,4 @@
+PASS: transient isolated rebuild, exact mesh/transform/material/component validation, five negative guards and clear/Undo.
+All test objects discarded; full scene state and shared assets unchanged.
+Scene: 398f28174fd740665d66bb1a4cf2e0cd0b5898052d10c4d35c5b1495844803b1
+Saved authoring, populated save/reload, gameplay prerequisite and route disposition remain pending.

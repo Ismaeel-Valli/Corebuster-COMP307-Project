@@ -1,0 +1,8 @@
+Explicitly accepted owner-approved 3eb1892 corridor/quality baseline for env_057.
+MainScene unchanged: d76359d411fb4e1b537de4505f5328ff23f2ec1528e5d5577ed8755d476cbcdf
+Prior protected scene: ac8b63258b076d2be689ec706ae9b1a227842c5f75074aa3c206ca2bfb2aa3e7
+Current: 8a25258136ec0401d6cd6127de2a8c4af7c62d1c262e45c3c7751aef3ffa7038 (62479)
+Prior shared digest: 5913e3f29e62103803c65dce805867f0a0be71225c9c442b6ba8b1ae0a2ee1fc
+Current: 0bcda75a113d119faa151e5b126985d9410a5e350d7050dae759160fd75121a3 (3508)
+Only protected fingerprints/counts and manifest bindings changed; measured survey, skin list and all hall sections retained.
+Framework, rendering, neighbour-framework and sign reservation validation passed. No gameplay or all-quality rendering acceptance.

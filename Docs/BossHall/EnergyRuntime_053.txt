@@ -1,0 +1,4 @@
+ENV053 controlled Play-mode regression: 15 enemies, 16 actors, 10 core targets, 10 cores; zero dressing entries.
+Energy renderer toggle leaves enemy/actor/vulnerable registries identical. Scenery allowlist remains Transform/MeshFilter/MeshRenderer.
+Real hall armour damage exposed target; CoreExecutioner.TryExecute removed it from pool; impaled capture recorded; core consumed before Health.OnDie; execution finished.
+Player moved/invincible and headless menu disabled in Play mode only. This is controlled execution regression, not human combat or encounter/win-order verification.

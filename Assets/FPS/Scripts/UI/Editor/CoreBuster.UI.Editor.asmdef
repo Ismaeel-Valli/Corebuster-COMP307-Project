@@ -1,0 +1,5 @@
+{
+    "name": "CoreBuster.UI.Editor",
+    "references": ["fps.UI", "fps.Game", "fps.Gameplay", "Unity.TextMeshPro", "Unity.InputSystem", "UnityEngine.UI"],
+    "includePlatforms": ["Editor"]
+}

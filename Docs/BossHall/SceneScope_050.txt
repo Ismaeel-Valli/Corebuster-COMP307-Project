@@ -1,0 +1,11 @@
+corebuster_env_050 scene scope audit | 2026-10-04
+Comparison: git HEAD MainScene (SHA-256 e166153d1e65a4c8be2d347d1d382773627829ba3842350473a91c4c38c00e48, saved by art_006) vs saved env_050 MainScene (SHA-256 e520cddf1609a199ed364e615c191c6c2be77f231d058c119a65d5b6e39e47f6).
+Method: YAML documents keyed by file ID; added, removed and byte-changed blocks. Class IDs: 1 GameObject, 4 Transform, 23 MeshRenderer, 33 MeshFilter, 65 BoxCollider, 208 NavMeshObstacle.
+old blocks 22168 new blocks 22468
+added 300 by class id {'1': 78, '208': 4, '23': 68, '33': 68, '4': 78, '65': 4}
+removed 0
+changed 3
+changed block 46380344 class 4 object Overhead new lines ['  m_Children:', '  - {fileID: 73131643}', '  - {fileID: 1938255937}']
+changed block 1228128185 class 4 object Power_Services new lines ['  m_Children:', '  - {fileID: 1923609953}', '  - {fileID: 88631064}']
+changed block 1455870555 class 4 object Cooling_Services new lines ['  m_Children:', '  - {fileID: 1696329079}', '  - {fileID: 51015368}']
+Result: additions only (300 blocks); the only changed blocks are the Power_Services, Cooling_Services and Overhead container transforms, whose m_Children lists gained their two roots each. No original, other-section or container-identity block changed or was removed.

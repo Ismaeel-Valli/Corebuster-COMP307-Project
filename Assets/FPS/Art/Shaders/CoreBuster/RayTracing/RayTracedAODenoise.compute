@@ -1,0 +1,115 @@
+// CoreBuster ray-traced ambient occlusion denoiser.
+// Temporal: reprojects last frame's accumulated occlusion onto this frame (rejecting it where the surface's distance
+//           to the camera disagrees, i.e. disocclusions) and blends in the new, noisy trace.
+// Upsample: a depth-aware 4x4 filter from the traced resolution up to the screen, written where URP's Lit shaders
+//           read screen-space ambient occlusion.
+
+#pragma kernel Temporal
+#pragma kernel Upsample
+
+#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl"
+
+Texture2D<float> _Depth;
+Texture2D<float2> _Current;
+Texture2D<float2> _History;
+Texture2D<float2> _Accumulated;
+RWTexture2D<float2> _HistoryOut;
+RWTexture2D<float> _Result;
+SamplerState sampler_LinearClamp;
+
+float4x4 _InvViewProj;
+float4x4 _PrevViewProj;
+float4 _CameraPos;
+float4 _PrevCameraPos;
+float4 _TraceSize;   // xy size, zw 1/size
+float4 _DepthSize;   // xy size
+float4 _FullSize;    // xy size, zw 1/size
+float _FlipY;
+float _Blend;
+float _Intensity;
+int _HistoryValid;
+
+bool IsSky(float depth)
+{
+#if UNITY_REVERSED_Z
+    return depth <= 1e-7;
+#else
+    return depth >= 1.0 - 1e-7;
+#endif
+}
+
+float3 WorldPosition(float2 uv, out bool sky)
+{
+    int2 source = min(int2(uv * _DepthSize.xy), int2(_DepthSize.xy) - 1);
+    float depth = _Depth.Load(int3(source, 0));
+    sky = IsSky(depth);
+    float2 ndc = uv * 2.0 - 1.0;
+    ndc.y *= _FlipY;
+    float4 world = mul(_InvViewProj, float4(ndc, depth, 1.0));
+    return world.xyz / world.w;
+}
+
+[numthreads(8, 8, 1)]
+void Temporal(uint3 id : SV_DispatchThreadID)
+{
+    if (any(id.xy >= (uint2)_TraceSize.xy)) return;
+    float2 current = _Current[id.xy];
+    if (current.y <= 0.0 || _HistoryValid == 0)
+    {
+        _HistoryOut[id.xy] = current;
+        return;
+    }
+
+    bool sky;
+    float3 position = WorldPosition((id.xy + 0.5) * _TraceSize.zw, sky);
+    float4 previous = mul(_PrevViewProj, float4(position, 1.0));
+    float2 previousNdc = previous.xy / previous.w;
+    previousNdc.y *= _FlipY;
+    float2 previousUv = previousNdc * 0.5 + 0.5;
+    if (previous.w <= 0.0 || any(previousUv < 0.0) || any(previousUv > 1.0))
+    {
+        _HistoryOut[id.xy] = current;
+        return;
+    }
+
+    float2 history = _History.SampleLevel(sampler_LinearClamp, previousUv, 0);
+    float expected = length(position - _PrevCameraPos.xyz);
+    bool sameSurface = abs(history.y - expected) < 0.04 * expected + 0.05;
+    _HistoryOut[id.xy] = sameSurface ? float2(lerp(history.x, current.x, _Blend), current.y) : current;
+}
+
+[numthreads(8, 8, 1)]
+void Upsample(uint3 id : SV_DispatchThreadID)
+{
+    if (any(id.xy >= (uint2)_FullSize.xy)) return;
+    float2 uv = (id.xy + 0.5) * _FullSize.zw;
+    bool sky;
+    float3 position = WorldPosition(uv, sky);
+    if (sky)
+    {
+        _Result[id.xy] = 1.0;
+        return;
+    }
+    float distance0 = length(position - _CameraPos.xyz);
+    float tolerance = 0.03 * distance0 + 0.03;
+
+    float2 coord = uv * _TraceSize.xy - 0.5;
+    int2 base = (int2)floor(coord);
+    float2 fraction = coord - base;
+    float sum = 0.0;
+    float weights = 0.0;
+    [unroll] for (int y = -1; y <= 2; y++)
+    [unroll] for (int x = -1; x <= 2; x++)
+    {
+        int2 tap = clamp(base + int2(x, y), int2(0, 0), int2(_TraceSize.xy) - 1);
+        float2 tapValue = _Accumulated[tap];
+        float2 offset = float2(x, y) - fraction;
+        float spatial = exp(-dot(offset, offset) * 0.6);
+        float depthDelta = (tapValue.y - distance0) / tolerance;
+        float w = spatial * exp(-depthDelta * depthDelta) * (tapValue.y > 0.0 ? 1.0 : 0.0);
+        sum += tapValue.x * w;
+        weights += w;
+    }
+    float visibility = weights > 1e-4 ? sum / weights : _Accumulated[clamp(int2(coord + 0.5), int2(0, 0), int2(_TraceSize.xy) - 1)].x;
+    _Result[id.xy] = lerp(1.0, saturate(visibility), _Intensity);
+}

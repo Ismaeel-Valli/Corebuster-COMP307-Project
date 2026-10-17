@@ -1,0 +1,18 @@
+READ-ONLY ENV051 PREFLIGHT; no dressing assets or scene content created.
+Scene: 398f28174fd740665d66bb1a4cf2e0cd0b5898052d10c4d35c5b1495844803b1
+corebuster_env_051: FIRST-TIER-ONLY maintenance plan; upper stairs/rails/tier-2 placements deferred.
+Six wall-mounted sealed racks; 3 first-principles meshes, Gunmetal reuse, 0 prefabs/colliders/carves/lights/emitters/audio/terminals.
+Every rack is above the reserved 2.6 m gallery headroom and inside a surveyed wall-service pocket; no reserved-volume exception.
+Maintenance_South_1: South gallery wall services 1; X [-316.38, -314.18], Y [13.38, 15.28], Z [82.46, 83.10]
+Maintenance_South_2: South gallery wall services 2; X [-296.95, -294.75], Y [13.38, 15.28], Z [82.46, 83.10]
+Maintenance_South_3: South gallery wall services 3; X [-278.95, -276.75], Y [13.38, 15.28], Z [82.46, 83.10]
+Maintenance_North_1: North gallery wall services 1; X [-316.37, -314.17], Y [13.38, 15.28], Z [146.93, 147.57]
+Maintenance_North_2: North gallery wall services 2; X [-296.95, -294.75], Y [13.38, 15.28], Z [146.93, 147.57]
+Maintenance_North_3: North gallery wall services 3; X [-278.95, -276.75], Y [13.38, 15.28], Z [146.93, 147.57]
+North gallery: baseline clear width median 6,75 m, minimum 1 m; protected original geometry retained.
+South gallery: baseline clear width median 6,75 m, minimum 0,75 m; protected original geometry retained.
+Upper deck network: baseline clear width median 5,25 m, minimum 0,25 m; protected original geometry retained.
+PASS: 5351 entry, turret/deck and rail-opening firing rays have zero new bound obstructions.
+Tier 1: 36 original rail colliders, 0 cross standing eye; 0/18 level stations blocked; 92/1258 downward shots blocked by original rails.
+Tier 2: 24 original rail colliders, 24 cross standing eye; 36/36 level stations blocked; 1432/2252 downward shots blocked by original rails.
+Upper stairs and rail collision are preserved limitations, not repaired or accepted by this preflight.

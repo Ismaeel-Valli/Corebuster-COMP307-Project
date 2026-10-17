@@ -1,0 +1,6 @@
+PASS: exact disjoint Unity YAML merge; every changed object and deletion retained from both parents.
+base: SHA-256 0072d798fdd5c4d4ce312ab7e51c32cc51e629bd3094d5d2e3ee6af1e590f567, 21856 blocks
+ours: SHA-256 e520cddf1609a199ed364e615c191c6c2be77f231d058c119a65d5b6e39e47f6, 22468 blocks
+theirs: SHA-256 8a720aef517cb81c648430b01588ffcbcd6c3c3de2a7be8a27735af56c8af225, 21931 blocks
+merged: SHA-256 398f28174fd740665d66bb1a4cf2e0cd0b5898052d10c4d35c5b1495844803b1, 22543 blocks
+Zero colliding edits, duplicate IDs, conflict markers or new dangling local references.

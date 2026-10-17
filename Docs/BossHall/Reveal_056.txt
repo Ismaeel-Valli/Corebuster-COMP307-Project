@@ -1,0 +1,37 @@
+BOSS HALL REVEAL env_056 — Saved
+Scene SHA-256 fae109bf7cff7f620c51354b50eb78eb27a5434109785fd718951f3a1bca94bb
+Player eye 1.44 m, vertical FOV 60 deg, 960x540. Groups: Turret 9, Hall_Enemies 254, Assembly 112, Services 72, Upper_Tiers 372, Open_Floor 294, Meltdown_VFX 11, Giant_Core 145, Core_Platform 4, emergency lights 5, non-skin dressing renderers 203.
+FIVE FIXED ACTUAL-EYE VIEWS
+Door_Side: eye (-252.20, 1.62, 115.45), yaw 270, pitch 0, 1.00 m from door on Corridor Incline Full. Visible px of 518400: turret 0 (no dressing 0, luma 0.0), giant core 0 (no dressing 0, luma 0.0), core platform 0, enemies 0, assembly 0, services 0, upper tiers 8150, floor 1480, VFX 0; emergency-light lit px 544; central floor cells in sight 0/2695; turret head viewport (0.50, 0.64) in frame True.
+Middle_Incline: eye (-257.25, 4.66, 115.46), yaw 270, pitch 0, 6.05 m from door on Corridor Incline Full. Visible px of 518400: turret 0 (no dressing 0, luma 0.0), giant core 1626 (no dressing 1626, luma 84.2), core platform 0, enemies 0, assembly 0, services 421, upper tiers 26061, floor 26238, VFX 0; emergency-light lit px 804; central floor cells in sight 0/2695; turret head viewport (0.50, 0.60) in frame True.
+Arena_Threshold: eye (-263.04, 7.64, 115.30), yaw 270, pitch 0, 11.85 m from door on Floor Tile 04. Visible px of 518400: turret 1374 (no dressing 1374, luma 95.0), giant core 3477 (no dressing 3476, luma 74.4), core platform 2, enemies 1761, assembly 10612, services 9625, upper tiers 76099, floor 245464, VFX 34; emergency-light lit px 1445; central floor cells in sight 2504/2695; turret head viewport (0.50, 0.53) in frame True.
+Just_Inside: eye (-266.04, 7.64, 115.30), yaw 270, pitch 0, 14.85 m from door on Floor Tile 04. Visible px of 518400: turret 1696 (no dressing 1695, luma 93.4), giant core 5052 (no dressing 5052, luma 73.6), core platform 1, enemies 2931, assembly 11555, services 9232, upper tiers 91465, floor 244538, VFX 34; emergency-light lit px 57; central floor cells in sight 2514/2695; turret head viewport (0.50, 0.54) in frame True.
+Upper_Reverse: eye (-313.53, 18.12, 115.30), yaw 90, pitch -8, 62.33 m from door on Catwalk Long (86). Visible px of 518400: turret 0 (no dressing 0, luma 0.0), giant core 34064 (no dressing 34064, luma 7.7), core platform 18, enemies 0, assembly 0, services 9809, upper tiers 291198, floor 5704, VFX 0; emergency-light lit px 56106; central floor cells in sight 0/2695; turret head viewport (0.50, 0.20) in frame True.
+Door_Status_From_Incline: 1 status lamp renderers, 1120 visible px; door StartLocked True.
+Door_Status_From_Room3: 1 status lamp renderers, 1162 visible px; door StartLocked True.
+ENTRY SEQUENCE (uninterrupted, 1 m steps, level gaze along the route)
+Entry_01m: eye (-252.20, 1.62, 115.45); turret 0, giant core 0, assembly 0, upper tiers 8150, floor 1480 px
+Entry_02m: eye (-253.20, 1.62, 115.45); turret 0, giant core 0, assembly 0, upper tiers 3052, floor 1414 px
+Entry_03m: eye (-254.20, 2.36, 115.46); turret 0, giant core 0, assembly 0, upper tiers 6751, floor 2153 px
+Entry_04m: eye (-255.20, 3.05, 115.46); turret 0, giant core 0, assembly 0, upper tiers 10684, floor 2531 px
+Entry_05m: eye (-256.20, 3.74, 115.46); turret 0, giant core 645, assembly 0, upper tiers 16430, floor 3264 px
+Entry_06m: eye (-257.20, 4.43, 115.46); turret 0, giant core 172, assembly 0, upper tiers 22265, floor 32384 px
+Entry_07m: eye (-258.20, 5.11, 115.46); turret 0, giant core 2710, assembly 1275, upper tiers 34885, floor 24715 px
+Entry_08m: eye (-259.20, 5.80, 115.46); turret 0, giant core 2997, assembly 2691, upper tiers 52888, floor 1705 px
+Entry_09m: eye (-260.20, 6.72, 115.46); turret 1190, giant core 2895, assembly 9594, upper tiers 63886, floor 69233 px
+Entry_10m: eye (-261.20, 7.41, 115.46); turret 1227, giant core 2914, assembly 9941, upper tiers 68848, floor 248054 px
+Entry_11m: eye (-262.20, 7.62, 115.45); turret 1318, giant core 3191, assembly 10428, upper tiers 72191, floor 245756 px
+Entry_12m: eye (-263.20, 7.64, 115.30); turret 1384, giant core 3537, assembly 10511, upper tiers 77188, floor 245457 px
+Entry_13m: eye (-264.20, 7.64, 115.30); turret 1515, giant core 3951, assembly 10990, upper tiers 83069, floor 245238 px
+Entry_14m: eye (-265.20, 7.64, 115.30); turret 1615, giant core 4470, assembly 11159, upper tiers 86307, floor 244770 px
+Entry_15m: eye (-266.20, 7.64, 115.30); turret 1709, giant core 5084, assembly 11858, upper tiers 92293, floor 244317 px
+Entry_16m: eye (-267.20, 7.64, 115.30); turret 1830, giant core 5854, assembly 11975, upper tiers 97175, floor 243863 px
+Entry_17m: eye (-268.20, 7.64, 115.30); turret 1956, giant core 6663, assembly 12394, upper tiers 95381, floor 243095 px
+Entry_18m: eye (-269.20, 7.64, 115.30); turret 2116, giant core 7510, assembly 12659, upper tiers 92112, floor 245548 px
+Entry_19m: eye (-270.20, 7.64, 115.30); turret 2284, giant core 8623, assembly 12868, upper tiers 87675, floor 245547 px
+Entry_20m: eye (-271.20, 7.64, 115.30); turret 2534, giant core 9899, assembly 12938, upper tiers 81921, floor 245079 px
+Entry_21m: eye (-272.20, 7.64, 115.30); turret 2737, giant core 11387, assembly 13477, upper tiers 74485, floor 245111 px
+First visible along the walk: turret Entry_09m, giant core Entry_05m, assembly Entry_07m, upper tiers Entry_01m.
+SIGN RESERVATIONS (1)
+Sign_Final_Assembly [West_Assembly] centre (-324.37, 8.15, 121.80), normal (1, 0, 0), 4.0x1.0 m: Arena_Threshold 232 px, turret+core 4853; Just_Inside 234 px, turret+core 6747. Final-assembly identification on the cradle front, north of the turret and below the firing volume; read along the entry axis.
+Read-only: 63152 scene states, 3500 shared entries and scene bytes unchanged.

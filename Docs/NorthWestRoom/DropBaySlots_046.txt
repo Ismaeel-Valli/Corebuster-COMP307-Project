@@ -1,0 +1,71 @@
+corebuster_env_046 - Drop-bay slot repair
+Implementation and automated verification: 2026-10-04
+Status: Complete 2026-10-04; owner confirmed remaining live-wave sprint verification. Recorded in DONE_TASKS.md.
+
+Owner-approved footprint changes (world metres):
+E5: X [-221.3, -218.78], Z [122.223, 123.423].
+N3: X [-227.7, -226.5], Z [128.753, 131.353].
+N6: X [-242.15, -240.95], Z [128.753, 131.353].
+W2: X [-250.7, -248.1], Z [122.123, 123.323].
+All other footprints, lanes, open spaces, keep-outs and S4/E3 spawn strips unchanged.
+
+Saved change:
+- Only Pressure_Systems rebuilt, from existing meshes and saved palette materials.
+- Four 0.6 m solid visible skids and hazard fronts; one consolidated collision hull per bay.
+- Four added carving obstacles matching these hulls. Pressure count 8; room 23/24.
+- Four unused obstacle allocations reassigned: env_034 6 to 3, reserve 2 to 1, env_033 4 to 8. Total ceiling remains 24.
+- E5 and W2 existing lamp fixtures moved inward, using their existing cones/intensities/materials. Suspension lengths recomputed. General lighting builder uses the same positions.
+- Other 22 lights, surface partitions, materials, other rooms, gameplay, shell and baked NavMesh unchanged.
+
+Unity 6000.5.7f1 evidence:
+- NorthWestRoomPressure.BuildDropBaySlotsBatch: exit 0, Logs/env046_build_lights.log.
+- NorthWestRoomSignoffNavigation.RunDropBayBatch: exit 0, Logs/env046_navigation_final.log.
+- NorthWestRoomSignoff.ReviewBatch: exit 0, Logs/env046_review.log; saved scene unchanged.
+- Known headless InGameMenuManager.Update NullReferenceException remains; no new runtime exception attributed to the repair.
+- Reviewed O2_to_North, O4_to_East and O2_to_West saved-lighting views: new bases visibly meet the row faces.
+
+Scene SHA-256: 37aa4910a9d2d9cb1f89caae9956b5f1b65899cefad3eab53f334bc6a6e859d7
+
+corebuster_env_046: Pressure_Systems rebuild and two existing drop-bay fixture alignments; four visible drop skids, eight pressure carving hulls; isolated Undo, plan footprints, density targets, rendering, lighting, shared materials and save/reload passed. 15484 outside transforms/material assignments unchanged.
+Owner live-wave sprint was pending at automated-build time; confirmed 2026-10-04.
+
+Compared saved MainScene to HEAD. Only Pressure_Systems and Lighting/Bay_W2, Lighting/Bay_E5 subtrees changed.
+3 existing blocks changed; 954 removed; 974 added.
+Zero outside block changes, removals or additions.
+
+NORTH-WEST SIGN-OFF RUNTIME NAVIGATION PASSED (routes and loops). Cornered/unreachable floor is reported for review; this is not a live-wave or player-input test.
+Survey routes complete: 67
+Loop-1 (Arena, ring-to-Red/spawn 7 corridor, north service aisle L-N, north-west pocket O2): every leg complete, worst detour ratio 1.00
+Loop-2 (Arena, spawn 2 corridor, south service aisle L-S, south-east entry hall O3): every leg complete, worst detour ratio 1.00
+Loop-3 (Arena, spawn 5 corridor, east service aisle L-E, north-east pocket O4): every leg complete, worst detour ratio 1.00
+Floor scan: 2938 walkable samples at 0.5 m; 4 unreachable from the arena centre; 42 cornered (< 4/16 directions open for 2.5 m).
+  cornered in other floor: 16 samples (0 centres inside solid machinery at 1 m), e.g. (-234.9, 100.8) 2/16; (-235.4, 100.8) 3/16; (-235.4, 101.3) 3/16; (-234.4, 100.8) 3/16
+  cornered in bay N2: 14 samples (14 centres inside solid machinery at 1 m), e.g. (-225.5, 130.7) 2/16; (-224.5, 130.7) 2/16; (-225.9, 129.8) 3/16; (-225.9, 130.3) 3/16
+  cornered in bay S4: 5 samples (5 centres inside solid machinery at 1 m), e.g. (-234.9, 100.3) 2/16; (-235.4, 100.3) 3/16; (-234.4, 100.3) 3/16; (-233.9, 100.3) 3/16
+  cornered in bay E3: 4 samples (4 centres inside solid machinery at 1 m), e.g. (-219.4, 114.8) 3/16; (-219.4, 115.3) 3/16; (-219.4, 115.8) 3/16; (-219.4, 116.3) 3/16
+  cornered in open space O3: 3 samples (0 centres inside solid machinery at 1 m), e.g. (-219.9, 108.8) 3/16; (-219.4, 108.8) 3/16; (-219.1, 108.8) 3/16
+  unreachable cluster: 4 samples around (-219.3, 130.0)
+Drop bay N6 and 0.5 m apron: 0 cornered samples.
+Drop bay E5 and 0.5 m apron: 0 cornered samples.
+Drop bay N3 and 0.5 m apron: 0 cornered samples.
+Drop bay W2 and 0.5 m apron: 0 cornered samples.
+
+corebuster_env_043 sign-off, scene 37aa4910a9d2d9cb1f89caae9956b5f1b65899cefad3eab53f334bc6a6e859d7
+
+DENSITY GATE (requireTargets): PASS
+  Occupied wall line 94.2 % (body 95.4 %); South 91 %/body 95 %, North 97 %/body 97 %, West 92 %/body 92 %, East 97 %/body 97 %
+  Clear floor 75.7 % (769.2 of 1016.2 m2)
+  Open spaces: O1 201 m2 (plan 201), O2 83 m2 (plan 86), O3 70 m2 (plan 72), O4 79 m2 (plan 80), O5 123 m2 (plan 123)
+  Lanes: L-N 3.28 m, L-S 3.68 m, L-E 3.15 m; narrowest connector 5.60 m at Master Terminal to boss door inside
+  Loops clear 3/3
+  Budgets: prefabInstances 61/400, realtimeLights 24/24, carvingObstacles 23/24, materials 23/26
+LIGHTING VALIDATOR (env_037): PASS
+RENDERING VALIDATOR (env_036): PASS
+
+25 views + top-down (raw and measured) in Views/, sheets in Sheets/, colour in Colour.csv. Scene unchanged.
+
+Interpretation and limits:
+The four repaired bays and their 0.5 m aprons have zero cornered samples. The 42 raw NavMesh-only cornered samples elsewhere include 14 N2 centres inside its unchanged solid collider (newly classed as cornered because N3's carve closes their old phantom exit); S4/E3 centres also overlap existing solid hulls. This is not evidence of 42 player-accessible traps. Four unreachable samples behind the north-east bank remain unchanged. No collider or footprint in those other bays was edited.
+Owner confirmed the remaining live-wave sprint check at all four former slots on 2026-10-04. The agent did not independently observe that manual run. Task completion is recorded in DONE_TASKS.md; no target-hardware player build or profiling claim is made.
+BossHallLayout.json fingerprints all scene state outside its dressing root, including Room 3; this authorized repair makes that stored baseline stale. Reconcile explicitly before the next Boss Hall build, using the audited env_046 scene diff. The Boss Hall contract and skin manifest were left unchanged by this Room 3 task.
+Unity-generated blank YAML scalar spaces remain. Diff whitespace verification passes with blank-at-eol ignored; source and report whitespace checks pass normally.

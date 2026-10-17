@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c1644fd7b6612e49a0e12fc972a674c, type: 3}
+  m_Name: Keycard_Black
+  m_EditorClassIdentifier: fps.Gameplay::Unity.FPS.Gameplay.KeycardData
+  DisplayName: BLACK KEYCARD
+  Tint: {r: 0.82, g: 0.86, b: 0.95, a: 1}
+  Icon: {fileID: 21300000, guid: 65678a50382660047b57d0d98e85afaf, type: 3}
+  Model: {fileID: 7053835782382528803, guid: 0cde348d2be3a1541976b07805333f8a, type: 3}

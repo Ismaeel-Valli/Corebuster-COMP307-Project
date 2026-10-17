@@ -1,0 +1,5119 @@
+{
+    "unityVersion": "6000.5.7f1",
+    "sceneSha256": "8ce1fe7a4bae82e3aebfda13a6e5aa85e247aa25fe378b0aeb3ca5e66e94d3d6",
+    "surveyedUtc": "2026-09-30T16:56:53Z",
+    "interior": {
+        "name": "Measured interior",
+        "id": "",
+        "min": {
+            "x": -250.6998291015625,
+            "y": 0.17999982833862306,
+            "z": 99.52273559570313
+        },
+        "max": {
+            "x": -218.77593994140626,
+            "y": 11.076486587524414,
+            "z": 131.3545379638672
+        }
+    },
+    "centre": {
+        "x": -234.73788452148438,
+        "y": 0.18000000715255738,
+        "z": 115.43863677978516
+    },
+    "floorTopY": 0.18000000715255738,
+    "ceilingUndersideY": 11.07648754119873,
+    "physicalGroundY": -0.0000021457672119140627,
+    "movementBandTopY": 2.380000114440918,
+    "walls": [
+        {
+            "wall": "West",
+            "plane": -250.69984436035157,
+            "spread": 0.0268707275390625,
+            "hits": 25,
+            "openings": 0,
+            "deviations": [
+                "Z 115.44, +1.2 m: no shell hit within 40 m"
+            ]
+        },
+        {
+            "wall": "East",
+            "plane": -218.77593994140626,
+            "spread": 0.0,
+            "hits": 20,
+            "openings": 0,
+            "deviations": [
+                "Z 105.83, +1.2 m: no shell hit within 40 m",
+                "Z 105.83, +5.0 m: no shell hit within 40 m",
+                "Z 108.23, +1.2 m: no shell hit within 40 m",
+                "Z 108.23, +5.0 m: no shell hit within 40 m",
+                "Z 110.63, +1.2 m: no shell hit within 40 m",
+                "Z 110.63, +5.0 m: no shell hit within 40 m"
+            ]
+        },
+        {
+            "wall": "South",
+            "plane": 99.52273559570313,
+            "spread": 0.0558624267578125,
+            "hits": 26,
+            "openings": 0,
+            "deviations": []
+        },
+        {
+            "wall": "North",
+            "plane": 131.3545379638672,
+            "spread": 0.0560302734375,
+            "hits": 26,
+            "openings": 0,
+            "deviations": []
+        }
+    ],
+    "shell": [
+        {
+            "name": "Floor Tile 01 (33)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-398041306",
+            "kind": "floor",
+            "min": {
+                "x": -242.87998962402345,
+                "y": -0.15962263941764832,
+                "z": 99.10900115966797
+            },
+            "max": {
+                "x": -234.7290496826172,
+                "y": 0.18000000715255738,
+                "z": 107.25994110107422
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (34)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-506677890",
+            "kind": "floor",
+            "min": {
+                "x": -251.0399932861328,
+                "y": -0.15962263941764832,
+                "z": 99.10900115966797
+            },
+            "max": {
+                "x": -242.88905334472657,
+                "y": 0.18000000715255738,
+                "z": 107.25994110107422
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (35)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1722713091",
+            "kind": "floor",
+            "min": {
+                "x": -251.0399932861328,
+                "y": -0.15962263941764832,
+                "z": 107.26000213623047
+            },
+            "max": {
+                "x": -242.88905334472657,
+                "y": 0.18000000715255738,
+                "z": 115.41094207763672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (36)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-213704853",
+            "kind": "floor",
+            "min": {
+                "x": -251.02999877929688,
+                "y": -0.15962263941764832,
+                "z": 115.41099548339844
+            },
+            "max": {
+                "x": -242.87905883789063,
+                "y": 0.18000000715255738,
+                "z": 123.56193542480469
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (37)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-128800387",
+            "kind": "floor",
+            "min": {
+                "x": -242.87998962402345,
+                "y": -0.15962263941764832,
+                "z": 107.26000213623047
+            },
+            "max": {
+                "x": -234.7290496826172,
+                "y": 0.18000000715255738,
+                "z": 115.41094207763672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (38)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1447573394",
+            "kind": "floor",
+            "min": {
+                "x": -242.87998962402345,
+                "y": -0.15962263941764832,
+                "z": 115.41099548339844
+            },
+            "max": {
+                "x": -234.7290496826172,
+                "y": 0.18000000715255738,
+                "z": 123.56193542480469
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (39)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1327178351",
+            "kind": "floor",
+            "min": {
+                "x": -242.87998962402345,
+                "y": -0.15962263941764832,
+                "z": 123.56199645996094
+            },
+            "max": {
+                "x": -234.7290496826172,
+                "y": 0.18000000715255738,
+                "z": 131.7129364013672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (40)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-595953309",
+            "kind": "floor",
+            "min": {
+                "x": -234.739990234375,
+                "y": -0.15962263941764832,
+                "z": 123.56199645996094
+            },
+            "max": {
+                "x": -226.58905029296876,
+                "y": 0.18000000715255738,
+                "z": 131.7129364013672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (41)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-731713318",
+            "kind": "floor",
+            "min": {
+                "x": -226.58999633789063,
+                "y": -0.15962263941764832,
+                "z": 123.56199645996094
+            },
+            "max": {
+                "x": -218.43905639648438,
+                "y": 0.18000000715255738,
+                "z": 131.7129364013672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (42)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1837983691",
+            "kind": "floor",
+            "min": {
+                "x": -251.02999877929688,
+                "y": -0.15962263941764832,
+                "z": 123.56199645996094
+            },
+            "max": {
+                "x": -242.87905883789063,
+                "y": 0.18000000715255738,
+                "z": 131.7129364013672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (43)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-445380381",
+            "kind": "floor",
+            "min": {
+                "x": -234.739990234375,
+                "y": -0.15962263941764832,
+                "z": 115.41099548339844
+            },
+            "max": {
+                "x": -226.58905029296876,
+                "y": 0.18000000715255738,
+                "z": 123.56193542480469
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (44)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-613847630",
+            "kind": "floor",
+            "min": {
+                "x": -234.739990234375,
+                "y": -0.15962263941764832,
+                "z": 107.26000213623047
+            },
+            "max": {
+                "x": -226.58905029296876,
+                "y": 0.18000000715255738,
+                "z": 115.41094207763672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (45)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-839677719",
+            "kind": "floor",
+            "min": {
+                "x": -234.739990234375,
+                "y": -0.15962263941764832,
+                "z": 99.10900115966797
+            },
+            "max": {
+                "x": -226.58905029296876,
+                "y": 0.18000000715255738,
+                "z": 107.25994110107422
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (46)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-921656338",
+            "kind": "floor",
+            "min": {
+                "x": -226.59999084472657,
+                "y": -0.15962263941764832,
+                "z": 99.10900115966797
+            },
+            "max": {
+                "x": -218.4490509033203,
+                "y": 0.18000000715255738,
+                "z": 107.25994110107422
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (47)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-619923987",
+            "kind": "floor",
+            "min": {
+                "x": -226.59999084472657,
+                "y": -0.15962263941764832,
+                "z": 107.26000213623047
+            },
+            "max": {
+                "x": -218.4490509033203,
+                "y": 0.18000000715255738,
+                "z": 115.41094207763672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (48)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-213080055",
+            "kind": "floor",
+            "min": {
+                "x": -226.58999633789063,
+                "y": -0.15962263941764832,
+                "z": 115.41099548339844
+            },
+            "max": {
+                "x": -218.43905639648438,
+                "y": 0.18000000715255738,
+                "z": 123.56193542480469
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (49)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-52785909",
+            "kind": "ceiling",
+            "min": {
+                "x": -242.87997436523438,
+                "y": 11.07648754119873,
+                "z": 99.10900115966797
+            },
+            "max": {
+                "x": -234.72903442382813,
+                "y": 11.416110038757325,
+                "z": 107.25994110107422
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (50)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1079915075",
+            "kind": "ceiling",
+            "min": {
+                "x": -242.87997436523438,
+                "y": 11.07648754119873,
+                "z": 107.26000213623047
+            },
+            "max": {
+                "x": -234.72903442382813,
+                "y": 11.416110038757325,
+                "z": 115.41094207763672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (51)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-905070210",
+            "kind": "ceiling",
+            "min": {
+                "x": -242.87997436523438,
+                "y": 11.07648754119873,
+                "z": 115.41099548339844
+            },
+            "max": {
+                "x": -234.72903442382813,
+                "y": 11.416110038757325,
+                "z": 123.56193542480469
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (52)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-2103086535",
+            "kind": "ceiling",
+            "min": {
+                "x": -234.73997497558595,
+                "y": 11.07648754119873,
+                "z": 115.41099548339844
+            },
+            "max": {
+                "x": -226.5890350341797,
+                "y": 11.416110038757325,
+                "z": 123.56193542480469
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (53)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1430317635",
+            "kind": "ceiling",
+            "min": {
+                "x": -234.73997497558595,
+                "y": 11.07648754119873,
+                "z": 107.26000213623047
+            },
+            "max": {
+                "x": -226.5890350341797,
+                "y": 11.416110038757325,
+                "z": 115.41094207763672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (54)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1681725058",
+            "kind": "ceiling",
+            "min": {
+                "x": -234.73997497558595,
+                "y": 11.07648754119873,
+                "z": 99.10900115966797
+            },
+            "max": {
+                "x": -226.5890350341797,
+                "y": 11.416110038757325,
+                "z": 107.25994110107422
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (55)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1130138321",
+            "kind": "ceiling",
+            "min": {
+                "x": -226.5999755859375,
+                "y": 11.07648754119873,
+                "z": 99.10900115966797
+            },
+            "max": {
+                "x": -218.44903564453126,
+                "y": 11.416110038757325,
+                "z": 107.25994110107422
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (56)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1791038408",
+            "kind": "ceiling",
+            "min": {
+                "x": -226.5999755859375,
+                "y": 11.07648754119873,
+                "z": 107.26000213623047
+            },
+            "max": {
+                "x": -218.44903564453126,
+                "y": 11.416110038757325,
+                "z": 115.41094207763672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (57)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-939654689",
+            "kind": "ceiling",
+            "min": {
+                "x": -226.58998107910157,
+                "y": 11.07648754119873,
+                "z": 115.41099548339844
+            },
+            "max": {
+                "x": -218.4390411376953,
+                "y": 11.416110038757325,
+                "z": 123.56193542480469
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (58)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-872703653",
+            "kind": "ceiling",
+            "min": {
+                "x": -251.03997802734376,
+                "y": 11.07648754119873,
+                "z": 99.10900115966797
+            },
+            "max": {
+                "x": -242.8890380859375,
+                "y": 11.416110038757325,
+                "z": 107.25994110107422
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (59)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-321480950",
+            "kind": "ceiling",
+            "min": {
+                "x": -251.03997802734376,
+                "y": 11.07648754119873,
+                "z": 107.26000213623047
+            },
+            "max": {
+                "x": -242.8890380859375,
+                "y": 11.416110038757325,
+                "z": 115.41094207763672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (60)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1897162248",
+            "kind": "ceiling",
+            "min": {
+                "x": -251.0299835205078,
+                "y": 11.07648754119873,
+                "z": 115.41099548339844
+            },
+            "max": {
+                "x": -242.87904357910157,
+                "y": 11.416110038757325,
+                "z": 123.56193542480469
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (61)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1179873021",
+            "kind": "ceiling",
+            "min": {
+                "x": -242.87997436523438,
+                "y": 11.07648754119873,
+                "z": 123.56199645996094
+            },
+            "max": {
+                "x": -234.72903442382813,
+                "y": 11.416110038757325,
+                "z": 131.7129364013672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (62)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1366624732",
+            "kind": "ceiling",
+            "min": {
+                "x": -251.0299835205078,
+                "y": 11.07648754119873,
+                "z": 123.56199645996094
+            },
+            "max": {
+                "x": -242.87904357910157,
+                "y": 11.416110038757325,
+                "z": 131.7129364013672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (63)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-155428316",
+            "kind": "ceiling",
+            "min": {
+                "x": -226.58998107910157,
+                "y": 11.07648754119873,
+                "z": 123.56199645996094
+            },
+            "max": {
+                "x": -218.4390411376953,
+                "y": 11.416110038757325,
+                "z": 131.7129364013672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Floor Tile 01 (64)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1538635482",
+            "kind": "ceiling",
+            "min": {
+                "x": -234.73997497558595,
+                "y": 11.07648754119873,
+                "z": 123.56199645996094
+            },
+            "max": {
+                "x": -226.5890350341797,
+                "y": 11.416110038757325,
+                "z": 131.7129364013672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 0
+        },
+        {
+            "name": "Wall Door (3)/LP_Door_frame_snaps",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1148355104667292788-1319854497",
+            "kind": "wall",
+            "min": {
+                "x": -251.0782012939453,
+                "y": 0.19793391227722169,
+                "z": 114.15121459960938
+            },
+            "max": {
+                "x": -250.6760711669922,
+                "y": 3.365678548812866,
+                "z": 116.80599975585938
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 5
+        },
+        {
+            "name": "Wall Door (3)/LP_Door_Wall_snaps",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2480694209691719482-1319854497",
+            "kind": "wall",
+            "min": {
+                "x": -251.0267333984375,
+                "y": -1.020698070526123,
+                "z": 112.19999694824219
+            },
+            "max": {
+                "x": -250.72671508789063,
+                "y": 11.18653678894043,
+                "z": 118.75738525390625
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 5
+        },
+        {
+            "name": "Wall Plain (12)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-973934753",
+            "kind": "wall",
+            "min": {
+                "x": -251.0267333984375,
+                "y": 0.17999935150146485,
+                "z": 125.11463928222656
+            },
+            "max": {
+                "x": -250.6998291015625,
+                "y": 11.076492309570313,
+                "z": 131.7129364013672
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (18)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1916336405",
+            "kind": "wall",
+            "min": {
+                "x": -251.02735900878907,
+                "y": 0.17999935150146485,
+                "z": 131.37332153320313
+            },
+            "max": {
+                "x": -244.42845153808595,
+                "y": 11.076492309570313,
+                "z": 131.71295166015626
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (22)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-2140065083",
+            "kind": "wall",
+            "min": {
+                "x": -231.4329833984375,
+                "y": 0.1800551414489746,
+                "z": 99.17692565917969
+            },
+            "max": {
+                "x": -224.93243408203126,
+                "y": 11.076547622680664,
+                "z": 99.51637268066406
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (23)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1803020883",
+            "kind": "wall",
+            "min": {
+                "x": -244.4328155517578,
+                "y": 0.18005037307739259,
+                "z": 99.20206451416016
+            },
+            "max": {
+                "x": -237.93226623535157,
+                "y": 11.076543807983399,
+                "z": 99.54151153564453
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (24)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-495096449",
+            "kind": "wall",
+            "min": {
+                "x": -237.93289184570313,
+                "y": 0.18005037307739259,
+                "z": 99.18946075439453
+            },
+            "max": {
+                "x": -231.43234252929688,
+                "y": 11.076543807983399,
+                "z": 99.5289077758789
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (25)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-2077623361",
+            "kind": "wall",
+            "min": {
+                "x": -251.0267333984375,
+                "y": 0.18002557754516602,
+                "z": 99.21461486816406
+            },
+            "max": {
+                "x": -244.42782592773438,
+                "y": 11.076519012451172,
+                "z": 99.55424499511719
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (28)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-642359411",
+            "kind": "wall",
+            "min": {
+                "x": -237.9335174560547,
+                "y": 0.1800241470336914,
+                "z": 131.34817504882813
+            },
+            "max": {
+                "x": -231.43296813964845,
+                "y": 11.076517105102539,
+                "z": 131.6876220703125
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (29)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-794175649",
+            "kind": "wall",
+            "min": {
+                "x": -244.43344116210938,
+                "y": 0.1800241470336914,
+                "z": 131.36077880859376
+            },
+            "max": {
+                "x": -237.93289184570313,
+                "y": 11.076517105102539,
+                "z": 131.70022583007813
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (30)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1361864911",
+            "kind": "wall",
+            "min": {
+                "x": -224.93341064453126,
+                "y": 0.1800241470336914,
+                "z": 131.32293701171876
+            },
+            "max": {
+                "x": -218.432861328125,
+                "y": 11.076517105102539,
+                "z": 131.66238403320313
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (32)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-250287122",
+            "kind": "wall",
+            "min": {
+                "x": -251.0267333984375,
+                "y": 0.1800241470336914,
+                "z": 118.61900329589844
+            },
+            "max": {
+                "x": -250.6998291015625,
+                "y": 11.076517105102539,
+                "z": 125.11892700195313
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (33)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1852438591",
+            "kind": "wall",
+            "min": {
+                "x": -251.0267333984375,
+                "y": 0.1800241470336914,
+                "z": 99.11900329589844
+            },
+            "max": {
+                "x": -250.6998291015625,
+                "y": 11.076517105102539,
+                "z": 105.61892700195313
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (34)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-975084309",
+            "kind": "wall",
+            "min": {
+                "x": -218.77593994140626,
+                "y": 0.17997360229492188,
+                "z": 112.0199966430664
+            },
+            "max": {
+                "x": -218.44903564453126,
+                "y": 11.07646656036377,
+                "z": 118.7012710571289
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (35)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1018392336",
+            "kind": "wall",
+            "min": {
+                "x": -251.0267333984375,
+                "y": 0.17997360229492188,
+                "z": 105.3699951171875
+            },
+            "max": {
+                "x": -250.6998291015625,
+                "y": 11.07646656036377,
+                "z": 112.15072631835938
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (36)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1265597119",
+            "kind": "wall",
+            "min": {
+                "x": -218.77593994140626,
+                "y": 0.17999744415283204,
+                "z": 99.1090087890625
+            },
+            "max": {
+                "x": -218.44903564453126,
+                "y": 11.07649040222168,
+                "z": 105.60893249511719
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (37)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-494054468",
+            "kind": "wall",
+            "min": {
+                "x": -218.77593994140626,
+                "y": 0.17999744415283204,
+                "z": 118.6090087890625
+            },
+            "max": {
+                "x": -218.44903564453126,
+                "y": 11.07649040222168,
+                "z": 125.10893249511719
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (56)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-1684657414",
+            "kind": "wall",
+            "min": {
+                "x": -231.43359375,
+                "y": 0.18002605438232423,
+                "z": 131.3356475830078
+            },
+            "max": {
+                "x": -224.93304443359376,
+                "y": 11.076519012451172,
+                "z": 131.6750946044922
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (57)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-114040791",
+            "kind": "wall",
+            "min": {
+                "x": -225.04141235351563,
+                "y": 0.18005657196044923,
+                "z": 99.16460418701172
+            },
+            "max": {
+                "x": -218.54086303710938,
+                "y": 11.076549530029297,
+                "z": 99.5040512084961
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        },
+        {
+            "name": "Wall Plain (7)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2300000-462894185",
+            "kind": "wall",
+            "min": {
+                "x": -218.77593994140626,
+                "y": 0.17997312545776368,
+                "z": 125.10464477539063
+            },
+            "max": {
+                "x": -218.44903564453126,
+                "y": 11.076465606689454,
+                "z": 131.70294189453126
+            },
+            "rendererEnabled": true,
+            "active": true,
+            "enabledColliders": 1
+        }
+    ],
+    "floorTiles": 16,
+    "ceilingTiles": 16,
+    "wallPieces": 20,
+    "disabledShellRenderers": 0,
+    "floorOverlaps": [],
+    "ceilingOverlaps": [],
+    "existingContent": [
+        {
+            "name": "===== KEYCARD PROGRESSION =====/Master Terminal (8 renderers)",
+            "id": "",
+            "min": {
+                "x": -250.67984008789063,
+                "y": -0.0000021457672119140627,
+                "z": 105.27522277832031
+            },
+            "max": {
+                "x": -250.13858032226563,
+                "y": 2.9615306854248049,
+                "z": 106.69752502441406
+            }
+        },
+        {
+            "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red) (3 renderers)",
+            "id": "",
+            "min": {
+                "x": -234.97630310058595,
+                "y": -0.0000021457672119140627,
+                "z": 130.646728515625
+            },
+            "max": {
+                "x": -234.01829528808595,
+                "y": 1.6383472681045533,
+                "z": 131.3040771484375
+            }
+        }
+    ],
+    "lights": [
+        "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red)/Status Light: Point, range 6.00, intensity 1.00, at (-234.50, 2.09, 130.75)",
+        "===== KEYCARD PROGRESSION =====/Master Terminal/Status Light: Point, range 7.00, intensity 1.00, at (-249.88, 2.20, 106.00)"
+    ],
+    "gates": [
+        {
+            "name": "North-West Room Door (E)",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1931736969-0",
+            "position": {
+                "x": -218.279052734375,
+                "y": -0.0000021457672119140627,
+                "z": 108.80500030517578
+            },
+            "outward": {
+                "x": 1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "along": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "outwardIsTransformRight": true,
+            "startsLocked": true,
+            "hasObstacle": true,
+            "blocker": {
+                "name": "Closed blocker",
+                "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1931736971-0",
+                "min": {
+                    "x": -218.42904663085938,
+                    "y": -0.0000021457672119140627,
+                    "z": 106.9704360961914
+                },
+                "max": {
+                    "x": -218.12905883789063,
+                    "y": 3.5999977588653566,
+                    "z": 110.63956451416016
+                }
+            },
+            "structure": {
+                "name": "North-West Room Door (E) structure",
+                "id": "",
+                "min": {
+                    "x": -218.45904541015626,
+                    "y": -0.0000021457672119140627,
+                    "z": 106.96983337402344
+                },
+                "max": {
+                    "x": -218.09906005859376,
+                    "y": 2.9868385791778566,
+                    "z": 110.64016723632813
+                }
+            },
+            "clearMin": -1.079999566078186,
+            "clearMax": 1.0399996042251588,
+            "lintelY": 2.8199992179870607,
+            "visibleOpenMin": -1.0599995851516724,
+            "visibleOpenMax": 1.019999623298645,
+            "visibleLintelY": 2.559999465942383,
+            "approach": {
+                "name": "North-West Room Door (E) approach",
+                "id": "",
+                "min": {
+                    "x": -222.279052734375,
+                    "y": 0.1799999475479126,
+                    "z": 106.72500610351563
+                },
+                "max": {
+                    "x": -218.279052734375,
+                    "y": 2.380000114440918,
+                    "z": 110.84500122070313
+                }
+            },
+            "lamps": [
+                {
+                    "x": -218.279052734375,
+                    "y": 2.951838493347168,
+                    "z": 108.80500030517578
+                }
+            ],
+            "lampLight": {
+                "x": -217.5790557861328,
+                "y": 2.7918386459350588,
+                "z": 108.80500030517578
+            },
+            "inspectedColliders": [
+                "===== KEYCARD PROGRESSION =====/Access Machine (YELLOW KEYCARD)",
+                "Alternate Wall Door (2)",
+                "Plane (1)",
+                "Plane (1)/Corridor_I (44)/floor_2",
+                "Plane (1)/Corridor_I (44)/window_big_complete (4)",
+                "Plane (1)/Corridor_T (11)/floor_2 (2)",
+                "Plane (1)/Corridor_T (11)/floor_2 (3)",
+                "Plane (1)/Corridor_T (11)/floor_2_no_lattice (1)",
+                "Plane (1)/Corridor_T (11)/floor_2_no_lattice (2)",
+                "Plane (1)/Corridor_T (11)/floor_2_no_lattice (3)",
+                "Plane (1)/Corridor_T (11)/floor_5",
+                "Plane (1)/Corridor_T (11)/window_big (1)/window_big",
+                "Plane (1)/Corridor_T (11)/window_big (2)/window_big",
+                "Plane (1)/Corridor_T (11)/window_big_corner (1)/window_big_corner",
+                "Plane (1)/Corridor_T (11)/window_big_corner (1)/window_big_corner_plug",
+                "Wall Plain (34)",
+                "Wall Plain (36)"
+            ]
+        },
+        {
+            "name": "Boss Hall Door",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1779919935-0",
+            "position": {
+                "x": -251.1967315673828,
+                "y": -0.0000021457672119140627,
+                "z": 115.45500183105469
+            },
+            "outward": {
+                "x": -1.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "along": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "outwardIsTransformRight": true,
+            "startsLocked": true,
+            "hasObstacle": true,
+            "blocker": {
+                "name": "Closed blocker",
+                "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1779919937-0",
+                "min": {
+                    "x": -251.3467254638672,
+                    "y": -0.0000021457672119140627,
+                    "z": 113.62043762207031
+                },
+                "max": {
+                    "x": -251.04673767089845,
+                    "y": 3.5999977588653566,
+                    "z": 117.28956604003906
+                }
+            },
+            "structure": {
+                "name": "Boss Hall Door structure",
+                "id": "",
+                "min": {
+                    "x": -251.37673950195313,
+                    "y": -0.0000021457672119140627,
+                    "z": 113.61982727050781
+                },
+                "max": {
+                    "x": -251.01675415039063,
+                    "y": 2.9868385791778566,
+                    "z": 117.29017639160156
+                }
+            },
+            "clearMin": -0.7799997925758362,
+            "clearMax": 0.7799997925758362,
+            "lintelY": 3.9799981117248537,
+            "visibleOpenMin": -0.7599998116493225,
+            "visibleOpenMax": 0.7599998116493225,
+            "visibleLintelY": 2.559999465942383,
+            "approach": {
+                "name": "Boss Hall Door approach",
+                "id": "",
+                "min": {
+                    "x": -251.1967315673828,
+                    "y": 0.1799999475479126,
+                    "z": 113.67500305175781
+                },
+                "max": {
+                    "x": -247.1967315673828,
+                    "y": 2.380000114440918,
+                    "z": 117.23500061035156
+                }
+            },
+            "lamps": [
+                {
+                    "x": -251.1967315673828,
+                    "y": 2.951838493347168,
+                    "z": 115.45500183105469
+                }
+            ],
+            "lampLight": {
+                "x": -251.896728515625,
+                "y": 2.7918386459350588,
+                "z": 115.45500183105469
+            },
+            "inspectedColliders": [
+                "Corridor Incline Full/Tunnel Incline Ceiling001",
+                "Corridor Incline Full/Tunnel Incline Floor001",
+                "Corridor Incline Full/Tunnel Incline Steps001",
+                "Corridor Incline Full/Tunnel Incline Walls001",
+                "Plane (1)",
+                "Plane (2)",
+                "Wall Door (3)/LP_Door_frame_snaps",
+                "Wall Door (3)/LP_Door_Wall_snaps",
+                "Wall Door (3)/LP_Door_Wall_snaps",
+                "Wall Door (3)/LP_Door_Wall_snaps",
+                "Wall Door (3)/LP_Door_Wall_snaps",
+                "Wall Plain (32)",
+                "Wall Plain (35)"
+            ]
+        }
+    ],
+    "redTerminal": {
+        "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-238864645-0",
+        "type": "KeycardTerminal",
+        "position": {
+            "x": -234.5,
+            "y": -0.0000021457672119140627,
+            "z": 131.05392456054688
+        },
+        "forward": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+        },
+        "focus": {
+            "name": "Focus",
+            "id": "",
+            "position": {
+                "x": -234.49729919433595,
+                "y": 1.5883474349975587,
+                "z": 130.85540771484376
+            },
+            "onNavMesh": false,
+            "navPosition": {
+                "x": -234.49729919433595,
+                "y": 1.5883474349975587,
+                "z": 130.85540771484376
+            }
+        },
+        "standing": {
+            "name": "Standing point",
+            "id": "",
+            "position": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "onNavMesh": true,
+            "navPosition": {
+                "x": -234.49729919433595,
+                "y": 0.25,
+                "z": 129.25540161132813
+            }
+        },
+        "range": 2.5999999046325685,
+        "eyeHeight": 1.4399999380111695,
+        "eyeY": 1.4399977922439576,
+        "eyeDistance": 1.6068687438964844,
+        "reachRadiusAtEye": 2.59576416015625,
+        "pitchToFocus": -5.297214984893799,
+        "maxAimAngle": 30.0,
+        "promptWhenLookingLevel": true,
+        "focusVisible": true,
+        "standingClear": true,
+        "standingInside": true,
+        "reachSamples": 208,
+        "reachUsable": 150,
+        "body": {
+            "name": "Terminal body",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-238864645-0",
+            "min": {
+                "x": -234.976318359375,
+                "y": -0.0000021457672119140627,
+                "z": 130.646728515625
+            },
+            "max": {
+                "x": -234.018310546875,
+                "y": 1.6383472681045533,
+                "z": 131.3040771484375
+            }
+        },
+        "keepOut": {
+            "name": "North-West Room Terminal (Red) access, reach and sightline",
+            "id": "",
+            "min": {
+                "x": -237.247314453125,
+                "y": 0.1799999475479126,
+                "z": 127.75540161132813
+            },
+            "max": {
+                "x": -231.69732666015626,
+                "y": 2.380000114440918,
+                "z": 131.3040771484375
+            }
+        },
+        "slots": [],
+        "slotForwards": [],
+        "slotMouthVisible": [],
+        "lookAt": {
+            "name": "",
+            "id": "",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "onNavMesh": false,
+            "navPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "lookAtVisible": false,
+        "lookAtYaw": 0.0,
+        "lookAtPitch": 0.0,
+        "cards": [
+            "Keycard_Red"
+        ],
+        "doors": [
+            "North-West Room Door (E)"
+        ]
+    },
+    "masterTerminal": {
+        "name": "===== KEYCARD PROGRESSION =====/Master Terminal",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-479046536-0",
+        "type": "MasterTerminal",
+        "position": {
+            "x": -250.67984008789063,
+            "y": -0.0000021457672119140627,
+            "z": 106.00000762939453
+        },
+        "forward": {
+            "x": 1.0000001192092896,
+            "y": 0.0,
+            "z": -1.1920928955078126e-7
+        },
+        "focus": {
+            "name": "Focus",
+            "id": "",
+            "position": {
+                "x": -250.15206909179688,
+                "y": 1.1499977111816407,
+                "z": 106.00000762939453
+            },
+            "onNavMesh": false,
+            "navPosition": {
+                "x": -250.15206909179688,
+                "y": 1.1499977111816407,
+                "z": 106.00000762939453
+            }
+        },
+        "standing": {
+            "name": "Standing point",
+            "id": "",
+            "position": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "onNavMesh": true,
+            "navPosition": {
+                "x": -248.55206298828126,
+                "y": 0.25,
+                "z": 106.00000762939453
+            }
+        },
+        "range": 2.5999999046325685,
+        "eyeHeight": 1.4399999380111695,
+        "eyeY": 1.4399977922439576,
+        "eyeDistance": 1.6260749101638795,
+        "reachRadiusAtEye": 2.5837762355804445,
+        "pitchToFocus": 10.273295402526856,
+        "maxAimAngle": 30.0,
+        "promptWhenLookingLevel": true,
+        "focusVisible": true,
+        "standingClear": true,
+        "standingInside": true,
+        "reachSamples": 206,
+        "reachUsable": 163,
+        "body": {
+            "name": "Terminal body",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-479046536-0",
+            "min": {
+                "x": -250.67984008789063,
+                "y": -0.0000021457672119140627,
+                "z": 105.27522277832031
+            },
+            "max": {
+                "x": -250.13858032226563,
+                "y": 2.9615306854248049,
+                "z": 106.69752502441406
+            }
+        },
+        "keepOut": {
+            "name": "Master Terminal access, reach and sightline",
+            "id": "",
+            "min": {
+                "x": -250.67984008789063,
+                "y": 0.1799999475479126,
+                "z": 103.25001525878906
+            },
+            "max": {
+                "x": -247.05206298828126,
+                "y": 2.380000114440918,
+                "z": 108.80000305175781
+            }
+        },
+        "slots": [
+            {
+                "name": "===== KEYCARD PROGRESSION =====/Master Terminal/Card Slot 1",
+                "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-671499864-0",
+                "position": {
+                    "x": -250.15206909179688,
+                    "y": 1.1499977111816407,
+                    "z": 105.70000457763672
+                },
+                "onNavMesh": false,
+                "navPosition": {
+                    "x": -250.15206909179688,
+                    "y": 1.1499977111816407,
+                    "z": 105.70000457763672
+                }
+            },
+            {
+                "name": "===== KEYCARD PROGRESSION =====/Master Terminal/Card Slot 2",
+                "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-502158955-0",
+                "position": {
+                    "x": -250.15206909179688,
+                    "y": 1.1499977111816407,
+                    "z": 106.00000762939453
+                },
+                "onNavMesh": false,
+                "navPosition": {
+                    "x": -250.15206909179688,
+                    "y": 1.1499977111816407,
+                    "z": 106.00000762939453
+                }
+            },
+            {
+                "name": "===== KEYCARD PROGRESSION =====/Master Terminal/Card Slot 3",
+                "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1048312034-0",
+                "position": {
+                    "x": -250.15206909179688,
+                    "y": 1.1499977111816407,
+                    "z": 106.30001068115235
+                },
+                "onNavMesh": false,
+                "navPosition": {
+                    "x": -250.15206909179688,
+                    "y": 1.1499977111816407,
+                    "z": 106.30001068115235
+                }
+            }
+        ],
+        "slotForwards": [
+            {
+                "x": -1.0000001192092896,
+                "y": 0.0,
+                "z": -1.1920928955078126e-7
+            },
+            {
+                "x": -1.0000001192092896,
+                "y": 0.0,
+                "z": -1.1920928955078126e-7
+            },
+            {
+                "x": -1.0000001192092896,
+                "y": 0.0,
+                "z": -1.1920928955078126e-7
+            }
+        ],
+        "slotMouthVisible": [
+            true,
+            true,
+            true
+        ],
+        "lookAt": {
+            "name": "===== KEYCARD PROGRESSION =====/Master Terminal/Look At",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-702815660-0",
+            "position": {
+                "x": -250.15206909179688,
+                "y": 1.1499977111816407,
+                "z": 106.00000762939453
+            },
+            "onNavMesh": false,
+            "navPosition": {
+                "x": -250.15206909179688,
+                "y": 1.1499977111816407,
+                "z": 106.00000762939453
+            }
+        },
+        "lookAtVisible": true,
+        "lookAtYaw": 270.0,
+        "lookAtPitch": 10.273295402526856,
+        "cards": [
+            "Keycard_Blue",
+            "Keycard_Yellow",
+            "Keycard_Red"
+        ],
+        "doors": [
+            "Boss Hall Door"
+        ]
+    },
+    "accessMachine": {
+        "name": "===== KEYCARD PROGRESSION =====/Access Machine (YELLOW KEYCARD) (Keycard_Yellow)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-705550676-0",
+        "position": {
+            "x": -216.779052734375,
+            "y": 1.2999978065490723,
+            "z": 112.1422348022461
+        },
+        "onNavMesh": false,
+        "navPosition": {
+            "x": -216.779052734375,
+            "y": 1.2999978065490723,
+            "z": 112.1422348022461
+        }
+    },
+    "accessStanding": {
+        "name": "Access machine tap standing point",
+        "id": "",
+        "position": {
+            "x": -216.779052734375,
+            "y": 0.09999778866767883,
+            "z": 111.27423858642578
+        },
+        "onNavMesh": true,
+        "navPosition": {
+            "x": -216.779052734375,
+            "y": 0.23551593720912934,
+            "z": 111.27423858642578
+        }
+    },
+    "playerEyeHeight": 1.4399999380111695,
+    "maxAimAngle": 30.0,
+    "minSpawnDistance": 7.0,
+    "spawns": [
+        {
+            "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red) Spawn Points/Spawn Point 1",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1398526079-0",
+            "position": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "navPosition": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "warpPosition": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "onNavMesh": true,
+            "warpOnNavMesh": true,
+            "warpInsideDisc": true,
+            "insideInterior": true,
+            "discInsideInterior": true,
+            "bodyClear": true,
+            "navOffset": 0.0,
+            "warpOffset": 0.0,
+            "wallClearance": 6.077262878417969,
+            "centreDistance": 13.78967571258545,
+            "overlaps": []
+        },
+        {
+            "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red) Spawn Points/Spawn Point 2",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1549010589-0",
+            "position": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 103.94999694824219
+            },
+            "navPosition": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 103.94999694824219
+            },
+            "warpPosition": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 103.94999694824219
+            },
+            "onNavMesh": true,
+            "warpOnNavMesh": true,
+            "warpInsideDisc": true,
+            "insideInterior": true,
+            "discInsideInterior": true,
+            "bodyClear": true,
+            "navOffset": 0.0,
+            "warpOffset": 0.0,
+            "wallClearance": 4.4272613525390629,
+            "centreDistance": 11.49110221862793,
+            "overlaps": []
+        },
+        {
+            "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red) Spawn Points/Spawn Point 3",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1492838206-0",
+            "position": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "navPosition": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "warpPosition": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "onNavMesh": true,
+            "warpOnNavMesh": true,
+            "warpInsideDisc": true,
+            "insideInterior": true,
+            "discInsideInterior": true,
+            "bodyClear": true,
+            "navOffset": 0.0,
+            "warpOffset": 0.0,
+            "wallClearance": 5.824066162109375,
+            "centreDistance": 14.127115249633789,
+            "overlaps": []
+        },
+        {
+            "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red) Spawn Points/Spawn Point 4",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-815050705-0",
+            "position": {
+                "x": -246.0500030517578,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "navPosition": {
+                "x": -246.0500030517578,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "warpPosition": {
+                "x": -246.0500030517578,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "onNavMesh": true,
+            "warpOnNavMesh": true,
+            "warpInsideDisc": true,
+            "insideInterior": true,
+            "discInsideInterior": true,
+            "bodyClear": true,
+            "navOffset": 0.0,
+            "warpOffset": 0.0,
+            "wallClearance": 4.64984130859375,
+            "centreDistance": 11.312285423278809,
+            "overlaps": [
+                "Boss Hall Door approach"
+            ]
+        },
+        {
+            "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red) Spawn Points/Spawn Point 5",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1151952166-0",
+            "position": {
+                "x": -222.9499969482422,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "navPosition": {
+                "x": -222.9499969482422,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "warpPosition": {
+                "x": -222.9499969482422,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "onNavMesh": true,
+            "warpOnNavMesh": true,
+            "warpInsideDisc": true,
+            "insideInterior": true,
+            "discInsideInterior": true,
+            "bodyClear": true,
+            "navOffset": 0.0,
+            "warpOffset": 0.0,
+            "wallClearance": 4.1740570068359379,
+            "centreDistance": 11.788046836853028,
+            "overlaps": []
+        },
+        {
+            "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red) Spawn Points/Spawn Point 6",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1302933631-0",
+            "position": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "navPosition": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "warpPosition": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "onNavMesh": true,
+            "warpOnNavMesh": true,
+            "warpInsideDisc": true,
+            "insideInterior": true,
+            "discInsideInterior": true,
+            "bodyClear": true,
+            "navOffset": 0.0,
+            "warpOffset": 0.0,
+            "wallClearance": 5.954536437988281,
+            "centreDistance": 13.8775053024292,
+            "overlaps": []
+        },
+        {
+            "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red) Spawn Points/Spawn Point 7",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1468522536-0",
+            "position": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 127.05000305175781
+            },
+            "navPosition": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 127.05000305175781
+            },
+            "warpPosition": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 127.05000305175781
+            },
+            "onNavMesh": true,
+            "warpOnNavMesh": true,
+            "warpInsideDisc": true,
+            "insideInterior": true,
+            "discInsideInterior": true,
+            "bodyClear": true,
+            "navOffset": 0.0,
+            "warpOffset": 0.0,
+            "wallClearance": 4.304534912109375,
+            "centreDistance": 11.613802909851075,
+            "overlaps": [
+                "Red Terminal keep-out"
+            ]
+        },
+        {
+            "name": "===== KEYCARD PROGRESSION =====/North-West Room Terminal (Red) Spawn Points/Spawn Point 8",
+            "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-1180058620-0",
+            "position": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "navPosition": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "warpPosition": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "onNavMesh": true,
+            "warpOnNavMesh": true,
+            "warpInsideDisc": true,
+            "insideInterior": true,
+            "discInsideInterior": true,
+            "bodyClear": true,
+            "navOffset": 0.0,
+            "warpOffset": 0.0,
+            "wallClearance": 5.824066162109375,
+            "centreDistance": 14.212859153747559,
+            "overlaps": []
+        }
+    ],
+    "occupants": [],
+    "waves": [
+        "Wave 1: Enemy_CyberSoldier_PistonFist, Enemy_CyberSoldier_RivetCannon, Enemy_CyberSoldier_PistonFist, Enemy_Robot1_RivetCannon, Enemy_HoverBot_ScrapScattergun",
+        "Wave 2: Enemy_Elite_PistonFist, Enemy_CyberSoldier_RivetCannon, Enemy_CyberSoldier_PistonFist, Enemy_HoverBot_PistonFist"
+    ],
+    "navigation": [
+        "Wave prefab Enemy_CyberSoldier_PistonFist: agentType=0, radius=0.3859795, height=1.955984",
+        "Wave prefab Enemy_CyberSoldier_RivetCannon: agentType=0, radius=0.3859795, height=1.955984",
+        "Wave prefab Enemy_Robot1_RivetCannon: agentType=0, radius=0.3859795, height=2.116002",
+        "Wave prefab Enemy_HoverBot_ScrapScattergun: agentType=0, radius=0.5, height=2",
+        "Wave prefab Enemy_Elite_PistonFist: agentType=0, radius=0.3859795, height=2.382934",
+        "Wave prefab Enemy_HoverBot_PistonFist: agentType=0, radius=0.5, height=2",
+        "Surface NavMeshSurface: Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface 4.asset",
+        "Baked agent 0: radius=0.5, height=2, climb=1, slope=46.5",
+        "Loaded scene NavMesh: 7652 vertices, 3462 triangles",
+        "North-West Room Door (E): NavMeshObstacle carving, enabled",
+        "Boss Hall Door: NavMeshObstacle carving, enabled"
+    ],
+    "floorSupport": {
+        "name": "Plane (1)",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-2088728385-0",
+        "position": {
+            "x": -234.73788452148438,
+            "y": -0.0000021457672119140627,
+            "z": 115.43863677978516
+        },
+        "onNavMesh": true,
+        "navPosition": {
+            "x": -234.73788452148438,
+            "y": 0.25,
+            "z": 115.43863677978516
+        }
+    },
+    "groundColliders": [
+        "Plane (1) (Y 0.000): 961 samples"
+    ],
+    "shellFloorSamplesMissing": 961,
+    "floorSupportMisses": [],
+    "navSamples": 961,
+    "navHits": 961,
+    "ringSamples": 360,
+    "ringNavHits": 360,
+    "ringBodyBlocked": 0,
+    "ringActorOverlaps": 0,
+    "navMisses": [],
+    "ringInnerRadius": 4.0,
+    "ringOuterRadius": 8.0,
+    "spawnRadius": 2.0,
+    "connectorHalfWidth": 1.5,
+    "routes": [
+        {
+            "name": "Spawn 1 to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "end": {
+                "x": -238.9419403076172,
+                "y": 0.18000000715255738,
+                "z": 111.15776824951172
+            },
+            "length": 7.789682388305664,
+            "corners": [
+                {
+                    "x": -244.39999389648438,
+                    "y": 0.25,
+                    "z": 105.5999984741211
+                },
+                {
+                    "x": -238.9419403076172,
+                    "y": 0.25,
+                    "z": 111.15776824951172
+                }
+            ]
+        },
+        {
+            "name": "Spawn 1 to east door inside",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "end": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 23.342021942138673,
+            "corners": [
+                {
+                    "x": -244.39999389648438,
+                    "y": 0.25,
+                    "z": 105.5999984741211
+                },
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Spawn 1 to Red Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "end": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "length": 25.644521713256837,
+            "corners": [
+                {
+                    "x": -244.39999389648438,
+                    "y": 0.25,
+                    "z": 105.5999984741211
+                },
+                {
+                    "x": -234.49729919433595,
+                    "y": 0.25,
+                    "z": 129.25540161132813
+                }
+            ]
+        },
+        {
+            "name": "Spawn 1 to Master Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 4.171292781829834,
+            "corners": [
+                {
+                    "x": -244.39999389648438,
+                    "y": 0.25,
+                    "z": 105.5999984741211
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "Spawn 2 to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 103.94999694824219
+            },
+            "end": {
+                "x": -234.61367797851563,
+                "y": 0.18000000715255738,
+                "z": 109.43992614746094
+            },
+            "length": 5.491106033325195,
+            "corners": [
+                {
+                    "x": -234.5,
+                    "y": 0.25,
+                    "z": 103.94999694824219
+                },
+                {
+                    "x": -234.61367797851563,
+                    "y": 0.25,
+                    "z": 109.43992614746094
+                }
+            ]
+        },
+        {
+            "name": "Spawn 2 to east door inside",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 103.94999694824219
+            },
+            "end": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 14.084193229675293,
+            "corners": [
+                {
+                    "x": -234.5,
+                    "y": 0.25,
+                    "z": 103.94999694824219
+                },
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Spawn 2 to Red Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 103.94999694824219
+            },
+            "end": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "length": 25.305404663085939,
+            "corners": [
+                {
+                    "x": -234.5,
+                    "y": 0.25,
+                    "z": 103.94999694824219
+                },
+                {
+                    "x": -234.49729919433595,
+                    "y": 0.25,
+                    "z": 129.25540161132813
+                }
+            ]
+        },
+        {
+            "name": "Spawn 2 to Master Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 103.94999694824219
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 14.200810432434082,
+            "corners": [
+                {
+                    "x": -234.5,
+                    "y": 0.25,
+                    "z": 103.94999694824219
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "Spawn 3 to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "end": {
+                "x": -230.4321746826172,
+                "y": 0.18000000715255738,
+                "z": 111.26001739501953
+            },
+            "length": 8.127115249633789,
+            "corners": [
+                {
+                    "x": -224.60000610351563,
+                    "y": 0.25,
+                    "z": 105.5999984741211
+                },
+                {
+                    "x": -230.4321746826172,
+                    "y": 0.25,
+                    "z": 111.26001739501953
+                }
+            ]
+        },
+        {
+            "name": "Spawn 3 to east door inside",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "end": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 4.6152753829956059,
+            "corners": [
+                {
+                    "x": -224.60000610351563,
+                    "y": 0.25,
+                    "z": 105.5999984741211
+                },
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Spawn 3 to Red Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "end": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "length": 25.64243507385254,
+            "corners": [
+                {
+                    "x": -224.60000610351563,
+                    "y": 0.25,
+                    "z": 105.5999984741211
+                },
+                {
+                    "x": -234.49729919433595,
+                    "y": 0.25,
+                    "z": 129.25540161132813
+                }
+            ]
+        },
+        {
+            "name": "Spawn 3 to Master Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 105.5999984741211
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 23.95539665222168,
+            "corners": [
+                {
+                    "x": -224.60000610351563,
+                    "y": 0.25,
+                    "z": 105.5999984741211
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "Spawn 4 to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -246.0500030517578,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "end": {
+                "x": -240.73779296875,
+                "y": 0.18000000715255738,
+                "z": 115.47118377685547
+            },
+            "length": 5.312288284301758,
+            "corners": [
+                {
+                    "x": -246.0500030517578,
+                    "y": 0.25,
+                    "z": 115.5
+                },
+                {
+                    "x": -240.73779296875,
+                    "y": 0.25,
+                    "z": 115.47118377685547
+                }
+            ]
+        },
+        {
+            "name": "Spawn 4 to east door inside",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -246.0500030517578,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "end": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 25.659753799438478,
+            "corners": [
+                {
+                    "x": -246.0500030517578,
+                    "y": 0.25,
+                    "z": 115.5
+                },
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Spawn 4 to Red Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -246.0500030517578,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "end": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "length": 17.963186264038087,
+            "corners": [
+                {
+                    "x": -246.0500030517578,
+                    "y": 0.25,
+                    "z": 115.5
+                },
+                {
+                    "x": -234.49729919433595,
+                    "y": 0.25,
+                    "z": 129.25540161132813
+                }
+            ]
+        },
+        {
+            "name": "Spawn 4 to Master Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -246.0500030517578,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 9.823958396911621,
+            "corners": [
+                {
+                    "x": -246.0500030517578,
+                    "y": 0.25,
+                    "z": 115.5
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "Spawn 5 to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -222.9499969482422,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "end": {
+                "x": -228.7379608154297,
+                "y": 0.18000000715255738,
+                "z": 115.4698715209961
+            },
+            "length": 5.788042068481445,
+            "corners": [
+                {
+                    "x": -222.9499969482422,
+                    "y": 0.25,
+                    "z": 115.5
+                },
+                {
+                    "x": -228.7379608154297,
+                    "y": 0.25,
+                    "z": 115.4698715209961
+                }
+            ]
+        },
+        {
+            "name": "Spawn 5 to east door inside",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -222.9499969482422,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "end": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 6.900367736816406,
+            "corners": [
+                {
+                    "x": -222.9499969482422,
+                    "y": 0.25,
+                    "z": 115.5
+                },
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Spawn 5 to Red Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -222.9499969482422,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "end": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "length": 17.959712982177736,
+            "corners": [
+                {
+                    "x": -222.9499969482422,
+                    "y": 0.25,
+                    "z": 115.5
+                },
+                {
+                    "x": -234.49729919433595,
+                    "y": 0.25,
+                    "z": 129.25540161132813
+                }
+            ]
+        },
+        {
+            "name": "Spawn 5 to Master Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -222.9499969482422,
+                "y": 0.25,
+                "z": 115.5
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 27.30779457092285,
+            "corners": [
+                {
+                    "x": -222.9499969482422,
+                    "y": 0.25,
+                    "z": 115.5
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "Spawn 6 to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "end": {
+                "x": -238.91534423828126,
+                "y": 0.18000000715255738,
+                "z": 119.74547576904297
+            },
+            "length": 7.87750244140625,
+            "corners": [
+                {
+                    "x": -244.39999389648438,
+                    "y": 0.25,
+                    "z": 125.4000015258789
+                },
+                {
+                    "x": -238.91534423828126,
+                    "y": 0.25,
+                    "z": 119.74547576904297
+                }
+            ]
+        },
+        {
+            "name": "Spawn 6 to east door inside",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "end": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 28.460006713867189,
+            "corners": [
+                {
+                    "x": -244.39999389648438,
+                    "y": 0.25,
+                    "z": 125.4000015258789
+                },
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Spawn 6 to Red Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "end": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "length": 10.626733779907227,
+            "corners": [
+                {
+                    "x": -244.39999389648438,
+                    "y": 0.25,
+                    "z": 125.4000015258789
+                },
+                {
+                    "x": -234.49729919433595,
+                    "y": 0.25,
+                    "z": 129.25540161132813
+                }
+            ]
+        },
+        {
+            "name": "Spawn 6 to Master Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -244.39999389648438,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 19.839340209960939,
+            "corners": [
+                {
+                    "x": -244.39999389648438,
+                    "y": 0.25,
+                    "z": 125.4000015258789
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "Spawn 7 to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 127.05000305175781
+            },
+            "end": {
+                "x": -234.614990234375,
+                "y": 0.18000000715255738,
+                "z": 121.4373779296875
+            },
+            "length": 5.613802909851074,
+            "corners": [
+                {
+                    "x": -234.5,
+                    "y": 0.25,
+                    "z": 127.05000305175781
+                },
+                {
+                    "x": -234.614990234375,
+                    "y": 0.25,
+                    "z": 121.4373779296875
+                }
+            ]
+        },
+        {
+            "name": "Spawn 7 to east door inside",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 127.05000305175781
+            },
+            "end": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 22.531612396240236,
+            "corners": [
+                {
+                    "x": -234.5,
+                    "y": 0.25,
+                    "z": 127.05000305175781
+                },
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Spawn 7 to Red Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 127.05000305175781
+            },
+            "end": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "length": 2.205400228500366,
+            "corners": [
+                {
+                    "x": -234.5,
+                    "y": 0.25,
+                    "z": 127.05000305175781
+                },
+                {
+                    "x": -234.49729919433595,
+                    "y": 0.25,
+                    "z": 129.25540161132813
+                }
+            ]
+        },
+        {
+            "name": "Spawn 7 to Master Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -234.5,
+                "y": 0.25,
+                "z": 127.05000305175781
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 25.309341430664064,
+            "corners": [
+                {
+                    "x": -234.5,
+                    "y": 0.25,
+                    "z": 127.05000305175781
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "Spawn 8 to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "end": {
+                "x": -230.45814514160157,
+                "y": 0.18000000715255738,
+                "z": 119.64385986328125
+            },
+            "length": 8.21285343170166,
+            "corners": [
+                {
+                    "x": -224.60000610351563,
+                    "y": 0.25,
+                    "z": 125.4000015258789
+                },
+                {
+                    "x": -230.45814514160157,
+                    "y": 0.25,
+                    "z": 119.64385986328125
+                }
+            ]
+        },
+        {
+            "name": "Spawn 8 to east door inside",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "end": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 16.924030303955079,
+            "corners": [
+                {
+                    "x": -224.60000610351563,
+                    "y": 0.25,
+                    "z": 125.4000015258789
+                },
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Spawn 8 to Red Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "end": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "length": 10.621700286865235,
+            "corners": [
+                {
+                    "x": -224.60000610351563,
+                    "y": 0.25,
+                    "z": 125.4000015258789
+                },
+                {
+                    "x": -234.49729919433595,
+                    "y": 0.25,
+                    "z": 129.25540161132813
+                }
+            ]
+        },
+        {
+            "name": "Spawn 8 to Master Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -224.60000610351563,
+                "y": 0.25,
+                "z": 125.4000015258789
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 30.823055267333986,
+            "corners": [
+                {
+                    "x": -224.60000610351563,
+                    "y": 0.25,
+                    "z": 125.4000015258789
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "North-West Room Door (E) inside to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "end": {
+                "x": -229.35609436035157,
+                "y": 0.18000000715255738,
+                "z": 112.78604125976563
+            },
+            "length": 9.00484848022461,
+            "corners": [
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                },
+                {
+                    "x": -229.35609436035157,
+                    "y": 0.25,
+                    "z": 112.78604125976563
+                }
+            ]
+        },
+        {
+            "name": "Boss Hall Door inside to ring",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -248.1967315673828,
+                "y": 0.18000000715255738,
+                "z": 115.45500183105469
+            },
+            "end": {
+                "x": -240.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 115.44593048095703
+            },
+            "length": 7.458852767944336,
+            "corners": [
+                {
+                    "x": -248.1967315673828,
+                    "y": 0.25,
+                    "z": 115.45500183105469
+                },
+                {
+                    "x": -240.73788452148438,
+                    "y": 0.25,
+                    "z": 115.44593048095703
+                }
+            ]
+        },
+        {
+            "name": "Ring to Red Terminal",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -234.6334228515625,
+                "y": 0.18000000715255738,
+                "z": 121.43772888183594
+            },
+            "end": {
+                "x": -234.49729919433595,
+                "y": 0.18000000715255738,
+                "z": 129.25540161132813
+            },
+            "length": 7.818857669830322,
+            "corners": [
+                {
+                    "x": -234.6334228515625,
+                    "y": 0.25,
+                    "z": 121.43772888183594
+                },
+                {
+                    "x": -234.49729919433595,
+                    "y": 0.25,
+                    "z": 129.25540161132813
+                }
+            ]
+        },
+        {
+            "name": "Ring to Master Terminal",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -239.69192504882813,
+                "y": 0.18000000715255738,
+                "z": 112.05374908447266
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 10.730789184570313,
+            "corners": [
+                {
+                    "x": -239.69192504882813,
+                    "y": 0.25,
+                    "z": 112.05374908447266
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "East door inside to Master Terminal",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "end": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "length": 27.4168758392334,
+            "corners": [
+                {
+                    "x": -221.279052734375,
+                    "y": 0.25,
+                    "z": 108.80500030517578
+                },
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                }
+            ]
+        },
+        {
+            "name": "Master Terminal to boss door inside",
+            "status": "PathComplete",
+            "connector": true,
+            "start": {
+                "x": -248.55206298828126,
+                "y": 0.18000000715255738,
+                "z": 106.00000762939453
+            },
+            "end": {
+                "x": -248.1967315673828,
+                "y": 0.18000000715255738,
+                "z": 115.45500183105469
+            },
+            "length": 9.461668968200684,
+            "corners": [
+                {
+                    "x": -248.55206298828126,
+                    "y": 0.25,
+                    "z": 106.00000762939453
+                },
+                {
+                    "x": -248.1967315673828,
+                    "y": 0.25,
+                    "z": 115.45500183105469
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 1",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -228.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 115.43863677978516
+            },
+            "end": {
+                "x": -228.94232177734376,
+                "y": 0.18000000715255738,
+                "z": 116.9915542602539
+            },
+            "length": 1.5663164854049683,
+            "corners": [
+                {
+                    "x": -228.73788452148438,
+                    "y": 0.25,
+                    "z": 115.43863677978516
+                },
+                {
+                    "x": -228.94232177734376,
+                    "y": 0.25,
+                    "z": 116.9915542602539
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 2",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -228.94232177734376,
+                "y": 0.18000000715255738,
+                "z": 116.9915542602539
+            },
+            "end": {
+                "x": -229.54173278808595,
+                "y": 0.18000000715255738,
+                "z": 118.43863677978516
+            },
+            "length": 1.5663145780563355,
+            "corners": [
+                {
+                    "x": -228.94232177734376,
+                    "y": 0.25,
+                    "z": 116.9915542602539
+                },
+                {
+                    "x": -229.54173278808595,
+                    "y": 0.25,
+                    "z": 118.43863677978516
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 3",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -229.54173278808595,
+                "y": 0.18000000715255738,
+                "z": 118.43863677978516
+            },
+            "end": {
+                "x": -230.4952392578125,
+                "y": 0.18000000715255738,
+                "z": 119.6812744140625
+            },
+            "length": 1.5663087368011475,
+            "corners": [
+                {
+                    "x": -229.54173278808595,
+                    "y": 0.25,
+                    "z": 118.43863677978516
+                },
+                {
+                    "x": -230.4952392578125,
+                    "y": 0.25,
+                    "z": 119.6812744140625
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 4",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -230.4952392578125,
+                "y": 0.18000000715255738,
+                "z": 119.6812744140625
+            },
+            "end": {
+                "x": -231.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 120.6347885131836
+            },
+            "length": 1.5663193464279175,
+            "corners": [
+                {
+                    "x": -230.4952392578125,
+                    "y": 0.25,
+                    "z": 119.6812744140625
+                },
+                {
+                    "x": -231.73788452148438,
+                    "y": 0.25,
+                    "z": 120.6347885131836
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 5",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -231.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 120.6347885131836
+            },
+            "end": {
+                "x": -233.18496704101563,
+                "y": 0.18000000715255738,
+                "z": 121.23419189453125
+            },
+            "length": 1.5663117170333863,
+            "corners": [
+                {
+                    "x": -231.73788452148438,
+                    "y": 0.25,
+                    "z": 120.6347885131836
+                },
+                {
+                    "x": -233.18496704101563,
+                    "y": 0.25,
+                    "z": 121.23419189453125
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 6",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -233.18496704101563,
+                "y": 0.18000000715255738,
+                "z": 121.23419189453125
+            },
+            "end": {
+                "x": -234.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 121.43863677978516
+            },
+            "length": 1.5663174390792847,
+            "corners": [
+                {
+                    "x": -233.18496704101563,
+                    "y": 0.25,
+                    "z": 121.23419189453125
+                },
+                {
+                    "x": -234.73788452148438,
+                    "y": 0.25,
+                    "z": 121.43863677978516
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 7",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -234.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 121.43863677978516
+            },
+            "end": {
+                "x": -236.29080200195313,
+                "y": 0.18000000715255738,
+                "z": 121.23419189453125
+            },
+            "length": 1.5663174390792847,
+            "corners": [
+                {
+                    "x": -234.73788452148438,
+                    "y": 0.25,
+                    "z": 121.43863677978516
+                },
+                {
+                    "x": -236.29080200195313,
+                    "y": 0.25,
+                    "z": 121.23419189453125
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 8",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -236.29080200195313,
+                "y": 0.18000000715255738,
+                "z": 121.23419189453125
+            },
+            "end": {
+                "x": -237.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 120.6347885131836
+            },
+            "length": 1.5663117170333863,
+            "corners": [
+                {
+                    "x": -236.29080200195313,
+                    "y": 0.25,
+                    "z": 121.23419189453125
+                },
+                {
+                    "x": -237.73788452148438,
+                    "y": 0.25,
+                    "z": 120.6347885131836
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 9",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -237.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 120.6347885131836
+            },
+            "end": {
+                "x": -238.98052978515626,
+                "y": 0.18000000715255738,
+                "z": 119.6812744140625
+            },
+            "length": 1.5663193464279175,
+            "corners": [
+                {
+                    "x": -237.73788452148438,
+                    "y": 0.25,
+                    "z": 120.6347885131836
+                },
+                {
+                    "x": -238.98052978515626,
+                    "y": 0.25,
+                    "z": 119.6812744140625
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 10",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -238.98052978515626,
+                "y": 0.18000000715255738,
+                "z": 119.6812744140625
+            },
+            "end": {
+                "x": -239.9340362548828,
+                "y": 0.18000000715255738,
+                "z": 118.43863677978516
+            },
+            "length": 1.5663087368011475,
+            "corners": [
+                {
+                    "x": -238.98052978515626,
+                    "y": 0.25,
+                    "z": 119.6812744140625
+                },
+                {
+                    "x": -239.9340362548828,
+                    "y": 0.25,
+                    "z": 118.43863677978516
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 11",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -239.9340362548828,
+                "y": 0.18000000715255738,
+                "z": 118.43863677978516
+            },
+            "end": {
+                "x": -240.533447265625,
+                "y": 0.18000000715255738,
+                "z": 116.99154663085938
+            },
+            "length": 1.566321611404419,
+            "corners": [
+                {
+                    "x": -239.9340362548828,
+                    "y": 0.25,
+                    "z": 118.43863677978516
+                },
+                {
+                    "x": -240.533447265625,
+                    "y": 0.25,
+                    "z": 116.99154663085938
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 12",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -240.533447265625,
+                "y": 0.18000000715255738,
+                "z": 116.99154663085938
+            },
+            "end": {
+                "x": -240.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 115.43863677978516
+            },
+            "length": 1.566308856010437,
+            "corners": [
+                {
+                    "x": -240.533447265625,
+                    "y": 0.25,
+                    "z": 116.99154663085938
+                },
+                {
+                    "x": -240.73788452148438,
+                    "y": 0.25,
+                    "z": 115.43863677978516
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 13",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -240.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 115.43863677978516
+            },
+            "end": {
+                "x": -240.533447265625,
+                "y": 0.18000000715255738,
+                "z": 113.8857192993164
+            },
+            "length": 1.5663164854049683,
+            "corners": [
+                {
+                    "x": -240.73788452148438,
+                    "y": 0.25,
+                    "z": 115.43863677978516
+                },
+                {
+                    "x": -240.533447265625,
+                    "y": 0.25,
+                    "z": 113.8857192993164
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 14",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -240.533447265625,
+                "y": 0.18000000715255738,
+                "z": 113.8857192993164
+            },
+            "end": {
+                "x": -239.9340362548828,
+                "y": 0.18000000715255738,
+                "z": 112.43863677978516
+            },
+            "length": 1.5663145780563355,
+            "corners": [
+                {
+                    "x": -240.533447265625,
+                    "y": 0.25,
+                    "z": 113.8857192993164
+                },
+                {
+                    "x": -239.9340362548828,
+                    "y": 0.25,
+                    "z": 112.43863677978516
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 15",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -239.9340362548828,
+                "y": 0.18000000715255738,
+                "z": 112.43863677978516
+            },
+            "end": {
+                "x": -238.98052978515626,
+                "y": 0.18000000715255738,
+                "z": 111.19599914550781
+            },
+            "length": 1.5663087368011475,
+            "corners": [
+                {
+                    "x": -239.9340362548828,
+                    "y": 0.25,
+                    "z": 112.43863677978516
+                },
+                {
+                    "x": -238.98052978515626,
+                    "y": 0.25,
+                    "z": 111.19599914550781
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 16",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -238.98052978515626,
+                "y": 0.18000000715255738,
+                "z": 111.19599914550781
+            },
+            "end": {
+                "x": -237.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 110.24248504638672
+            },
+            "length": 1.5663193464279175,
+            "corners": [
+                {
+                    "x": -238.98052978515626,
+                    "y": 0.25,
+                    "z": 111.19599914550781
+                },
+                {
+                    "x": -237.73788452148438,
+                    "y": 0.25,
+                    "z": 110.24248504638672
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 17",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -237.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 110.24248504638672
+            },
+            "end": {
+                "x": -236.29080200195313,
+                "y": 0.18000000715255738,
+                "z": 109.64308166503906
+            },
+            "length": 1.5663117170333863,
+            "corners": [
+                {
+                    "x": -237.73788452148438,
+                    "y": 0.25,
+                    "z": 110.24248504638672
+                },
+                {
+                    "x": -236.29080200195313,
+                    "y": 0.25,
+                    "z": 109.64308166503906
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 18",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -236.29080200195313,
+                "y": 0.18000000715255738,
+                "z": 109.64308166503906
+            },
+            "end": {
+                "x": -234.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 109.43863677978516
+            },
+            "length": 1.5663174390792847,
+            "corners": [
+                {
+                    "x": -236.29080200195313,
+                    "y": 0.25,
+                    "z": 109.64308166503906
+                },
+                {
+                    "x": -234.73788452148438,
+                    "y": 0.25,
+                    "z": 109.43863677978516
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 19",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -234.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 109.43863677978516
+            },
+            "end": {
+                "x": -233.18496704101563,
+                "y": 0.18000000715255738,
+                "z": 109.64308166503906
+            },
+            "length": 1.5663174390792847,
+            "corners": [
+                {
+                    "x": -234.73788452148438,
+                    "y": 0.25,
+                    "z": 109.43863677978516
+                },
+                {
+                    "x": -233.18496704101563,
+                    "y": 0.25,
+                    "z": 109.64308166503906
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 20",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -233.18496704101563,
+                "y": 0.18000000715255738,
+                "z": 109.64308166503906
+            },
+            "end": {
+                "x": -231.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 110.24248504638672
+            },
+            "length": 1.5663117170333863,
+            "corners": [
+                {
+                    "x": -233.18496704101563,
+                    "y": 0.25,
+                    "z": 109.64308166503906
+                },
+                {
+                    "x": -231.73788452148438,
+                    "y": 0.25,
+                    "z": 110.24248504638672
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 21",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -231.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 110.24248504638672
+            },
+            "end": {
+                "x": -230.4952392578125,
+                "y": 0.18000000715255738,
+                "z": 111.19599914550781
+            },
+            "length": 1.5663193464279175,
+            "corners": [
+                {
+                    "x": -231.73788452148438,
+                    "y": 0.25,
+                    "z": 110.24248504638672
+                },
+                {
+                    "x": -230.4952392578125,
+                    "y": 0.25,
+                    "z": 111.19599914550781
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 22",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -230.4952392578125,
+                "y": 0.18000000715255738,
+                "z": 111.19599914550781
+            },
+            "end": {
+                "x": -229.54173278808595,
+                "y": 0.18000000715255738,
+                "z": 112.43863677978516
+            },
+            "length": 1.5663087368011475,
+            "corners": [
+                {
+                    "x": -230.4952392578125,
+                    "y": 0.25,
+                    "z": 111.19599914550781
+                },
+                {
+                    "x": -229.54173278808595,
+                    "y": 0.25,
+                    "z": 112.43863677978516
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 23",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -229.54173278808595,
+                "y": 0.18000000715255738,
+                "z": 112.43863677978516
+            },
+            "end": {
+                "x": -228.94232177734376,
+                "y": 0.18000000715255738,
+                "z": 113.88572692871094
+            },
+            "length": 1.566321611404419,
+            "corners": [
+                {
+                    "x": -229.54173278808595,
+                    "y": 0.25,
+                    "z": 112.43863677978516
+                },
+                {
+                    "x": -228.94232177734376,
+                    "y": 0.25,
+                    "z": 113.88572692871094
+                }
+            ]
+        },
+        {
+            "name": "Ring segment 24",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -228.94232177734376,
+                "y": 0.18000000715255738,
+                "z": 113.88572692871094
+            },
+            "end": {
+                "x": -228.73788452148438,
+                "y": 0.18000000715255738,
+                "z": 115.43863677978516
+            },
+            "length": 1.566308856010437,
+            "corners": [
+                {
+                    "x": -228.94232177734376,
+                    "y": 0.25,
+                    "z": 113.88572692871094
+                },
+                {
+                    "x": -228.73788452148438,
+                    "y": 0.25,
+                    "z": 115.43863677978516
+                }
+            ]
+        },
+        {
+            "name": "North-West Room Door (E) across saved gate",
+            "status": "PathPartial",
+            "connector": false,
+            "start": {
+                "x": -215.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "end": {
+                "x": -221.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 2.202439785003662,
+            "corners": [
+                {
+                    "x": -215.279052734375,
+                    "y": 0.20307901501655579,
+                    "z": 108.80500030517578
+                },
+                {
+                    "x": -217.4790496826172,
+                    "y": 0.09937667846679688,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Centre Room north gate exterior to east door exterior",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -191.85000610351563,
+                "y": 0.18000000715255738,
+                "z": 86.42507934570313
+            },
+            "end": {
+                "x": -215.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 34.095767974853519,
+            "corners": [
+                {
+                    "x": -191.85000610351563,
+                    "y": 0.16666698455810548,
+                    "z": 86.42507934570313
+                },
+                {
+                    "x": -196.50001525878907,
+                    "y": 0.33333396911621096,
+                    "z": 90.16667175292969
+                },
+                {
+                    "x": -209.00001525878907,
+                    "y": 0.25,
+                    "z": 96.0
+                },
+                {
+                    "x": -209.83334350585938,
+                    "y": 0.25,
+                    "z": 96.83333587646485
+                },
+                {
+                    "x": -215.279052734375,
+                    "y": 0.20307901501655579,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Centre Room north gate exterior to access machine",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -191.85000610351563,
+                "y": 0.18000000715255738,
+                "z": 86.42507934570313
+            },
+            "end": {
+                "x": -216.779052734375,
+                "y": 0.09999778866767883,
+                "z": 111.27423858642578
+            },
+            "length": 36.96807098388672,
+            "corners": [
+                {
+                    "x": -191.85000610351563,
+                    "y": 0.16666698455810548,
+                    "z": 86.42507934570313
+                },
+                {
+                    "x": -196.50001525878907,
+                    "y": 0.33333396911621096,
+                    "z": 90.16667175292969
+                },
+                {
+                    "x": -209.00001525878907,
+                    "y": 0.25,
+                    "z": 96.0
+                },
+                {
+                    "x": -209.83334350585938,
+                    "y": 0.25,
+                    "z": 96.83333587646485
+                },
+                {
+                    "x": -216.779052734375,
+                    "y": 0.23551593720912934,
+                    "z": 111.27423858642578
+                }
+            ]
+        },
+        {
+            "name": "Access machine to east door exterior",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -216.779052734375,
+                "y": 0.09999778866767883,
+                "z": 111.27423858642578
+            },
+            "end": {
+                "x": -215.279052734375,
+                "y": 0.18000000715255738,
+                "z": 108.80500030517578
+            },
+            "length": 2.8893234729766847,
+            "corners": [
+                {
+                    "x": -216.779052734375,
+                    "y": 0.23551593720912934,
+                    "z": 111.27423858642578
+                },
+                {
+                    "x": -215.279052734375,
+                    "y": 0.20307901501655579,
+                    "z": 108.80500030517578
+                }
+            ]
+        },
+        {
+            "name": "Boss Hall Door across saved gate",
+            "status": "PathPartial",
+            "connector": false,
+            "start": {
+                "x": -248.1967315673828,
+                "y": 0.18000000715255738,
+                "z": 115.45500183105469
+            },
+            "end": {
+                "x": -252.1967315673828,
+                "y": 0.17997319996356965,
+                "z": 115.45494079589844
+            },
+            "length": 2.1999969482421877,
+            "corners": [
+                {
+                    "x": -248.1967315673828,
+                    "y": 0.25,
+                    "z": 115.45500183105469
+                },
+                {
+                    "x": -250.396728515625,
+                    "y": 0.25,
+                    "z": 115.45494079589844
+                }
+            ]
+        },
+        {
+            "name": "Boss Hall Door threshold to incline start",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -252.1967315673828,
+                "y": 0.17997319996356965,
+                "z": 115.45494079589844
+            },
+            "end": {
+                "x": -253.69674682617188,
+                "y": 0.693438708782196,
+                "z": 115.45500946044922
+            },
+            "length": 1.5728567838668824,
+            "corners": [
+                {
+                    "x": -252.1967315673828,
+                    "y": 0.29065728187561037,
+                    "z": 115.45494079589844
+                },
+                {
+                    "x": -253.69674682617188,
+                    "y": 0.763766884803772,
+                    "z": 115.45500946044922
+                }
+            ]
+        },
+        {
+            "name": "Boss Hall Door threshold to Boss Hall floor",
+            "status": "PathComplete",
+            "connector": false,
+            "start": {
+                "x": -252.1967315673828,
+                "y": 0.17997319996356965,
+                "z": 115.45494079589844
+            },
+            "end": {
+                "x": -263.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "length": 12.510533332824707,
+            "corners": [
+                {
+                    "x": -252.1967315673828,
+                    "y": 0.29065728187561037,
+                    "z": 115.45494079589844
+                },
+                {
+                    "x": -263.19671630859377,
+                    "y": 6.25,
+                    "z": 115.45500183105469
+                }
+            ]
+        }
+    ],
+    "incline": {
+        "name": "Corridor Incline Full",
+        "id": "GlobalObjectId_V1-2-d794a2ef8ba31d847ad3c19d03e2ddb9-3361326707275342334-1386294954",
+        "min": {
+            "x": -263.0267333984375,
+            "y": -0.8200321197509766,
+            "z": 112.14788818359375
+        },
+        "max": {
+            "x": -251.02647399902345,
+            "y": 10.979921340942383,
+            "z": 118.44999694824219
+        }
+    },
+    "inclineStartDistance": 2.5,
+    "bossHallFloorDistance": 12.0,
+    "bossHallFloorY": 6.200000286102295,
+    "bossThreshold": {
+        "x": -252.1967315673828,
+        "y": 0.17997319996356965,
+        "z": 115.45494079589844
+    },
+    "inclineStart": {
+        "x": -253.69674682617188,
+        "y": 0.693438708782196,
+        "z": 115.45500946044922
+    },
+    "bossHallFloor": {
+        "x": -263.19671630859377,
+        "y": 6.200000286102295,
+        "z": 115.45500183105469
+    },
+    "bossApproach": [
+        {
+            "distance": 0.0,
+            "groundY": 0.17997343838214875,
+            "position": {
+                "x": -251.1967315673828,
+                "y": 0.17997343838214875,
+                "z": 115.45494079589844
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+            "onNavMesh": false,
+            "onIncline": true
+        },
+        {
+            "distance": 0.5,
+            "groundY": 0.1799733191728592,
+            "position": {
+                "x": -251.6967315673828,
+                "y": 0.1799733191728592,
+                "z": 115.45494079589844
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+            "onNavMesh": false,
+            "onIncline": true
+        },
+        {
+            "distance": 1.0,
+            "groundY": 0.17997319996356965,
+            "position": {
+                "x": -252.1967315673828,
+                "y": 0.17997319996356965,
+                "z": 115.45494079589844
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 1.5,
+            "groundY": 0.1799730807542801,
+            "position": {
+                "x": -252.6967315673828,
+                "y": 0.1799730807542801,
+                "z": 115.45494079589844
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 2.0,
+            "groundY": 0.17997296154499055,
+            "position": {
+                "x": -253.1967315673828,
+                "y": 0.17997296154499055,
+                "z": 115.45494079589844
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 2.5,
+            "groundY": 0.693438708782196,
+            "position": {
+                "x": -253.69674682617188,
+                "y": 0.693438708782196,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 3.0,
+            "groundY": 0.9233231544494629,
+            "position": {
+                "x": -254.19674682617188,
+                "y": 0.9233231544494629,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 3.5,
+            "groundY": 1.3818258047103882,
+            "position": {
+                "x": -254.69674682617188,
+                "y": 1.3818258047103882,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 4.0,
+            "groundY": 1.6109780073165894,
+            "position": {
+                "x": -255.19674682617188,
+                "y": 1.6109780073165894,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 4.5,
+            "groundY": 2.0693471431732179,
+            "position": {
+                "x": -255.69674682617188,
+                "y": 2.0693471431732179,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 5.0,
+            "groundY": 2.2985036373138429,
+            "position": {
+                "x": -256.19671630859377,
+                "y": 2.2985036373138429,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 5.5,
+            "groundY": 2.7568700313568117,
+            "position": {
+                "x": -256.69671630859377,
+                "y": 2.7568700313568117,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 6.0,
+            "groundY": 2.986013174057007,
+            "position": {
+                "x": -257.19671630859377,
+                "y": 2.986013174057007,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 6.5,
+            "groundY": 3.444310188293457,
+            "position": {
+                "x": -257.69671630859377,
+                "y": 3.444310188293457,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 7.0,
+            "groundY": 3.673527956008911,
+            "position": {
+                "x": -258.19671630859377,
+                "y": 3.673527956008911,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 7.5,
+            "groundY": 4.131818771362305,
+            "position": {
+                "x": -258.69671630859377,
+                "y": 4.131818771362305,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 8.0,
+            "groundY": 4.361037254333496,
+            "position": {
+                "x": -259.19671630859377,
+                "y": 4.361037254333496,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 8.5,
+            "groundY": 4.819379806518555,
+            "position": {
+                "x": -259.69671630859377,
+                "y": 4.819379806518555,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 9.0,
+            "groundY": 5.277670860290527,
+            "position": {
+                "x": -260.19671630859377,
+                "y": 5.277670860290527,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 9.5,
+            "groundY": 5.506897926330566,
+            "position": {
+                "x": -260.69671630859377,
+                "y": 5.506897926330566,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 10.0,
+            "groundY": 5.965231895446777,
+            "position": {
+                "x": -261.19671630859377,
+                "y": 5.965231895446777,
+                "z": 115.45500946044922
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Steps001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 10.5,
+            "groundY": 6.1799468994140629,
+            "position": {
+                "x": -261.69671630859377,
+                "y": 6.1799468994140629,
+                "z": 115.45494079589844
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 11.0,
+            "groundY": 6.1799468994140629,
+            "position": {
+                "x": -262.19671630859377,
+                "y": 6.1799468994140629,
+                "z": 115.45494079589844
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 11.5,
+            "groundY": 6.1799468994140629,
+            "position": {
+                "x": -262.69671630859377,
+                "y": 6.1799468994140629,
+                "z": 115.45494079589844
+            },
+            "ground": "Corridor Incline Full/Tunnel Incline Floor001",
+            "onNavMesh": true,
+            "onIncline": true
+        },
+        {
+            "distance": 12.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -263.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 12.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -263.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 13.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -264.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 13.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -264.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 14.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -265.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 14.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -265.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 15.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -266.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 15.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -266.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 16.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -267.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 16.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -267.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 17.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -268.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 17.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -268.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 18.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -269.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 18.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -269.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 19.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -270.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 19.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -270.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 20.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -271.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 20.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -271.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 21.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -272.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 21.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -272.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 22.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -273.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 22.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -273.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 23.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -274.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 23.5,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -274.69671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 01 (98)",
+            "onNavMesh": true,
+            "onIncline": false
+        },
+        {
+            "distance": 24.0,
+            "groundY": 6.200000286102295,
+            "position": {
+                "x": -275.19671630859377,
+                "y": 6.200000286102295,
+                "z": 115.45500183105469
+            },
+            "ground": "Floor Tile 04 (22)",
+            "onNavMesh": true,
+            "onIncline": false
+        }
+    ],
+    "zones": [
+        {
+            "name": "North heavy-perimeter 1",
+            "kind": "heavy-perimeter",
+            "wall": "North",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 128.3545379638672
+            },
+            "max": {
+                "x": -237.1998291015625,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 3.949998378753662,
+            "notes": "Floor to floor+6 m, up to 3.0 m from the wall face."
+        },
+        {
+            "name": "North heavy-perimeter 2",
+            "kind": "heavy-perimeter",
+            "wall": "North",
+            "min": {
+                "x": -231.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 128.3545379638672
+            },
+            "max": {
+                "x": -218.79983520507813,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 3.949998378753662,
+            "notes": "Floor to floor+6 m, up to 3.0 m from the wall face."
+        },
+        {
+            "name": "North wall-flush 1",
+            "kind": "wall-flush",
+            "wall": "North",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 130.154541015625
+            },
+            "max": {
+                "x": -237.1998291015625,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 3.949998378753662,
+            "notes": "Floor to floor+6 m, up to 1.2 m from the wall face."
+        },
+        {
+            "name": "North wall-flush 2",
+            "kind": "wall-flush",
+            "wall": "North",
+            "min": {
+                "x": -231.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 130.154541015625
+            },
+            "max": {
+                "x": -218.79983520507813,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 3.949998378753662,
+            "notes": "Floor to floor+6 m, up to 1.2 m from the wall face."
+        },
+        {
+            "name": "North reserved -237.2",
+            "kind": "reserved",
+            "wall": "North",
+            "min": {
+                "x": -237.1998291015625,
+                "y": 0.18000000715255738,
+                "z": 130.154541015625
+            },
+            "max": {
+                "x": -231.6998291015625,
+                "y": 2.380000114440918,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 0.05000000447034836,
+            "notes": "No body-height dressing: Red Terminal keep-out"
+        },
+        {
+            "name": "North column North-West Room Terminal (Red)",
+            "kind": "column",
+            "wall": "North",
+            "min": {
+                "x": -235.476318359375,
+                "y": 0.18000000715255738,
+                "z": 130.154541015625
+            },
+            "max": {
+                "x": -233.518310546875,
+                "y": 2.6383471488952638,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 0.0,
+            "notes": "Keep clear from the floor to Y 2.64 (status lamps, lintel, prompt and readability); wall services may pass above."
+        },
+        {
+            "name": "North services 1",
+            "kind": "wall-services",
+            "wall": "North",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 2.380000114440918,
+                "z": 130.154541015625
+            },
+            "max": {
+                "x": -235.476318359375,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 1.2000000476837159,
+            "notes": "Wall-mounted conduits, trays and panels above the movement band; do not drop to the floor inside reserved stretches."
+        },
+        {
+            "name": "North services 2",
+            "kind": "wall-services",
+            "wall": "North",
+            "min": {
+                "x": -233.518310546875,
+                "y": 2.380000114440918,
+                "z": 130.154541015625
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 1.2000000476837159,
+            "notes": "Wall-mounted conduits, trays and panels above the movement band; do not drop to the floor inside reserved stretches."
+        },
+        {
+            "name": "South heavy-perimeter 1",
+            "kind": "heavy-perimeter",
+            "wall": "South",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -235.9998321533203,
+                "y": 6.179999828338623,
+                "z": 102.52273559570313
+            },
+            "minFreeDepth": 3.1499991416931154,
+            "notes": "Floor to floor+6 m, up to 3.0 m from the wall face."
+        },
+        {
+            "name": "South heavy-perimeter 2",
+            "kind": "heavy-perimeter",
+            "wall": "South",
+            "min": {
+                "x": -232.9998321533203,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -218.79983520507813,
+                "y": 6.179999828338623,
+                "z": 102.52273559570313
+            },
+            "minFreeDepth": 3.1499991416931154,
+            "notes": "Floor to floor+6 m, up to 3.0 m from the wall face."
+        },
+        {
+            "name": "South wall-flush 1",
+            "kind": "wall-flush",
+            "wall": "South",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -218.79983520507813,
+                "y": 6.179999828338623,
+                "z": 100.72273254394531
+            },
+            "minFreeDepth": 2.3499999046325685,
+            "notes": "Floor to floor+6 m, up to 1.2 m from the wall face."
+        },
+        {
+            "name": "South flush-only -236.0",
+            "kind": "flush-only",
+            "wall": "South",
+            "min": {
+                "x": -235.9998321533203,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -232.9998321533203,
+                "y": 2.380000114440918,
+                "z": 102.52273559570313
+            },
+            "minFreeDepth": 2.3499999046325685,
+            "notes": "Wall-flush only; limited by: Spawn 2 disc"
+        },
+        {
+            "name": "South services 1",
+            "kind": "wall-services",
+            "wall": "South",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 2.380000114440918,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 100.72273254394531
+            },
+            "minFreeDepth": 1.2000000476837159,
+            "notes": "Wall-mounted conduits, trays and panels above the movement band; do not drop to the floor inside reserved stretches."
+        },
+        {
+            "name": "East heavy-perimeter 1",
+            "kind": "heavy-perimeter",
+            "wall": "East",
+            "min": {
+                "x": -221.77593994140626,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 106.72273254394531
+            },
+            "minFreeDepth": 3.7499985694885256,
+            "notes": "Floor to floor+6 m, up to 3.0 m from the wall face."
+        },
+        {
+            "name": "East heavy-perimeter 2",
+            "kind": "heavy-perimeter",
+            "wall": "East",
+            "min": {
+                "x": -221.77593994140626,
+                "y": 0.18000000715255738,
+                "z": 110.82273864746094
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 113.82273864746094
+            },
+            "minFreeDepth": 3.1499991416931154,
+            "notes": "Floor to floor+6 m, up to 3.0 m from the wall face."
+        },
+        {
+            "name": "East heavy-perimeter 3",
+            "kind": "heavy-perimeter",
+            "wall": "East",
+            "min": {
+                "x": -221.77593994140626,
+                "y": 0.18000000715255738,
+                "z": 117.12273406982422
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 131.32273864746095
+            },
+            "minFreeDepth": 3.049999237060547,
+            "notes": "Floor to floor+6 m, up to 3.0 m from the wall face."
+        },
+        {
+            "name": "East wall-flush 1",
+            "kind": "wall-flush",
+            "wall": "East",
+            "min": {
+                "x": -219.97593688964845,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 106.72273254394531
+            },
+            "minFreeDepth": 3.7499985694885256,
+            "notes": "Floor to floor+6 m, up to 1.2 m from the wall face."
+        },
+        {
+            "name": "East wall-flush 2",
+            "kind": "wall-flush",
+            "wall": "East",
+            "min": {
+                "x": -219.97593688964845,
+                "y": 0.18000000715255738,
+                "z": 110.82273864746094
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 131.32273864746095
+            },
+            "minFreeDepth": 2.1500000953674318,
+            "notes": "Floor to floor+6 m, up to 1.2 m from the wall face."
+        },
+        {
+            "name": "East reserved 106.7",
+            "kind": "reserved",
+            "wall": "East",
+            "min": {
+                "x": -219.97593688964845,
+                "y": 0.18000000715255738,
+                "z": 106.72273254394531
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 2.380000114440918,
+                "z": 110.82273864746094
+            },
+            "minFreeDepth": 0.0,
+            "notes": "No body-height dressing: North-West Room Door (E) approach"
+        },
+        {
+            "name": "East flush-only 113.8",
+            "kind": "flush-only",
+            "wall": "East",
+            "min": {
+                "x": -221.77593994140626,
+                "y": 0.18000000715255738,
+                "z": 113.82273864746094
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 2.380000114440918,
+                "z": 117.12273406982422
+            },
+            "minFreeDepth": 2.1500000953674318,
+            "notes": "Wall-flush only; limited by: Spawn 5 disc"
+        },
+        {
+            "name": "East column North-West Room Door (E)",
+            "kind": "column",
+            "wall": "East",
+            "min": {
+                "x": -219.97593688964845,
+                "y": 0.18000000715255738,
+                "z": 106.72500610351563
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 3.4868385791778566,
+                "z": 110.84500122070313
+            },
+            "minFreeDepth": 0.0,
+            "notes": "Keep clear from the floor to Y 3.49 (status lamps, lintel, prompt and readability); wall services may pass above."
+        },
+        {
+            "name": "East services 1",
+            "kind": "wall-services",
+            "wall": "East",
+            "min": {
+                "x": -219.97593688964845,
+                "y": 2.380000114440918,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 106.72500610351563
+            },
+            "minFreeDepth": 1.2000000476837159,
+            "notes": "Wall-mounted conduits, trays and panels above the movement band; do not drop to the floor inside reserved stretches."
+        },
+        {
+            "name": "East services 2",
+            "kind": "wall-services",
+            "wall": "East",
+            "min": {
+                "x": -219.97593688964845,
+                "y": 2.380000114440918,
+                "z": 110.84500122070313
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 1.2000000476837159,
+            "notes": "Wall-mounted conduits, trays and panels above the movement band; do not drop to the floor inside reserved stretches."
+        },
+        {
+            "name": "West heavy-perimeter 1",
+            "kind": "heavy-perimeter",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -247.6998291015625,
+                "y": 6.179999828338623,
+                "z": 103.22273254394531
+            },
+            "minFreeDepth": 8.0,
+            "notes": "Floor to floor+6 m, up to 3.0 m from the wall face."
+        },
+        {
+            "name": "West heavy-perimeter 2",
+            "kind": "heavy-perimeter",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 117.22273254394531
+            },
+            "max": {
+                "x": -247.6998291015625,
+                "y": 6.179999828338623,
+                "z": 131.32273864746095
+            },
+            "minFreeDepth": 3.649998664855957,
+            "notes": "Floor to floor+6 m, up to 3.0 m from the wall face."
+        },
+        {
+            "name": "West wall-flush 1",
+            "kind": "wall-flush",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -249.4998321533203,
+                "y": 6.179999828338623,
+                "z": 103.22273254394531
+            },
+            "minFreeDepth": 8.0,
+            "notes": "Floor to floor+6 m, up to 1.2 m from the wall face."
+        },
+        {
+            "name": "West wall-flush 2",
+            "kind": "wall-flush",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 117.22273254394531
+            },
+            "max": {
+                "x": -249.4998321533203,
+                "y": 6.179999828338623,
+                "z": 131.32273864746095
+            },
+            "minFreeDepth": 3.649998664855957,
+            "notes": "Floor to floor+6 m, up to 1.2 m from the wall face."
+        },
+        {
+            "name": "West reserved 103.2",
+            "kind": "reserved",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 103.22273254394531
+            },
+            "max": {
+                "x": -249.4998321533203,
+                "y": 2.380000114440918,
+                "z": 117.22273254394531
+            },
+            "minFreeDepth": 0.0,
+            "notes": "No body-height dressing: Boss Hall Door approach; Connector: Master Terminal to boss door inside; Master Terminal keep-out"
+        },
+        {
+            "name": "West column Boss Hall Door",
+            "kind": "column",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 113.67500305175781
+            },
+            "max": {
+                "x": -249.4998321533203,
+                "y": 4.4799981117248539,
+                "z": 117.23500061035156
+            },
+            "minFreeDepth": 0.0,
+            "notes": "Keep clear from the floor to Y 4.48 (status lamps, lintel, prompt and readability); wall services may pass above."
+        },
+        {
+            "name": "West column Master Terminal",
+            "kind": "column",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 104.77522277832031
+            },
+            "max": {
+                "x": -249.4998321533203,
+                "y": 3.9615306854248049,
+                "z": 107.19752502441406
+            },
+            "minFreeDepth": 0.0,
+            "notes": "Keep clear from the floor to Y 3.96 (status lamps, lintel, prompt and readability); wall services may pass above."
+        },
+        {
+            "name": "West services 1",
+            "kind": "wall-services",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 2.380000114440918,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -249.4998321533203,
+                "y": 6.179999828338623,
+                "z": 104.77522277832031
+            },
+            "minFreeDepth": 1.2000000476837159,
+            "notes": "Wall-mounted conduits, trays and panels above the movement band; do not drop to the floor inside reserved stretches."
+        },
+        {
+            "name": "West services 2",
+            "kind": "wall-services",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 2.380000114440918,
+                "z": 107.19752502441406
+            },
+            "max": {
+                "x": -249.4998321533203,
+                "y": 6.179999828338623,
+                "z": 113.67500305175781
+            },
+            "minFreeDepth": 1.2000000476837159,
+            "notes": "Wall-mounted conduits, trays and panels above the movement band; do not drop to the floor inside reserved stretches."
+        },
+        {
+            "name": "West services 3",
+            "kind": "wall-services",
+            "wall": "West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 2.380000114440918,
+                "z": 117.23500061035156
+            },
+            "max": {
+                "x": -249.4998321533203,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 1.2000000476837159,
+            "notes": "Wall-mounted conduits, trays and panels above the movement band; do not drop to the floor inside reserved stretches."
+        },
+        {
+            "name": "South-West corner",
+            "kind": "corner",
+            "wall": "South-West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -246.8998260498047,
+                "y": 6.179999828338623,
+                "z": 103.32273864746094
+            },
+            "minFreeDepth": 3.8000006675720217,
+            "notes": "Largest clear square 3.8 m; limited by Master Terminal keep-out."
+        },
+        {
+            "name": "South-East corner",
+            "kind": "corner",
+            "wall": "South-East",
+            "min": {
+                "x": -223.37594604492188,
+                "y": 0.18000000715255738,
+                "z": 99.52273559570313
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 104.12273406982422
+            },
+            "minFreeDepth": 4.599999904632568,
+            "notes": "Largest clear square 4.6 m; limited by Spawn 3 disc."
+        },
+        {
+            "name": "North-West corner",
+            "kind": "corner",
+            "wall": "North-West",
+            "min": {
+                "x": -250.6998291015625,
+                "y": 0.18000000715255738,
+                "z": 126.55453491210938
+            },
+            "max": {
+                "x": -245.8998260498047,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 4.799999713897705,
+            "notes": "Largest clear square 4.8 m; limited by Spawn 6 disc."
+        },
+        {
+            "name": "North-East corner",
+            "kind": "corner",
+            "wall": "North-East",
+            "min": {
+                "x": -223.37594604492188,
+                "y": 0.18000000715255738,
+                "z": 126.7545394897461
+            },
+            "max": {
+                "x": -218.77593994140626,
+                "y": 6.179999828338623,
+                "z": 131.3545379638672
+            },
+            "minFreeDepth": 4.599999904632568,
+            "notes": "Largest clear square 4.6 m; limited by Spawn 8 disc."
+        },
+        {
+            "name": "Overhead",
+            "kind": "overhead",
+            "wall": "All",
+            "min": {
+                "x": -250.3998260498047,
+                "y": 6.179999828338623,
+                "z": 99.82273864746094
+            },
+            "max": {
+                "x": -219.07594299316407,
+                "y": 10.776487350463868,
+                "z": 131.05453491210938
+            },
+            "minFreeDepth": 0.0,
+            "notes": "Highest existing non-shell content top Y 2.96. Any overhead structure needs an intersection validation (PLAN lesson 11) and must not change vertical gameplay."
+        }
+    ],
+    "objectives": [
+        "ObjectiveKillEnemies: ObjectiveKillEnemies, optional=False, mustKillAll=True, kills=6",
+        "ObjectiveReachPoint: ObjectiveReachPoint, optional=True",
+        "===== KEYCARD PROGRESSION =====/ObjectiveKeycards: ObjectiveKeycards, optional=False, terminal=Master Terminal",
+        "GameManager: GameFlowManager, win scene WinScene, end delay 3.0 s"
+    ],
+    "notes": [
+        "All values are world metres; east is +X, north is +Z. Wall planes are the median of 26 shell-collider hits per wall (13 stations at floor+1.2 and +5 m); hits more than 0.25 m from the median are listed as openings or recesses.",
+        "Gate scans use 0.02 m conservative sample intervals at floor+0.2, +1.2 and +1.8 m through 4 m depth. Only moving leaves and the explicit blocker are excluded; the visible aperture also tests shell/frame triangles and the leaves translated by their configured open slide. No transform or collider state is changed.",
+        "Terminal eyes use the saved player's CapsuleHeightStanding x CameraHeightRatio above the physical ground under the standing point; the prompt rule is KeycardInteractor's range, aim-angle and occlusion test. Reach samples are 0.25 m floor points whose eye is in range, whose 0.4 m capsule is clear and whose sightlines are clear.",
+        "Spawn warp positions repeat KeycardTerminal.WarpIn's 3 m NavMesh projection. A wave larger than the far-enough marker set reuses markers nudged 1.5 m, inside the 2 m disc.",
+        "NavMesh queries describe loaded Edit-mode data, not runtime door carving or an AI/Play-mode test (0.3 m sample tolerance). Across-gate paths describe the saved locked doors.",
+        "Zones are design reservations derived from the measured keep-outs, not scene objects. Nothing in this report authorises moving doors, terminals, markers, access machines or triggers."
+    ]
+}

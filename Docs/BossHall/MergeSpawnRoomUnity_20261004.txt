@@ -1,0 +1,5 @@
+PASS: Unity 6000.5.7f1 compiled and loaded merged MainScene read-only.
+Transforms: 16029; missing scripts: 0.
+All 12 Boss Hall sections and six previously populated sections retained.
+Scene remains clean and byte-identical: 398f28174fd740665d66bb1a4cf2e0cd0b5898052d10c4d35c5b1495844803b1
+Not a gameplay or navigation verification; the remote spawn/Player changes require their own gameplay review.

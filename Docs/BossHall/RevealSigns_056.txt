@@ -1,0 +1,15 @@
+SIGN RESERVATION SEARCH env_056 (transient proxies only; nothing saved)
+West_Assembly: 146 collision/keep-out-valid candidates with >=12/15 clear sample rays from both approach eyes; rejected: collision in front of the plate 134, enters Lower NW stair and landings 96, enters Lower SW stair and landings 78, enters West reserved 130.8 24, enters West reserved 89.6 18, no facing backing surface 36, occupied by Cooling_West_North 5, occupied by Cooling_West_South 5, occupied by Lintel_Girder 94, occupied by Ring_Body 625, occupied by Ring_Pistons 220, occupied by Tower_Frame_North 147, occupied by Tower_Frame_South 147, uneven or missing backing at a corner 170
+  candidate along -3.50, height 0.70, centre (-324.37, 6.90, 111.80): Arena_Threshold 201 px, Just_Inside 218 px; turret/core pixels unchanged False
+  candidate along -4.00, height 0.70, centre (-324.37, 6.90, 111.30): Arena_Threshold 203 px, Just_Inside 226 px; turret/core pixels unchanged False
+  candidate along -4.50, height 0.70, centre (-324.37, 6.90, 110.80): Arena_Threshold 207 px, Just_Inside 234 px; turret/core pixels unchanged False
+  candidate along -5.00, height 0.70, centre (-324.37, 6.90, 110.30): Arena_Threshold 204 px, Just_Inside 242 px; turret/core pixels unchanged True
+  candidate along 6.50, height 1.95, centre (-324.37, 8.15, 121.80): Arena_Threshold 229 px, Just_Inside 235 px; turret/core pixels unchanged False
+  candidate along 7.50, height 1.45, centre (-324.37, 7.65, 122.80): Arena_Threshold 213 px, Just_Inside 223 px; turret/core pixels unchanged False
+  candidate along 7.50, height 1.20, centre (-324.37, 7.40, 122.80): Arena_Threshold 213 px, Just_Inside 221 px; turret/core pixels unchanged False
+  candidate along 7.50, height 1.70, centre (-324.37, 7.90, 122.80): Arena_Threshold 216 px, Just_Inside 225 px; turret/core pixels unchanged False
+  SELECT West_Assembly: along -5.00, height 0.70, worst approach 204 px
+South_Gallery: 0 collision/keep-out-valid candidates with >=12/15 clear sample rays from both approach eyes; rejected: enters South gallery walking volume 81, enters Upper SE stair and landings 563, enters Upper SW stair and landings 412, no facing backing surface 10, occupied by Maintenance_South_2 36, occupied by Maintenance_South_3 54, occupied by Power_Gallery_South 108, uneven or missing backing at a corner 27
+  NO VALID RESERVATION
+North_Gallery: 0 collision/keep-out-valid candidates with >=12/15 clear sample rays from both approach eyes; rejected: enters North gallery walking volume 82, enters Upper NE stair and landings 563, enters Upper NW stair and landings 424, no facing backing surface 10, occupied by Maintenance_North_2 36, occupied by Maintenance_North_3 54, occupied by Power_Gallery_North 108, uneven or missing backing at a corner 14
+  NO VALID RESERVATION

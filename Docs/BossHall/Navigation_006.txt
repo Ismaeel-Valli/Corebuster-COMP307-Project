@@ -1,0 +1,29 @@
+BOSS HALL MECHANICAL ARMS 006 NAVIGATION PROBE: PASS. Physics capsule and NavMesh probe with the cradle carve active; not live combat or human input.
+PASS mechanical arm cells add no runtime collision or carving
+PASS every arm renderer is above a standing player on the second tier (remaining jump clearance enforced by the contract)
+Art_006 probe repeats all backdrop traversal/routes with both saved arm cells present. Containment, win ordering and live combat are not tested.
+PASS cradle carving obstacle is enabled and carving in Play mode
+PASS carve: 0/301 samples inside the hull footprint are on the NavMesh
+PASS ring front: 25/25 samples on the NavMesh, 25/25 reachable from the entry
+PASS ring south end: 5/5 samples on the NavMesh, 5/5 reachable from the entry
+PASS ring north end: 5/5 samples on the NavMesh, 5/5 reachable from the entry
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) to entry inside: complete 37.4 m
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) to entry inside: complete 35.1 m
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) to entry inside: complete 36.0 m
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) to entry inside: complete 31.7 m
+PASS Enemy_Elite_PistonFist (-313, 109) to entry inside: complete 47.4 m
+PASS Enemy_Elite_PistonFist (-313, 125) to entry inside: complete 48.0 m
+PASS Enemy_Elite_Rifleman (-325, 102) to entry inside: complete 60.4 m
+PASS Enemy_Elite_Rifleman (-325, 132) to entry inside: complete 61.3 m
+PASS Enemy_Robot1_RivetCannon (-275, 109) to entry inside: complete 11.8 m
+PASS Enemy_Robot1_RivetCannon (-299, 119) to entry inside: complete 33.3 m
+PASS Entry inside to Lower NW foot: complete 62.2 m
+PASS Entry inside to Lower SW foot: complete 62.3 m
+PASS Rifleman south to Rifleman north (past the cradle front): complete 30.4 m
+PASS live hall agents on the NavMesh with carving active: 11/11 (survey actors 11)
+Probe setup: PlayerCharacterController and input disabled, Health invincible, 21 hall actor colliders disabled (Play mode only).
+PASS player walks Lower SW stair foot -> cradle front lane -> Lower NW stair foot: Reached
+PASS player walks the south end gap to 1 m from the west wall and back: Reached
+PASS player walks the north end gap to 1 m from the west wall and back: Reached
+PASS player pushed into the cradle front stops at X -324.08 (hull face -324.43, radius 0.35)
+PASS player with jump assist cannot get onto the cradle: highest foot Y 8.32 (apex), hull top 8.70

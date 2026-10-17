@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "ownerTask": "corebuster_art_005",
+  "colourSpace": "linear RGB values as serialized by URP materials and lights",
+  "purpose": "Locked material and lighting direction for the North-West Power Regulation Chamber. This is authoring data, not a material asset; corebuster_env_036 creates the room-owned URP/Lit materials from these values.",
+  "workshopMeasurements": {
+    "calibration": {
+      "source": "ARCHITECTURE.md, StartWorkshopLitMaterials calibration",
+      "metallicMaximum": 0.4,
+      "note": "The Workshop remaps scalar kit metallic into 0.1-0.4 so its lit copies retain diffuse response in a dark enclosed room."
+    },
+    "materials": [
+      {
+        "path": "Assets/FPS/Art/Materials/Props/M_Workstation_PaintedSteel.mat",
+        "baseColor": [0.5, 0.53, 0.56],
+        "metallic": 0.35,
+        "smoothness": 0.3,
+        "note": "Direct warm-neutral painted-steel calibration."
+      },
+      {
+        "path": "Assets/FPS/Art/StartWorkshop/HeavyIndustrialKit/Materials/M_HeavyPipe_BareSteel.mat",
+        "baseColorTint": [1.0, 1.0, 1.0],
+        "metallic": 0.9,
+        "smoothness": 0.42,
+        "note": "Texture-backed bare-steel finish; its Workshop use supplies the worn metal intent, but its metallic value is deliberately not copied to Room 3."
+      },
+      {
+        "path": "Assets/FPS/Art/StartWorkshop/HeavyIndustrialKit/Materials/M_HeavyPipe_RedOxide.mat",
+        "baseColorTint": [1.0, 1.0, 1.0],
+        "metallic": 0.22,
+        "smoothness": 0.24,
+        "note": "Texture-backed rust-red pipe finish."
+      },
+      {
+        "path": "Assets/FPS/Art/StartWorkshop/HeavyIndustrialKit/Materials/M_HeavyPipe_HazardYellow.mat",
+        "baseColorTint": [1.0, 1.0, 1.0],
+        "metallic": 0.18,
+        "smoothness": 0.2,
+        "note": "Texture-backed worn yellow pipe finish."
+      },
+      {
+        "path": "Assets/FPS/Art/Materials/Props/M_Lamp_AmberGlass.mat",
+        "baseColor": [1.0, 0.66, 0.3],
+        "metallic": 0.0,
+        "smoothness": 0.85,
+        "emission": [7.0, 3.8, 1.2]
+      },
+      {
+        "path": "Assets/FPS/Art/Materials/Props/M_Lamp_WarmStrip.mat",
+        "baseColor": [1.0, 0.86, 0.62],
+        "metallic": 0.0,
+        "smoothness": 0.85,
+        "emission": [3.2, 2.3, 1.2]
+      }
+    ],
+    "lights": [
+      {
+        "source": "Assets/FPS/Scripts/Environment/Editor/StartWorkshopLighting.cs PoolSpot",
+        "colour": [1.0, 0.62, 0.3],
+        "intensity": 60.0,
+        "range": 5.0,
+        "kind": "amber caged practical"
+      },
+      {
+        "source": "Assets/FPS/Scripts/Environment/Editor/StartWorkshopLighting.cs StripSpot",
+        "colour": [1.0, 0.74, 0.45],
+        "intensity": 30.0,
+        "range": 4.5,
+        "kind": "warm strip fixture"
+      }
+    ]
+  },
+  "limits": {
+    "largeSurfaceMinimumLuminance": 0.22,
+    "luminanceFormula": "0.2126 * R + 0.7152 * G + 0.0722 * B",
+    "largeSurfaceDefinition": "Any continuous painted or metal field of at least 0.5 square metres, or a material covering more than 10 percent of a machine assembly's visible area.",
+    "metallicMaximum": 0.4,
+    "darkDetailException": "Grime, seams, bolts, cable interiors and narrow recesses may fall below the luminance limit, but cannot form a large surface or the base of an assembly."
+  },
+  "swatches": [
+    {
+      "id": "warm_grey_plating",
+      "baseColor": [0.5, 0.48, 0.42],
+      "metallic": 0.32,
+      "smoothness": 0.34,
+      "emission": [0.0, 0.0, 0.0],
+      "usage": "Default dominant cabinet, turbine and wall-service plating; vary only with restrained grime and edge wear."
+    },
+    {
+      "id": "tan_plating",
+      "baseColor": [0.58, 0.46, 0.28],
+      "metallic": 0.25,
+      "smoothness": 0.3,
+      "emission": [0.0, 0.0, 0.0],
+      "usage": "Secondary panels, plinths and larger insulated housings; keep it subordinate to warm grey."
+    },
+    {
+      "id": "dark_gunmetal",
+      "baseColor": [0.25, 0.28, 0.27],
+      "metallic": 0.38,
+      "smoothness": 0.35,
+      "emission": [0.0, 0.0, 0.0],
+      "usage": "Rails, ribs, mounts, frames and compact recesses only; never use as the dominant body finish."
+    },
+    {
+      "id": "rust_red_pipework",
+      "baseColor": [0.48, 0.16, 0.08],
+      "metallic": 0.22,
+      "smoothness": 0.24,
+      "emission": [0.0, 0.0, 0.0],
+      "usage": "Pipes, valves, service couplings and transformer oil tanks; use as a legible industrial rhythm, not a room-wide wash."
+    },
+    {
+      "id": "ochre",
+      "baseColor": [0.7, 0.46, 0.1],
+      "metallic": 0.2,
+      "smoothness": 0.28,
+      "emission": [0.0, 0.0, 0.0],
+      "usage": "Machine bands, panel borders and secondary identification paint."
+    },
+    {
+      "id": "hazard_yellow",
+      "baseColor": [0.86, 0.6, 0.12],
+      "metallic": 0.18,
+      "smoothness": 0.2,
+      "emission": [0.0, 0.0, 0.0],
+      "usage": "Small warning bands, conduit markings and aisle-edge details; never cover an entire machine body."
+    },
+    {
+      "id": "worn_paint_and_grime",
+      "baseColor": [0.36, 0.28, 0.18],
+      "metallic": 0.05,
+      "smoothness": 0.18,
+      "emission": [0.0, 0.0, 0.0],
+      "usage": "Mask, decal or compact overlay only: chips, leak paths and soot around joints. It must reveal the warm-grey, tan, oxide or ochre substrate."
+    },
+    {
+      "id": "warm_amber_light",
+      "colour": [1.0, 0.62, 0.3],
+      "intensityRange": [30.0, 60.0],
+      "rangeMaximum": 5.0,
+      "emission": [7.0, 3.8, 1.2],
+      "usage": "Primary practical light and matching fixture glow. Each bay and open-space entrance needs a visible fixture; containment and the four-additional-light cap still win."
+    },
+    {
+      "id": "warning_red",
+      "baseColor": [0.72, 0.08, 0.04],
+      "metallic": 0.12,
+      "smoothness": 0.32,
+      "emission": [3.5, 0.12, 0.05],
+      "usage": "Room 3-only warning accent, increasingly frequent toward Boss Hall Door; use for beacons, small labels and emergency indicators, never as the base palette."
+    },
+    {
+      "id": "electric_blue_white",
+      "baseColor": [0.36, 0.84, 1.0],
+      "metallic": 0.0,
+      "smoothness": 0.5,
+      "emission": [2.8, 6.4, 7.5],
+      "usage": "Restrained power-equipment accent: transformer arcs, indicator lenses and local status strips only. It must not compete with the reactor or primary amber lighting."
+    }
+  ],
+  "existingMaterialAudit": [
+    { "path": "Assets/FPS/Art/NorthWestRoom/Turbine_Machinery/Materials/M_Turbine_Graphite.mat", "classification": "change", "targetSwatch": "dark_gunmetal", "targetBaseColor": [0.25, 0.28, 0.27], "targetMetallic": 0.38, "targetSmoothness": 0.35, "reason": "Current luminance is below the large-surface limit and its blue-grey cast is too cold." },
+    { "path": "Assets/FPS/Art/NorthWestRoom/Turbine_Machinery/Materials/M_Turbine_Steel.mat", "classification": "change", "targetSwatch": "warm_grey_plating", "targetBaseColor": [0.5, 0.48, 0.42], "targetMetallic": 0.32, "targetSmoothness": 0.34, "reason": "Current metallic 0.48 exceeds the locked maximum and the finish needs a warm base." },
+    { "path": "Assets/FPS/Art/NorthWestRoom/Turbine_Machinery/Materials/M_Turbine_Oxide.mat", "classification": "change", "targetSwatch": "rust_red_pipework", "targetBaseColor": [0.48, 0.16, 0.08], "targetMetallic": 0.22, "targetSmoothness": 0.24, "reason": "Current red is too dark for the room's light-free baseline." },
+    { "path": "Assets/FPS/Art/NorthWestRoom/Turbine_Machinery/Materials/M_Turbine_Hazard.mat", "classification": "change", "targetSwatch": "hazard_yellow", "targetBaseColor": [0.86, 0.6, 0.12], "targetMetallic": 0.18, "targetSmoothness": 0.2, "reason": "Raise the worn warning paint so it reads against the warm-grey body." },
+    { "path": "Assets/FPS/Art/NorthWestRoom/Electrical_Systems/Materials/M_Electrical_Ceramic.mat", "classification": "change", "targetSwatch": "tan_plating", "targetBaseColor": [0.58, 0.46, 0.28], "targetMetallic": 0.25, "targetSmoothness": 0.3, "reason": "Replace the grey-green cast with an industrial tan secondary." },
+    { "path": "Assets/FPS/Art/NorthWestRoom/Electrical_Systems/Materials/M_Electrical_Graphite.mat", "classification": "change", "targetSwatch": "dark_gunmetal", "targetBaseColor": [0.25, 0.28, 0.27], "targetMetallic": 0.38, "targetSmoothness": 0.35, "reason": "Current luminance is below the dark-surface limit." },
+    { "path": "Assets/FPS/Art/NorthWestRoom/Electrical_Systems/Materials/M_Electrical_Oxide.mat", "classification": "change", "targetSwatch": "rust_red_pipework", "targetBaseColor": [0.48, 0.16, 0.08], "targetMetallic": 0.22, "targetSmoothness": 0.24, "reason": "Current red is too dark and needs the Workshop oxide calibration." },
+    { "path": "Assets/FPS/Art/NorthWestRoom/Electrical_Systems/Materials/M_Electrical_Steel.mat", "classification": "change", "targetSwatch": "warm_grey_plating", "targetBaseColor": [0.5, 0.48, 0.42], "targetMetallic": 0.32, "targetSmoothness": 0.34, "reason": "Current metallic 0.42 exceeds the cap and the green-grey body lacks the locked warmth." },
+    { "path": "Assets/FPS/Art/NorthWestRoom/Electrical_Systems/Materials/M_Room3_Electric_Arc.mat", "classification": "change", "targetSwatch": "electric_blue_white", "targetColour": [0.36, 0.84, 1.0], "targetIntensity": 7.0, "targetFlicker": 0.38, "reason": "Keep the bounded decorative arc, but shift its cyan tint toward restrained blue-white." }
+  ],
+  "ownership": {
+    "rule": "corebuster_env_036 creates flattened Room 3 URP/Lit copies under Assets/FPS/Art/NorthWestRoom/Rendering/Materials, keyed by the source material GUID. It assigns them only to Room 3 renderers and restores any accidental external reference.",
+    "weathering": "Use Room 3-owned base materials plus Room 3-owned mask/decal/overlay assets. Do not reference Assets/FPS/Art/Materials/Workshop/, Centre Room copies, or a Workshop material directly.",
+    "sharedAssets": "Third-party prefabs and materials remain unchanged. Reused prefabs receive only per-instance Room 3 material overrides."
+  }
+}

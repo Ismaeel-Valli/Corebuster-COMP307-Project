@@ -1,0 +1,162 @@
+BOSS HALL LOWER ARENA 052 ROUTE PROBE (SAVED): PASS. Saved scene d75d182da08efdc3d58e87f1fe037506678007addb057956d31752755199e6d4. NavMesh routes, live NavMeshAgents driven with AI paused, and player capsule; not live combat, AI decisions or human input.
+PASS 2/2 housing carving obstacles enabled and carving in Play mode
+PASS Blast_Housing_South carve: 0/39 samples inside the footprint are on the NavMesh
+PASS Blast_Housing_South lane: 11/11 samples 1.2 m in front of and beside the footprint on the NavMesh, 11/11 reachable from the entry
+PASS Blast_Housing_North carve: 0/39 samples inside the footprint are on the NavMesh
+PASS Blast_Housing_North lane: 11/11 samples 1.2 m in front of and beside the footprint on the NavMesh, 11/11 reachable from the entry
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) to entry inside: complete 37.4 m
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) to entry inside: complete 35.1 m
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) to entry inside: complete 36.0 m
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) to entry inside: complete 31.7 m
+PASS Enemy_Elite_PistonFist (-313, 109) to entry inside: complete 47.4 m
+PASS Enemy_Elite_PistonFist (-313, 125) to entry inside: complete 48.0 m
+PASS Enemy_Elite_Rifleman (-325, 102) to entry inside: complete 60.4 m
+PASS Enemy_Elite_Rifleman (-325, 132) to entry inside: complete 61.3 m
+PASS Enemy_Robot1_RivetCannon (-275, 109) to entry inside: complete 11.8 m
+PASS Enemy_Robot1_RivetCannon (-299, 119) to entry inside: complete 33.3 m
+PASS Connector Entry inside to Lower NW stair foot: complete 62.2 m
+PASS Connector Entry inside to Lower SW stair foot: complete 62.3 m
+PASS Connector Entry inside to Lower NE stair foot: complete 17.2 m
+PASS Connector Entry inside to Lower SE stair foot: complete 17.7 m
+PASS Connector Lower NW stair foot to top: complete 9.4 m
+PASS Connector Lower SW stair foot to top: complete 9.4 m
+PASS Connector Upper SE stair foot to top: complete 10.4 m
+PASS Connector Upper NE stair foot to top: complete 10.4 m
+PASS Connector Upper NW stair foot to top: complete 10.4 m
+PASS Connector Upper SW stair foot to top: complete 10.4 m
+PASS Connector Lower NE stair foot to top: complete 9.4 m
+PASS Connector Lower SE stair foot to top: complete 9.4 m
+PASS Connector North gallery: Lower NW stair top to Upper NW stair foot: complete 17.5 m
+PASS Connector North gallery: Upper NW stair foot to Upper NE stair foot: complete 25.7 m
+PASS Connector North gallery: Upper NE stair foot to Lower NE stair top: complete 17.7 m
+PASS Connector South gallery: Lower SW stair top to Upper SW stair foot: complete 17.5 m
+PASS Connector South gallery: Upper SW stair foot to Upper SE stair foot: complete 28.4 m
+PASS Connector South gallery: Upper SE stair foot to Lower SE stair top: complete 17.7 m
+PASS Connector Upper spine south to north: complete 67.9 m
+PASS Connector Upper spine south to East bay-door approach: complete 50.5 m
+PASS Connector Upper spine south to West bay-door approach: complete 50.1 m
+PASS Connector Incline landing to entry inside: complete 3.3 m
+PASS Connector North-West threshold to entry inside: complete 15.1 m
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) to Blast_Housing_South front: complete 30.1 m
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) to Blast_Housing_South west end: complete 31.9 m
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) to Blast_Housing_South east end: complete 33.3 m
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) to Blast_Housing_North front: complete 29.5 m
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) to Blast_Housing_North west end: complete 31.0 m
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) to Blast_Housing_North east end: complete 32.6 m
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) to Blast_Housing_South front: complete 30.6 m
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) to Blast_Housing_South west end: complete 32.6 m
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) to Blast_Housing_South east end: complete 33.5 m
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) to Blast_Housing_North front: complete 28.3 m
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) to Blast_Housing_North west end: complete 30.3 m
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) to Blast_Housing_North east end: complete 31.3 m
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) to Blast_Housing_South front: complete 24.4 m
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) to Blast_Housing_South west end: complete 26.4 m
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) to Blast_Housing_South east end: complete 27.5 m
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) to Blast_Housing_North front: complete 34.6 m
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) to Blast_Housing_North west end: complete 36.5 m
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) to Blast_Housing_North east end: complete 37.5 m
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) to Blast_Housing_South front: complete 29.3 m
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) to Blast_Housing_South west end: complete 31.7 m
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) to Blast_Housing_South east end: complete 32.0 m
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) to Blast_Housing_North front: complete 29.3 m
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) to Blast_Housing_North west end: complete 31.8 m
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) to Blast_Housing_North east end: complete 31.6 m
+PASS Enemy_Elite_PistonFist (-313, 109) to Blast_Housing_South front: complete 27.7 m
+PASS Enemy_Elite_PistonFist (-313, 109) to Blast_Housing_South west end: complete 28.3 m
+PASS Enemy_Elite_PistonFist (-313, 109) to Blast_Housing_South east end: complete 31.9 m
+PASS Enemy_Elite_PistonFist (-313, 109) to Blast_Housing_North front: complete 38.3 m
+PASS Enemy_Elite_PistonFist (-313, 109) to Blast_Housing_North west end: complete 40.1 m
+PASS Enemy_Elite_PistonFist (-313, 109) to Blast_Housing_North east end: complete 42.9 m
+PASS Enemy_Elite_PistonFist (-313, 125) to Blast_Housing_South front: complete 42.0 m
+PASS Enemy_Elite_PistonFist (-313, 125) to Blast_Housing_South west end: complete 44.1 m
+PASS Enemy_Elite_PistonFist (-313, 125) to Blast_Housing_South east end: complete 45.7 m
+PASS Enemy_Elite_PistonFist (-313, 125) to Blast_Housing_North front: complete 24.5 m
+PASS Enemy_Elite_PistonFist (-313, 125) to Blast_Housing_North west end: complete 24.5 m
+PASS Enemy_Elite_PistonFist (-313, 125) to Blast_Housing_North east end: complete 28.9 m
+PASS Enemy_Elite_Rifleman (-325, 102) to Blast_Housing_South front: complete 32.1 m
+PASS Enemy_Elite_Rifleman (-325, 102) to Blast_Housing_South west end: complete 29.1 m
+PASS Enemy_Elite_Rifleman (-325, 102) to Blast_Housing_South east end: complete 37.2 m
+PASS Enemy_Elite_Rifleman (-325, 102) to Blast_Housing_North front: complete 50.2 m
+PASS Enemy_Elite_Rifleman (-325, 102) to Blast_Housing_North west end: complete 50.3 m
+PASS Enemy_Elite_Rifleman (-325, 102) to Blast_Housing_North east end: complete 54.4 m
+PASS Enemy_Elite_Rifleman (-325, 132) to Blast_Housing_South front: complete 53.6 m
+PASS Enemy_Elite_Rifleman (-325, 132) to Blast_Housing_South west end: complete 53.9 m
+PASS Enemy_Elite_Rifleman (-325, 132) to Blast_Housing_South east end: complete 62.0 m
+PASS Enemy_Elite_Rifleman (-325, 132) to Blast_Housing_North front: complete 30.8 m
+PASS Enemy_Elite_Rifleman (-325, 132) to Blast_Housing_North west end: complete 26.8 m
+PASS Enemy_Elite_Rifleman (-325, 132) to Blast_Housing_North east end: complete 35.3 m
+PASS Enemy_Robot1_RivetCannon (-275, 109) to Blast_Housing_South front: complete 32.2 m
+PASS Enemy_Robot1_RivetCannon (-275, 109) to Blast_Housing_South west end: complete 37.6 m
+PASS Enemy_Robot1_RivetCannon (-275, 109) to Blast_Housing_South east end: complete 30.9 m
+PASS Enemy_Robot1_RivetCannon (-275, 109) to Blast_Housing_North front: complete 42.5 m
+PASS Enemy_Robot1_RivetCannon (-275, 109) to Blast_Housing_North west end: complete 46.5 m
+PASS Enemy_Robot1_RivetCannon (-275, 109) to Blast_Housing_North east end: complete 42.1 m
+PASS Enemy_Robot1_RivetCannon (-299, 119) to Blast_Housing_South front: complete 32.9 m
+PASS Enemy_Robot1_RivetCannon (-299, 119) to Blast_Housing_South west end: complete 35.2 m
+PASS Enemy_Robot1_RivetCannon (-299, 119) to Blast_Housing_South east end: complete 35.7 m
+PASS Enemy_Robot1_RivetCannon (-299, 119) to Blast_Housing_North front: complete 25.7 m
+PASS Enemy_Robot1_RivetCannon (-299, 119) to Blast_Housing_North west end: complete 28.0 m
+PASS Enemy_Robot1_RivetCannon (-299, 119) to Blast_Housing_North east end: complete 28.5 m
+PASS live hall agents on the NavMesh: 11/11 (survey actors 11)
+INFO Enemy_CyberSoldier_PistonFist (-303, 115): 5.46 m from its saved start after the 3.2 s settle with unmodified AI (now at -302.3, 110.0).
+INFO Enemy_CyberSoldier_PistonFist (1) (-301, 116): 5.40 m from its saved start after the 3.2 s settle with unmodified AI (now at -300.2, 110.8).
+INFO Enemy_CyberSoldier_RivetCannon (-302, 110): 4.51 m from its saved start after the 3.2 s settle with unmodified AI (now at -300.5, 105.5).
+INFO Enemy_CyberSoldier_RivetCannon (1) (-298, 115): 4.53 m from its saved start after the 3.2 s settle with unmodified AI (now at -297.7, 110.5).
+INFO Enemy_Elite_PistonFist (-313, 109): 5.75 m from its saved start after the 3.2 s settle with unmodified AI (now at -309.2, 104.6).
+INFO Enemy_Elite_PistonFist (-313, 125): 5.62 m from its saved start after the 3.2 s settle with unmodified AI (now at -310.6, 119.9).
+INFO Enemy_Elite_Rifleman (-325, 102): 4.40 m from its saved start after the 3.2 s settle with unmodified AI (now at -321.5, 99.4).
+INFO Enemy_Elite_Rifleman (-325, 132): 4.49 m from its saved start after the 3.2 s settle with unmodified AI (now at -323.4, 127.8).
+INFO Enemy_Robot1_RivetCannon (-275, 109): 4.48 m from its saved start after the 3.2 s settle with unmodified AI (now at -273.6, 104.5).
+INFO Enemy_Robot1_RivetCannon (-299, 119): 4.50 m from its saved start after the 3.2 s settle with unmodified AI (now at -298.8, 114.2).
+INFO Agent setup: 126 AI/weapon/health scripts on 10 hall humanoids paused for the probe only; agents keep their saved speed and radius, stopping distance 0.25 m, time scale 4x.
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) live: front of Blast_Housing_North: arrived in 4.5 s game time, 28.9 m travelled, nearest housing footprint 1.77 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) live: east end of Blast_Housing_North: arrived in 0.9 s game time, 6.3 m travelled, nearest housing footprint 0.54 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) live: back to start: arrived in 4.6 s game time, 32.8 m travelled, nearest housing footprint 1.14 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) live: front of Blast_Housing_North: arrived in 3.8 s game time, 27.8 m travelled, nearest housing footprint 1.79 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) live: east end of Blast_Housing_North: arrived in 1.0 s game time, 6.4 m travelled, nearest housing footprint 0.54 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) live: back to start: arrived in 4.4 s game time, 31.6 m travelled, nearest housing footprint 0.87 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) live: front of Blast_Housing_South: arrived in 4.5 s game time, 23.9 m travelled, nearest housing footprint 1.78 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) live: east end of Blast_Housing_South: arrived in 1.1 s game time, 5.4 m travelled, nearest housing footprint 0.58 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) live: back to start: arrived in 5.1 s game time, 27.2 m travelled, nearest housing footprint 0.85 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) live: front of Blast_Housing_North: arrived in 5.4 s game time, 28.7 m travelled, nearest housing footprint 1.78 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) live: west end of Blast_Housing_North: arrived in 1.1 s game time, 5.5 m travelled, nearest housing footprint 0.57 m (agent radius 0.39)
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) live: back to start: arrived in 5.9 s game time, 31.5 m travelled, nearest housing footprint 0.87 m (agent radius 0.39)
+PASS Enemy_Elite_PistonFist (-313, 109) live: front of Blast_Housing_South: arrived in 4.0 s game time, 27.1 m travelled, nearest housing footprint 1.68 m (agent radius 0.39)
+PASS Enemy_Elite_PistonFist (-313, 109) live: east end of Blast_Housing_South: arrived in 0.9 s game time, 5.8 m travelled, nearest housing footprint 0.58 m (agent radius 0.39)
+PASS Enemy_Elite_PistonFist (-313, 109) live: back to start: arrived in 4.8 s game time, 32.6 m travelled, nearest housing footprint 0.70 m (agent radius 0.39)
+PASS Enemy_Elite_PistonFist (-313, 125) live: front of Blast_Housing_North: arrived in 3.5 s game time, 23.9 m travelled, nearest housing footprint 1.68 m (agent radius 0.39)
+PASS Enemy_Elite_PistonFist (-313, 125) live: east end of Blast_Housing_North: arrived in 0.8 s game time, 5.6 m travelled, nearest housing footprint 0.60 m (agent radius 0.39)
+PASS Enemy_Elite_PistonFist (-313, 125) live: back to start: arrived in 4.3 s game time, 29.0 m travelled, nearest housing footprint 0.55 m (agent radius 0.39)
+PASS Enemy_Elite_Rifleman (-325, 102) live: front of Blast_Housing_South: arrived in 6.3 s game time, 31.2 m travelled, nearest housing footprint 1.40 m (agent radius 0.39)
+PASS Enemy_Elite_Rifleman (-325, 102) live: east end of Blast_Housing_South: arrived in 1.1 s game time, 5.5 m travelled, nearest housing footprint 0.59 m (agent radius 0.39)
+PASS Enemy_Elite_Rifleman (-325, 102) live: back to start: arrived in 7.5 s game time, 36.4 m travelled, nearest housing footprint 0.66 m (agent radius 0.39)
+PASS Enemy_Elite_Rifleman (-325, 132) live: front of Blast_Housing_North: arrived in 6.2 s game time, 30.2 m travelled, nearest housing footprint 1.69 m (agent radius 0.39)
+PASS Enemy_Elite_Rifleman (-325, 132) live: east end of Blast_Housing_North: arrived in 1.1 s game time, 5.4 m travelled, nearest housing footprint 0.60 m (agent radius 0.39)
+PASS Enemy_Elite_Rifleman (-325, 132) live: back to start: arrived in 7.1 s game time, 34.6 m travelled, nearest housing footprint 0.65 m (agent radius 0.39)
+PASS Enemy_Robot1_RivetCannon (-275, 109) live: front of Blast_Housing_South: arrived in 7.2 s game time, 31.6 m travelled, nearest housing footprint 1.62 m (agent radius 0.39)
+PASS Enemy_Robot1_RivetCannon (-275, 109) live: west end of Blast_Housing_South: arrived in 1.2 s game time, 5.4 m travelled, nearest housing footprint 0.60 m (agent radius 0.39)
+PASS Enemy_Robot1_RivetCannon (-275, 109) live: back to start: arrived in 8.5 s game time, 37.4 m travelled, nearest housing footprint 0.66 m (agent radius 0.39)
+PASS Enemy_Robot1_RivetCannon (-299, 119) live: front of Blast_Housing_North: arrived in 5.7 s game time, 25.1 m travelled, nearest housing footprint 1.79 m (agent radius 0.39)
+PASS Enemy_Robot1_RivetCannon (-299, 119) live: east end of Blast_Housing_North: arrived in 1.2 s game time, 5.2 m travelled, nearest housing footprint 0.61 m (agent radius 0.39)
+PASS Enemy_Robot1_RivetCannon (-299, 119) live: back to start: arrived in 6.4 s game time, 27.8 m travelled, nearest housing footprint 1.01 m (agent radius 0.39)
+INFO Player setup: PlayerCharacterController and input disabled, Health invincible, 21 hall actor colliders disabled (Play mode only); walk 13.0 m/s, sprint 19.5 m/s, jump 9.0 m/s.
+PASS player walks the south under-gallery lane (wall distance 3.2 m) east to west and back
+PASS player walks the north under-gallery lane (wall distance 3.2 m) east to west and back
+PASS player sprints the lower-floor perimeter circuit (X -320.5..-271.0, Z 85.6..144.4): Reached
+PASS player sprints along Blast_Housing_South 0.55 m off its face and back: Reached
+PASS player sprints diagonally into Blast_Housing_South's face and slides past its far corner without snagging: Reached
+PASS player pushed into Blast_Housing_South stops 0.35 m from its face (radius 0.35)
+INFO Blast_Housing_South: jump-assisted highest foot Y 7.66 against cover top 7.30 (mountable low cover).
+PASS standing on Blast_Housing_South: 2.87 m headroom to the next collider above (player 1.80 m)
+PASS player walks off the top of Blast_Housing_South into the arena: Reached
+PASS standing player cannot enter the stand-off gap behind Blast_Housing_South: stops 0.35 m beyond its end
+PASS player leaves the end of Blast_Housing_South freely: Reached
+PASS player sprints along Blast_Housing_North 0.55 m off its face and back: Reached
+PASS player sprints diagonally into Blast_Housing_North's face and slides past its far corner without snagging: Reached
+PASS player pushed into Blast_Housing_North stops 0.35 m from its face (radius 0.35)
+INFO Blast_Housing_North: jump-assisted highest foot Y 7.66 against cover top 7.30 (mountable low cover).
+PASS standing on Blast_Housing_North: 2.87 m headroom to the next collider above (player 1.80 m)
+PASS player walks off the top of Blast_Housing_North into the arena: Reached
+PASS standing player cannot enter the stand-off gap behind Blast_Housing_North: stops 0.35 m beyond its end
+PASS player leaves the end of Blast_Housing_North freely: Reached
+PASS baseline comparison: 93/93 NavMesh routes (largest added length 0.58 m) and 30/30 live legs (largest added time 0.30 s) within 25% + 2 m / 50% + 3 s

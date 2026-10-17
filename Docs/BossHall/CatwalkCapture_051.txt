@@ -1,0 +1,13 @@
+PASS saved maintenance captures; full scene/material state and scene bytes unchanged.
+Scene SHA-256: 4416fd5c7df65ae3e280c91effc4ebda7c8b0a44e216a7e2919959a647cc4746
+Captures: ReviewCaptures/BossHall/051/Saved
+Neutral review lamps/camera destroyed; saved lighting unchanged.
+Room3_Master: 0 changed pixels; 0 outside hall projection; strict neighbour/backward view
+Room3_BossDoor: 0 changed pixels; 0 outside hall projection; strict neighbour/backward view
+Threshold_Forward: 1 changed pixels; 0 outside hall projection; forward view
+Incline_Back: 0 changed pixels; 0 outside hall projection; strict neighbour/backward view
+Landing_Back: 0 changed pixels; 0 outside hall projection; strict neighbour/backward view
+Incline_Reveal: 374 changed pixels; 136 outside hall projection; forward view
+Landing_Forward: 900 changed pixels; 0 outside hall projection; forward view
+Centre_Room: 0 changed pixels; 0 outside hall projection; strict neighbour/backward view
+Workshop: 0 changed pixels; 0 outside hall projection; strict neighbour/backward view

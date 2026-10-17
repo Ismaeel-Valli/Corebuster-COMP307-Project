@@ -1,0 +1,4 @@
+PASS: six unsaved proposal meshes rendered at measured first-tier positions, then destroyed.
+Full scene state, shared material state and scene bytes unchanged: 398f28174fd740665d66bb1a4cf2e0cd0b5898052d10c4d35c5b1495844803b1
+Captures: ReviewCaptures/BossHall/051/Proposed. Neutral review lamps are unsaved and not final lighting.
+No dressing asset or saved object created; route/gameplay decisions and saved-scene validation remain pending.

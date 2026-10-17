@@ -1,0 +1,152 @@
+BOSS HALL FINALE MERGE AUDIT env_056 (read-only YAML)
+Merge commit 389eff4 'Merge origin/main: integrate tutorial wing with Boss Hall lighting'; ours d5e2cb1 (env_055), theirs cf8a1e2, base 42ea7f0.
+old d5e2cb1: f7197d7c4b5445fd570cf7e2ead21e8bd43898d2587e0d47492f25b8ad7ad4ee; merged: 61deb08049452ba7e3dd403b7d6e5cf27f8495653ec908401271bac7dfbc2cb9
+Boss_Hall_Dressing subtree blocks: old 3035, merged 3035, identical 3031, differing 4, added 0
+Differing blocks after normalising Unity's long-reference line wrapping: 0 (the 4 raw differences are two Mechanical_Arms prefab-instance blocks and their stripped transforms, re-wrapped only).
+Protected shared asset/meta/settings paths changed by the merge (git name-status, d5e2cb1..389eff4): 145
+  A Assets/FPS/Art/Corridors/CorridorLamp/Materials/M_CorridorLamp_Bulb.mat
+  A Assets/FPS/Art/Corridors/CorridorLamp/Materials/M_CorridorLamp_Bulb.mat.meta
+  A Assets/FPS/Art/Corridors/CorridorLamp/Materials/M_CorridorLamp_CastPaint.mat
+  A Assets/FPS/Art/Corridors/CorridorLamp/Materials/M_CorridorLamp_CastPaint.mat.meta
+  A Assets/FPS/Art/Corridors/CorridorLamp/Materials/M_CorridorLamp_RedGlass.mat
+  A Assets/FPS/Art/Corridors/CorridorLamp/Materials/M_CorridorLamp_RedGlass.mat.meta
+  A Assets/FPS/Art/Corridors/CorridorLamp/Materials/M_CorridorLamp_ReviewSurface.mat
+  A Assets/FPS/Art/Corridors/CorridorLamp/Materials/M_CorridorLamp_ReviewSurface.mat.meta
+  A Assets/FPS/Art/Corridors/CorridorLamp/Prefabs/P_CorridorLamp_Ceiling.prefab
+  A Assets/FPS/Art/Corridors/CorridorLamp/Prefabs/P_CorridorLamp_Ceiling.prefab.meta
+  A Assets/FPS/Art/Corridors/CorridorLamp/Prefabs/P_CorridorLamp_Wall.prefab
+  A Assets/FPS/Art/Corridors/CorridorLamp/Prefabs/P_CorridorLamp_Wall.prefab.meta
+  A Assets/FPS/Art/Finale/Materials/M_Core_Ceramic.mat
+  A Assets/FPS/Art/Finale/Materials/M_Core_Ceramic.mat.meta
+  A Assets/FPS/Art/Finale/Materials/M_Core_Lead.mat
+  A Assets/FPS/Art/Finale/Materials/M_Core_Lead.mat.meta
+  A Assets/FPS/Art/Finale/Materials/M_Core_Steel.mat
+  A Assets/FPS/Art/Finale/Materials/M_Core_Steel.mat.meta
+  A Assets/FPS/Art/Finale/Materials/M_Finale_Grating.mat
+  A Assets/FPS/Art/Finale/Materials/M_Finale_Grating.mat.meta
+  A Assets/FPS/Art/Finale/Materials/M_Finale_Gunmetal.mat
+  A Assets/FPS/Art/Finale/Materials/M_Finale_Gunmetal.mat.meta
+  A Assets/FPS/Art/Finale/Materials/M_Finale_Hazard.mat
+  A Assets/FPS/Art/Finale/Materials/M_Finale_Hazard.mat.meta
+  A Assets/FPS/Art/Finale/Materials/M_UICoreMeltdown.mat
+  A Assets/FPS/Art/Finale/Materials/M_UICoreMeltdown.mat.meta
+  A Assets/FPS/Art/Materials/CoreBuster/M_TW_PodMist.mat
+  A Assets/FPS/Art/Materials/CoreBuster/M_TW_PodMist.mat.meta
+  A Assets/FPS/Art/TutorialWing/Keycard/Floppy_Black.mat
+  A Assets/FPS/Art/TutorialWing/Keycard/Floppy_Black.mat.meta
+  A Assets/FPS/Art/TutorialWing/Keycard/Floppy_Black.prefab
+  A Assets/FPS/Art/TutorialWing/Keycard/Floppy_Black.prefab.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Brass.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Brass.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Carpet.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Carpet.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Chrome.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Chrome.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_GlobeOccluder.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_GlobeOccluder.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_GuideGlow.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_GuideGlow.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Hazard.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Hazard.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_HoloFrame.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_HoloFrame.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_HoloPanel.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_HoloPanel.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_LightCone.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_LightCone.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_NebulaGlobe.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_NebulaGlobe.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueBody.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueBody.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueFace.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueFace.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueGlow.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueGlow.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueGlow_Environment.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueGlow_Environment.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueGlow_Npc.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueGlow_Npc.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueGlow_Shader.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PlaqueGlow_Shader.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodGlass.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodGlass.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodGlow.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodGlow.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodPadding.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodPadding.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodScreen.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodScreen.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodShell.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodShell.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodTrim.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodTrim.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodiumBody.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodiumBody.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodiumGlow.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodiumGlow.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodiumTop.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_PodiumTop.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_RackFrame.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_RackFrame.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_RackPlate.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_RackPlate.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Rail.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Rail.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Velvet.mat
+  A Assets/FPS/Art/TutorialWing/Materials/M_TW_Velvet.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/blue emission.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/blue emission.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/glass.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/glass.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/lattice.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/lattice.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/screen.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/screen.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/white emision.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/Sci-Fi Styled Modular Pack/Materials/white emision.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Barrel Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Barrel Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Cart Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Cart Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Ceiling Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Ceiling Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Crate Long Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Crate Long Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Crate Short Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Crate Short Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Ducts Pillars Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Ducts Pillars Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Extinguisher Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Extinguisher Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Floor Tile Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Floor Tile Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Garbage Bin Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Garbage Bin Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Light Fixture Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Light Fixture Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Light Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Light Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Pallet Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Pallet Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Security Cam Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Security Cam Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Shelf Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Shelf Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Shelf Trans Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Shelf Trans Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Structure Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Structure Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Structure Trans Mat.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Structure Trans Mat.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Walls.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Walls.mat.meta
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Windows.mat
+  A Assets/FPS/Art/TutorialWing/Materials/Pack/SciFi Warehouse Kit/Art/Materials/Windows.mat.meta
+  M Assets/FPS/Prefabs/Enemies/Enemy_CyberSoldier_PistonFist.prefab
+  M Assets/FPS/Prefabs/Enemies/Enemy_Elite_PistonFist.prefab
+  M Assets/FPS/Prefabs/Enemies/Enemy_Robot1_PistonFist.prefab
+Finale content (theirs dcda0f5): root '===== FINALE =====' with the giant core at (-296, 20, 115.3), ramp/bridge platform at Y 18.25 on the upper ring, Finale Director, escape/arena spawners and objectives. Outside Boss_Hall_Dressing; owned by the finale task, not the environment track.

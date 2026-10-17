@@ -1,0 +1,13 @@
+# Boss Hall rendering base provenance
+
+Task: `corebuster_render_010`.
+
+The tracked `Assets/FPS/Scripts/Environment/Editor/BossHallRendering.cs` is the reproducible authoring source. No external asset or image generation is used. It paints `T_WornPlate.png` with deterministic coordinate noise, plate seams and sparse scratches, stores linear wear values as sRGB pixels and imports the result as an uncompressed, repeating, mipmapped texture. This texture is first-principles course evidence; the surface meshes are explicitly kit-derived rather than original geometry.
+
+Original Warehouse Kit mesh triangles are read, transformed to world space, filtered to inward shell faces (or contained deck/stair/rail faces), offset by 6 mm, clipped to the accepted hall and saved under `Assets/FPS/Art/BossHall/Rendering/Meshes/`. Broad floor/wall/ceiling surfaces use persistent world-planar UVs with 2 m repeats. Structural atlases preserve source texture/UV/tiling, including yellow rails and alpha-cutout grates/glass. Coincident submeshes share one skin; hidden sunken floor tiles are skipped. Original mesh assets, materials, renderers, collision and navigation remain unchanged.
+
+Eleven flattened URP/Lit materials are keyed by their source material GUID. The nine named assembly/emissive finishes are Gunmetal, RedOxide, Brass, HazardYellow, WarningRed, PracticalAmber, EnergyViolet, EnergyBlue and EnergyTeal. Texture means are measured in linear space by GPU readback without changing shared importer settings; large-surface target luminance is at least 0.22 and metallic is 0.18. Structural atlases use scalar luminance compensation to retain authored grey/yellow hues. Accent brass is 0.38 metallic. Emission uses `BakedEmissive` to retain `_EMISSION` on URP import; no object contributes GI and no bake is performed. Twenty materials are prepared; ten are assigned to the initial room skins.
+
+Build and verification: `BossHallRendering.BuildBatch` with graphics and exclusive Unity access. Captures: `BossHallRenderingReview.CaptureBatch`. Read-only saved validation: `BossHallRendering.ValidateBatch`. The builder owns only Rendering; framework callbacks automatically reapply known material equivalents to their own section. `SurfaceBindings.json` records renderer IDs, source materials and exact derived bounds/mesh hashes against the protected framework contract.
+
+Neutral room views and a labelled isolated twenty-material sample scene are written to `ReviewCaptures/BossHall/010/Neutral/`; before/after/diff boundary evidence is in `Neighbours/`. Final lights and energy effects belong to later tasks. The old ProBuilder ground planes, collision findings and full gameplay-ordering verification are outside this visual-only scope.

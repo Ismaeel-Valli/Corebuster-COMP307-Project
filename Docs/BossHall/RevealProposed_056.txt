@@ -1,0 +1,247 @@
+BOSS HALL REVEAL env_056 — Proposed
+Scene SHA-256 61deb08049452ba7e3dd403b7d6e5cf27f8495653ec908401271bac7dfbc2cb9
+Player eye 1.44 m, vertical FOV 60 deg, 960x540. Groups: Turret 9, Hall_Enemies 254, Assembly 112, Services 72, Upper_Tiers 372, Open_Floor 294, Meltdown_VFX 11, Giant_Core 145, Core_Platform 4, emergency lights 5, non-skin dressing renderers 203.
+FIVE FIXED ACTUAL-EYE VIEWS
+Door_Side: eye (-252.20, 1.62, 115.45), yaw 270, pitch 0, 1.00 m from door on Corridor Incline Full. Visible px of 518400: turret 0 (no dressing 0, luma 0.0), giant core 0 (no dressing 0, luma 0.0), core platform 0, enemies 0, assembly 0, services 0, upper tiers 8150, floor 1480, VFX 0; emergency-light lit px 544; central floor cells in sight 0/2695; turret head viewport (0.50, 0.64) in frame True.
+Middle_Incline: eye (-257.25, 4.66, 115.46), yaw 270, pitch 0, 6.05 m from door on Corridor Incline Full. Visible px of 518400: turret 0 (no dressing 0, luma 0.0), giant core 1626 (no dressing 1626, luma 89.2), core platform 2, enemies 0, assembly 0, services 421, upper tiers 26061, floor 26238, VFX 0; emergency-light lit px 804; central floor cells in sight 0/2695; turret head viewport (0.50, 0.60) in frame True.
+Arena_Threshold: eye (-263.04, 7.64, 115.30), yaw 270, pitch 0, 11.85 m from door on Floor Tile 04. Visible px of 518400: turret 1375 (no dressing 1374, luma 96.7), giant core 3477 (no dressing 3476, luma 80.1), core platform 1, enemies 1760, assembly 10613, services 9622, upper tiers 76095, floor 245463, VFX 34; emergency-light lit px 1441; central floor cells in sight 2504/2695; turret head viewport (0.50, 0.53) in frame True.
+Just_Inside: eye (-266.04, 7.64, 115.30), yaw 270, pitch 0, 14.85 m from door on Floor Tile 04. Visible px of 518400: turret 1695 (no dressing 1695, luma 95.0), giant core 5053 (no dressing 5052, luma 79.2), core platform 0, enemies 2931, assembly 11556, services 9232, upper tiers 91465, floor 244538, VFX 39; emergency-light lit px 57; central floor cells in sight 2514/2695; turret head viewport (0.50, 0.54) in frame True.
+Upper_Reverse: eye (-313.53, 18.12, 115.30), yaw 90, pitch -8, 62.33 m from door on Catwalk Long (86). Visible px of 518400: turret 0 (no dressing 0, luma 0.0), giant core 34064 (no dressing 34064, luma 7.7), core platform 18, enemies 0, assembly 0, services 9809, upper tiers 291198, floor 5704, VFX 0; emergency-light lit px 56106; central floor cells in sight 0/2695; turret head viewport (0.50, 0.20) in frame True.
+Door_Status_From_Incline: 1 status lamp renderers, 1120 visible px; door StartLocked True.
+Door_Status_From_Room3: 1 status lamp renderers, 1162 visible px; door StartLocked True.
+ENTRY SEQUENCE (uninterrupted, 1 m steps, level gaze along the route)
+Entry_01m: eye (-252.20, 1.62, 115.45); turret 0, giant core 0, assembly 0, upper tiers 8150, floor 1480 px
+Entry_02m: eye (-253.20, 1.62, 115.45); turret 0, giant core 0, assembly 0, upper tiers 3052, floor 1414 px
+Entry_03m: eye (-254.20, 2.36, 115.46); turret 0, giant core 0, assembly 0, upper tiers 6751, floor 2153 px
+Entry_04m: eye (-255.20, 3.05, 115.46); turret 0, giant core 0, assembly 0, upper tiers 10684, floor 2531 px
+Entry_05m: eye (-256.20, 3.74, 115.46); turret 0, giant core 645, assembly 0, upper tiers 16430, floor 3264 px
+Entry_06m: eye (-257.20, 4.43, 115.46); turret 0, giant core 172, assembly 0, upper tiers 22265, floor 32384 px
+Entry_07m: eye (-258.20, 5.11, 115.46); turret 0, giant core 2710, assembly 1275, upper tiers 34885, floor 24715 px
+Entry_08m: eye (-259.20, 5.80, 115.46); turret 0, giant core 2997, assembly 2691, upper tiers 52888, floor 1705 px
+Entry_09m: eye (-260.20, 6.72, 115.46); turret 1190, giant core 2897, assembly 9594, upper tiers 63886, floor 69234 px
+Entry_10m: eye (-261.20, 7.41, 115.46); turret 1227, giant core 2913, assembly 9941, upper tiers 68847, floor 248056 px
+Entry_11m: eye (-262.20, 7.62, 115.45); turret 1317, giant core 3191, assembly 10427, upper tiers 72191, floor 245755 px
+Entry_12m: eye (-263.20, 7.64, 115.30); turret 1384, giant core 3537, assembly 10511, upper tiers 77188, floor 245457 px
+Entry_13m: eye (-264.20, 7.64, 115.30); turret 1515, giant core 3950, assembly 10990, upper tiers 83069, floor 245239 px
+Entry_14m: eye (-265.20, 7.64, 115.30); turret 1614, giant core 4470, assembly 11159, upper tiers 86308, floor 244771 px
+Entry_15m: eye (-266.20, 7.64, 115.30); turret 1709, giant core 5084, assembly 11857, upper tiers 92293, floor 244317 px
+Entry_16m: eye (-267.20, 7.64, 115.30); turret 1831, giant core 5855, assembly 11975, upper tiers 97176, floor 243865 px
+Entry_17m: eye (-268.20, 7.64, 115.30); turret 1955, giant core 6665, assembly 12393, upper tiers 95382, floor 243092 px
+Entry_18m: eye (-269.20, 7.64, 115.30); turret 2116, giant core 7510, assembly 12659, upper tiers 92112, floor 245548 px
+Entry_19m: eye (-270.20, 7.64, 115.30); turret 2284, giant core 8623, assembly 12868, upper tiers 87674, floor 245547 px
+Entry_20m: eye (-271.20, 7.64, 115.30); turret 2534, giant core 9899, assembly 12939, upper tiers 81921, floor 245079 px
+Entry_21m: eye (-272.20, 7.64, 115.30); turret 2734, giant core 11384, assembly 13474, upper tiers 74484, floor 245108 px
+First visible along the walk: turret Entry_09m, giant core Entry_05m, assembly Entry_07m, upper tiers Entry_01m.
+SIGN RESERVATIONS (1)
+Sign_Final_Assembly [West_Assembly] centre (-324.37, 8.15, 121.80), normal (1, 0, 0), 4.0x1.0 m: Arena_Threshold 230 px, turret+core 4850; Just_Inside 235 px, turret+core 6747. Final-assembly identification on the cradle front, north of the turret and below the firing volume; read along the entry axis.
+BOSS HALL LIGHTING env_055 (evidence revision 055)
+Architecture: 24/24; hall renderers 1249, combined peak 8/4 (baseline 5/4); 1260 actor/core/weapon bounds, current peak 6/4; architectural peak + two combat lights 4/4. Outside renderer hits 0.
+All 8 saved hall cores exposed at 1.35x surge range: baseline peak 5/4, with architecture 7/4. Dynamic clustering/clouds/projectiles require live validation; no gameplay lights suppressed.
+Dimmest-state steady cone coverage: 111/248 stair/deck/entry/actor samples. Shadow/occlusion and silhouette review remain separate.
+Shadow cost: 1 new low-tier spot slice(s); scene total 15 shadow lights, 15 potential slices before camera culling. No new alpha geometry/overdraw, probe or material.
+Arena_West_South: (-311.78, 24.80, 99.01), direction (0.000, -1.000, 0.000), range 20.00, angle 72.0, intensity 4500.0, shadows False, flicker 0
+Arena_West_North: (-311.78, 24.80, 131.01), direction (0.000, -1.000, 0.000), range 20.00, angle 72.0, intensity 4500.0, shadows False, flicker 0
+Arena_East_South: (-279.78, 24.80, 99.01), direction (0.000, -1.000, 0.000), range 20.00, angle 72.0, intensity 4500.0, shadows False, flicker 0
+Arena_East_North: (-279.78, 24.80, 131.01), direction (0.000, -1.000, 0.000), range 20.00, angle 72.0, intensity 4500.0, shadows False, flicker 0
+Turret_Key: (-283.70, 12.50, 115.30), direction (-0.986, 0.164, 0.000), range 20.00, angle 56.0, intensity 1500.0, shadows True, flicker 0
+Assembly_Key: (-318.03, 11.30, 115.30), direction (-1.000, 0.000, 0.000), range 10.40, angle 100.0, intensity 5000.0, shadows False, flicker 0
+Stair_Lower_NW: (-325.77, 13.70, 143.77), direction (0.000, -0.489, -0.872), range 16.00, angle 17.0, intensity 850.0, shadows False, flicker 0
+Stair_Lower_SW: (-325.78, 13.70, 86.38), direction (0.000, -0.489, 0.872), range 16.00, angle 17.0, intensity 850.0, shadows False, flicker 0
+Stair_Upper_SE: (-294.61, 19.67, 85.50), direction (0.830, -0.558, 0.000), range 16.00, angle 17.0, intensity 1200.0, shadows False, flicker 0
+Stair_Upper_NE: (-294.61, 19.67, 144.60), direction (0.830, -0.558, 0.000), range 16.00, angle 17.0, intensity 1200.0, shadows False, flicker 0
+Stair_Upper_NW: (-297.19, 19.67, 144.60), direction (-0.830, -0.558, 0.000), range 16.00, angle 17.0, intensity 1200.0, shadows False, flicker 0
+Stair_Upper_SW: (-297.19, 19.67, 85.30), direction (-0.830, -0.558, 0.000), range 16.00, angle 17.0, intensity 1200.0, shadows False, flicker 0
+Stair_Lower_NE: (-265.77, 13.70, 143.77), direction (0.000, -0.489, -0.872), range 16.00, angle 17.0, intensity 850.0, shadows False, flicker 0
+Stair_Lower_SE: (-265.78, 13.70, 86.38), direction (0.000, -0.489, 0.872), range 16.00, angle 17.0, intensity 850.0, shadows False, flicker 0
+Gallery_South_West: (-317.78, 15.50, 86.55), direction (0.961, -0.276, 0.000), range 23.00, angle 17.0, intensity 1000.0, shadows False, flicker 0
+Gallery_South_East: (-273.78, 15.50, 86.55), direction (-0.961, -0.276, 0.000), range 23.00, angle 17.0, intensity 1000.0, shadows False, flicker 0
+Gallery_North_West: (-317.78, 15.50, 143.48), direction (0.961, -0.276, 0.000), range 23.00, angle 17.0, intensity 1000.0, shadows False, flicker 0
+Gallery_North_East: (-273.78, 15.50, 143.48), direction (-0.961, -0.276, 0.000), range 23.00, angle 17.0, intensity 1000.0, shadows False, flicker 0
+Entry_Key: (-266.24, 15.50, 115.30), direction (-0.190, -0.982, 0.000), range 10.50, angle 26.0, intensity 700.0, shadows False, flicker 0
+Upper_Warning_West: (-315.78, 25.20, 115.01), direction (0.000, -1.000, 0.000), range 10.00, angle 90.0, intensity 900.0, shadows False, flicker 0
+Upper_Warning_East: (-275.78, 25.20, 115.01), direction (0.000, -1.000, 0.000), range 10.00, angle 90.0, intensity 900.0, shadows False, flicker 0
+Warning_Flicker_Ring: (-326.45, 11.00, 115.30), direction (-1.000, 0.000, 0.000), range 2.00, angle 100.0, intensity 90.0, shadows False, flicker 1
+Warning_Flicker_South: (-321.93, 23.93, 100.55), direction (0.000, -1.000, 0.000), range 4.00, angle 48.0, intensity 180.0, shadows False, flicker 2
+Warning_Flicker_North: (-321.93, 23.93, 130.05), direction (0.000, -1.000, 0.000), range 4.00, angle 48.0, intensity 180.0, shadows False, flicker 2
+Errors: 1
+Turret_Key square culling frustum crosses hall boundary: (-301.68, 26.28, 125.93)
+Composition decision (owner-delegated 2026-10-05): preserve gameplay/global pipeline; accept capped forward selection in crowded combat. Coverage cones are diagnostic; saved worst-state images and runtime probes establish readability.
+Limitations: 176
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_10367d865a8e26c9c7d8 bounds Center: (-301.77, 6.21, 109.15), Extents: (3.00, 0.00, 3.00) has 5 candidates for 4 slots (baseline 3): Arena_West_South, Turret_Key, Core Light, Core Light, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_1b8beb56a1225d2b60d7 bounds Center: (-307.77, 6.21, 121.15), Extents: (3.00, 0.00, 3.00) has 5 candidates for 4 slots (baseline 3): Arena_West_North, Turret_Key, Core Light, Core Light, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_cfce5a3b59909914e302 bounds Center: (-295.77, 6.21, 139.15), Extents: (3.00, 0.00, 3.00) has 5 candidates for 4 slots (baseline 1): Arena_West_North, Arena_East_North, Gallery_North_West, Gallery_North_East, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_358b10d3e1fadd7722a1 bounds Center: (-301.77, 6.21, 115.15), Extents: (3.00, 0.00, 3.00) has 8 candidates for 4 slots (baseline 5): Arena_West_South, Arena_West_North, Turret_Key, Core Light, Core Light, Core Light, Core Light, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_9352d40578d49937a5e2 bounds Center: (-295.77, 6.21, 109.15), Extents: (3.00, 0.00, 3.00) has 5 candidates for 4 slots (baseline 3): Arena_West_South, Arena_East_South, Core Light, Core Light, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_7c5b31ac14fac0c58fa8 bounds Center: (-307.77, 6.21, 109.15), Extents: (3.00, 0.00, 3.00) has 5 candidates for 4 slots (baseline 3): Arena_West_South, Turret_Key, Core Light, Core Light, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_b1515a2ac63d9d2ba990 bounds Center: (-295.77, 6.21, 121.15), Extents: (3.00, 0.00, 3.00) has 5 candidates for 4 slots (baseline 3): Arena_West_North, Arena_East_North, Core Light, Core Light, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_8b92d3a92d0d320eee9e bounds Center: (-295.78, 6.21, 91.15), Extents: (3.00, 0.00, 3.00) has 5 candidates for 4 slots (baseline 1): Arena_West_South, Arena_East_South, Gallery_South_West, Gallery_South_East, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_7ba6b0efd15b79bea85e bounds Center: (-307.77, 6.21, 115.15), Extents: (3.00, 0.00, 3.00) has 5 candidates for 4 slots (baseline 2): Arena_West_South, Arena_West_North, Turret_Key, Core Light, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_89cbdc2e0ae3a914634c bounds Center: (-301.77, 6.21, 121.15), Extents: (3.00, 0.00, 3.00) has 6 candidates for 4 slots (baseline 4): Arena_West_North, Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_8a6b58ea831d62c8093a bounds Center: (-295.77, 6.21, 115.15), Extents: (3.00, 0.00, 3.00) has 7 candidates for 4 slots (baseline 3): Arena_West_South, Arena_West_North, Arena_East_South, Arena_East_North, Core Light, Core Light, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_126f9869f01482b41b5c bounds Center: (-295.77, 8.93, 140.94), Extents: (3.01, 2.73, 1.06) has 5 candidates for 4 slots (baseline 1): Arena_West_North, Arena_East_North, Gallery_North_West, Gallery_North_East, Heart Light
+Renderer Level/Boss_Hall_Dressing/Rendering/Skin_ad6e33caad63e6accff3 bounds Center: (-295.80, 8.93, 89.21), Extents: (3.01, 2.73, 1.06) has 5 candidates for 4 slots (baseline 1): Arena_West_South, Arena_East_South, Gallery_South_West, Gallery_South_East, Heart Light
+Renderer Catwalk Long Rails (4) bounds Center: (-295.77, 8.93, 140.94), Extents: (3.00, 2.73, 1.06) has 5 candidates for 4 slots (baseline 1): Arena_West_North, Arena_East_North, Gallery_North_West, Gallery_North_East, Heart Light
+Renderer Catwalk Long Rails (13) bounds Center: (-295.80, 8.93, 89.21), Extents: (3.00, 2.73, 1.06) has 5 candidates for 4 slots (baseline 1): Arena_West_South, Arena_East_South, Gallery_South_West, Gallery_South_East, Heart Light
+Renderer Enemy_Robot1_RivetCannon/Ch44 bounds Center: (-299.19, 7.09, 118.63), Extents: (0.55, 1.06, 0.43) has 5 candidates for 4 slots (baseline 3): Arena_West_North, Turret_Key, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Robot1 Piston Fist Arm (1)/Piston forearm housing bounds Center: (-300.76, 7.28, 116.10), Extents: (0.13, 0.12, 0.11) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Robot1 Piston Fist Arm (1)/Piston sliding cylinder bounds Center: (-300.69, 7.19, 116.11), Extents: (0.06, 0.07, 0.03) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Robot1 Piston Fist Arm (1)/Piston Fist/Blocky fist bounds Center: (-300.65, 7.13, 116.12), Extents: (0.10, 0.08, 0.09) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Robot1 Piston Fist Arm (1)/Piston Fist/Knuckle 1 bounds Center: (-300.62, 7.08, 116.18), Extents: (0.04, 0.03, 0.02) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Robot1 Piston Fist Arm (1)/Piston Fist/Knuckle 2 bounds Center: (-300.61, 7.08, 116.15), Extents: (0.04, 0.03, 0.02) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Robot1 Piston Fist Arm (1)/Piston Fist/Knuckle 3 bounds Center: (-300.60, 7.08, 116.11), Extents: (0.04, 0.03, 0.02) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Robot1 Piston Fist Arm (1)/Piston Fist/Knuckle 4 bounds Center: (-300.60, 7.08, 116.07), Extents: (0.04, 0.03, 0.02) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Robot1 Piston Fist Arm (1)/Piston warning lamp bounds Center: (-300.65, 7.28, 116.12), Extents: (0.03, 0.02, 0.06) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/VFX_UnstableCore/Orb bounds Center: (-301.16, 7.53, 116.18), Extents: (0.08, 0.08, 0.08) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/Armature/Hips/Spine/Chest/VFX_UnstableCore/Halo bounds Center: (-301.16, 7.53, 116.18), Extents: (0.25, 0.25, 0.00) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Renderer Enemy_CyberSoldier_PistonFist (1)/CyberSoldier bounds Center: (-301.16, 7.08, 116.05), Extents: (0.66, 0.98, 0.50) has 5 candidates for 4 slots (baseline 4): Turret_Key, Core Light, Core Light, Core Light, Heart Light
+Floor actor/weapon bounds at (-305.03, 6.20, 111.95) have 5 candidates for 4 slots
+Floor actor/weapon bounds at (-305.03, 6.20, 117.95) have 5 candidates for 4 slots
+Floor actor/weapon bounds at (-303.03, 6.20, 111.95) have 5 candidates for 4 slots
+Floor actor/weapon bounds at (-303.03, 6.20, 113.95) have 5 candidates for 4 slots
+Floor actor/weapon bounds at (-303.03, 6.20, 117.95) have 5 candidates for 4 slots
+Floor actor/weapon bounds at (-301.03, 6.20, 111.95) have 5 candidates for 4 slots
+Floor actor/weapon bounds at (-301.03, 6.20, 113.95) have 6 candidates for 4 slots
+Floor actor/weapon bounds at (-301.03, 6.20, 115.95) have 5 candidates for 4 slots
+Floor actor/weapon bounds at (-301.03, 6.20, 117.95) have 6 candidates for 4 slots
+Floor actor/weapon bounds at (-299.03, 6.20, 111.95) have 5 candidates for 4 slots
+Floor actor/weapon bounds at (-299.03, 6.20, 117.95) have 5 candidates for 4 slots
+Simultaneously exposed saved cores: baseline 5, with lighting 7 candidates for 4 slots; forward selection remains capped at 4
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (53) (-325.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (52) (-325.78, 11.90, 85.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (51) (-325.78, 11.90, 87.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (49) (-319.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (50) (-319.78, 11.90, 85.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (54) (-319.78, 11.90, 87.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long Rails (17) (-319.78, 11.90, 89.21)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long Rails (16) (-313.80, 11.90, 89.21)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (48) (-313.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (47) (-313.78, 11.90, 85.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (46) (-313.78, 11.90, 87.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long Rails (15) (-307.80, 11.90, 89.21)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (45) (-307.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long Rails (14) (-301.80, 11.90, 89.21)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (58) (-301.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long Rails (13) (-295.80, 11.90, 89.21)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (41) (-295.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (60) (-289.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long Rails (12) (-289.78, 11.90, 89.21)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (39) (-283.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long Rails (11) (-283.78, 11.90, 89.21)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (63) (-277.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (38) (-277.78, 11.90, 85.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (37) (-277.78, 11.90, 87.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long Rails (10) (-277.78, 11.90, 89.21)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (34) (-271.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (35) (-271.78, 11.90, 85.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (36) (-271.78, 11.90, 87.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long Rails (9) (-271.78, 11.90, 89.21)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (33) (-265.78, 11.90, 83.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (64) (-265.78, 11.90, 85.15)
+Ambient/emissive readability review required (no steady direct cone): South gallery: Catwalk Long (65) (-265.78, 11.90, 87.15)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (30) (-325.77, 11.90, 143.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (31) (-325.77, 11.90, 145.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (32) (-325.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long Rails (8) (-319.77, 11.90, 140.94)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (29) (-319.77, 11.90, 143.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (28) (-319.77, 11.90, 145.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (27) (-319.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long Rails (7) (-313.77, 11.90, 140.94)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (24) (-313.77, 11.90, 143.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (25) (-313.77, 11.90, 145.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (26) (-313.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long Rails (6) (-307.77, 11.90, 140.94)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (21) (-307.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long Rails (5) (-301.77, 11.90, 140.94)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (20) (-301.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long Rails (4) (-295.77, 11.90, 140.94)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (15) (-295.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long Rails (3) (-289.77, 11.90, 140.94)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (14) (-289.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long Rails (2) (-283.77, 11.90, 140.94)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (9) (-283.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long Rails (1) (-277.77, 11.90, 140.94)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (6) (-277.77, 11.90, 143.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (7) (-277.77, 11.90, 145.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (8) (-277.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long Rails (-271.77, 11.90, 140.94)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (3) (-271.77, 11.90, 143.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (4) (-271.77, 11.90, 145.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (5) (-271.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (-265.77, 11.90, 143.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (1) (-265.77, 11.90, 145.00)
+Ambient/emissive readability review required (no steady direct cone): North gallery: Catwalk Long (2) (-265.77, 11.90, 147.00)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (82) (-327.53, 17.88, 115.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (84) (-323.53, 17.88, 115.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (2) (-307.64, 17.88, 103.31)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (1) (-307.64, 17.88, 105.31)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (14) (-307.63, 17.88, 125.15)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (13) (-307.63, 17.88, 126.93)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (92) (-307.61, 17.90, 109.28)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (88) (-307.58, 17.88, 115.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (91) (-307.58, 17.88, 121.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (15) (-305.77, 17.88, 125.15)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (12) (-305.77, 17.88, 126.93)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (3) (-305.76, 17.88, 103.31)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (-305.75, 17.88, 105.31)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (93) (-305.61, 17.90, 109.28)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (78) (-305.58, 17.88, 115.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (90) (-305.58, 17.88, 121.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (125) (-301.88, 17.88, 103.35)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (124) (-301.88, 17.88, 105.35)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (126) (-301.88, 17.88, 124.85)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (127) (-301.88, 17.88, 126.85)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (98) (-295.88, 17.88, 83.45)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (99) (-295.88, 17.88, 85.45)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (100) (-295.88, 17.88, 87.45)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (101) (-295.88, 17.88, 89.45)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (102) (-295.88, 17.88, 91.45)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (103) (-295.88, 17.88, 93.45)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (104) (-295.88, 17.88, 95.45)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (108) (-295.88, 17.88, 97.45)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (109) (-295.88, 17.88, 99.40)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (105) (-295.88, 17.88, 101.40)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (106) (-295.88, 17.88, 103.35)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (107) (-295.88, 17.88, 105.35)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (110) (-295.88, 17.88, 124.85)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (120) (-295.88, 17.88, 126.85)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (121) (-295.88, 17.88, 128.85)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (117) (-295.88, 17.88, 130.85)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (118) (-295.88, 17.88, 132.85)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (119) (-295.88, 17.88, 134.80)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (111) (-295.88, 17.88, 136.80)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (112) (-295.88, 17.88, 138.80)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (113) (-295.88, 17.88, 140.75)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (116) (-295.88, 17.88, 142.75)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (115) (-295.88, 17.88, 144.75)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (114) (-295.88, 17.88, 146.70)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (123) (-289.96, 17.88, 103.35)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (129) (-289.92, 17.88, 124.85)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (128) (-289.90, 17.88, 126.85)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (122) (-289.88, 17.88, 105.35)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (6) (-286.02, 17.88, 103.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (5) (-286.02, 17.88, 105.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (94) (-286.02, 17.88, 109.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (75) (-286.02, 17.88, 115.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (96) (-286.02, 17.88, 121.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (17) (-285.98, 17.88, 125.15)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (18) (-285.98, 17.88, 126.93)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (16) (-284.02, 17.88, 125.15)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (19) (-284.02, 17.88, 126.93)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (7) (-284.02, 17.88, 103.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Short (4) (-284.02, 17.88, 105.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (95) (-284.02, 17.88, 109.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (74) (-284.02, 17.88, 115.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (97) (-284.02, 17.88, 121.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (68) (-268.07, 17.88, 115.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (67) (-266.07, 17.88, 115.25)
+Ambient/emissive readability review required (no steady direct cone): Upper deck network: Catwalk Long (66) (-264.07, 17.88, 115.25)
+Ambient/emissive readability review required (no steady direct cone): Enemy_CyberSoldier_PistonFist (-303.43, 7.40, 115.35)
+Ambient/emissive readability review required (no steady direct cone): Enemy_CyberSoldier_RivetCannon (-301.59, 7.40, 109.91)
+Ambient/emissive readability review required (no steady direct cone): Enemy_CyberSoldier_RivetCannon (1) (-297.76, 7.40, 115.02)
+Ambient/emissive readability review required (no steady direct cone): Enemy_Elite_PistonFist (-313.00, 7.45, 109.00)
+Ambient/emissive readability review required (no steady direct cone): Enemy_Elite_Rifleman (-325.00, 7.45, 102.00)
+Ambient/emissive readability review required (no steady direct cone): Enemy_Robot1_RivetCannon (-275.09, 7.40, 108.68)
+Ambient/emissive readability review required (no steady direct cone): Enemy_Robot1_RivetCannon (-299.21, 7.40, 118.64)
+Ambient/emissive readability review required (no steady direct cone): Enemy_Turret (-295.70, 8.60, 115.30)
+
+PROPOSAL ONLY; lighting analysis errors 1. Scene discarded.

@@ -1,0 +1,27 @@
+Registries: 15 enemies, 16 actors, 10 targets; zero dressing entries; light toggle leaves registries identical.
+Three bound lamps animate, freeze exactly over 1.2 s real time at timeScale 0, and resume. Observed intensity ranges: Warning_Flicker_Ring 64.35-98.01, Warning_Flicker_South 88.92-167.44, Warning_Flicker_North 81.03-179.18.
+Available frame counters: Main Thread [TimeNanoseconds], Triangles Count [Count], SetPass Calls Count [Count], Shadow Casters Count [Count], GPU Frame Time [TimeNanoseconds]
+Entry_Combat lighting off: 40 measured advancing Editor frames after 10 warmup; mean wall interval 16.71 ms. Main Thread mean 16722440.0 TimeNanoseconds; Triangles Count mean 466532.5 Count; SetPass Calls Count mean 243.1 Count; Shadow Casters Count mean 296.9 Count; GPU Frame Time mean 13257708.8 TimeNanoseconds
+FrameTiming GPU 16.04 ms, CPU 19.71 ms.
+Entry_Combat lighting on: 40 measured advancing Editor frames after 10 warmup; mean wall interval 17.74 ms. Main Thread mean 17751492.5 TimeNanoseconds; Triangles Count mean 477336.0 Count; SetPass Calls Count mean 242.1 Count; Shadow Casters Count mean 314.9 Count; GPU Frame Time mean 14013779.2 TimeNanoseconds
+FrameTiming GPU 15.71 ms, CPU 17.91 ms.
+Entry_Combat: 22 observed NPC weapon shots during this view.
+Wide_Arena_Combat lighting off: 40 measured advancing Editor frames after 10 warmup; mean wall interval 16.38 ms. Main Thread mean 16376612.5 TimeNanoseconds; Triangles Count mean 297173.8 Count; SetPass Calls Count mean 200.1 Count; Shadow Casters Count mean 191.0 Count; GPU Frame Time mean 12593158.4 TimeNanoseconds
+FrameTiming GPU 14.00 ms, CPU 16.24 ms.
+Wide_Arena_Combat lighting on: 40 measured advancing Editor frames after 10 warmup; mean wall interval 19.86 ms. Main Thread mean 19858582.5 TimeNanoseconds; Triangles Count mean 317000.6 Count; SetPass Calls Count mean 224.6 Count; Shadow Casters Count mean 207.6 Count; GPU Frame Time mean 15463724.8 TimeNanoseconds
+FrameTiming GPU 14.61 ms, CPU 17.63 ms.
+Wide_Arena_Combat: 33 observed NPC weapon shots during this view.
+Gallery_Combat lighting off: 40 measured advancing Editor frames after 10 warmup; mean wall interval 46.61 ms. Main Thread mean 46686572.5 TimeNanoseconds; Triangles Count mean 819636.6 Count; SetPass Calls Count mean 1485.4 Count; Shadow Casters Count mean 223.9 Count; GPU Frame Time mean 39836608.0 TimeNanoseconds
+FrameTiming GPU 34.57 ms, CPU 43.08 ms.
+Gallery_Combat lighting on: 40 measured advancing Editor frames after 10 warmup; mean wall interval 48.13 ms. Main Thread mean 48162695.0 TimeNanoseconds; Triangles Count mean 774189.8 Count; SetPass Calls Count mean 1490.6 Count; Shadow Casters Count mean 304.7 Count; GPU Frame Time mean 40045132.8 TimeNanoseconds
+FrameTiming GPU 33.07 ms, CPU 38.87 ms.
+Gallery_Combat: 39 observed NPC weapon shots during this view.
+Upper_Reverse lighting off: 40 measured advancing Editor frames after 10 warmup; mean wall interval 38.45 ms. Main Thread mean 38657105.0 TimeNanoseconds; Triangles Count mean 699845.4 Count; SetPass Calls Count mean 977.7 Count; Shadow Casters Count mean 48.8 Count; GPU Frame Time mean 32136512.0 TimeNanoseconds
+FrameTiming GPU 28.72 ms, CPU 35.03 ms.
+Upper_Reverse lighting on: 40 measured advancing Editor frames after 10 warmup; mean wall interval 35.14 ms. Main Thread mean 35139512.5 TimeNanoseconds; Triangles Count mean 622499.6 Count; SetPass Calls Count mean 972.6 Count; Shadow Casters Count mean 38.7 Count; GPU Frame Time mean 29549548.8 TimeNanoseconds
+FrameTiming GPU 28.00 ms, CPU 36.05 ms.
+Upper_Reverse: 0 observed NPC weapon shots during this view.
+NPC AI remained active during camera/lighting frame samples; player moved and made invincible in Play mode only. These are controlled combat-height views, not a human encounter/win-order run.
+Floor: real armour damage exposed target, real execution removed target from vulnerable pool, impaled capture saved, core consumed before Health.OnDie, execution completed.
+Gallery: real armour damage exposed target, real execution removed target from vulnerable pool, impaled capture saved, core consumed before Health.OnDie, execution completed.
+No gameplay assets or scene saved. Full encounter, human review, player-build profiling and GPU capture (if unavailable above) remain final-signoff work.

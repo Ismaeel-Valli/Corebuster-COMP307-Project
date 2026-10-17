@@ -1,0 +1,16 @@
+﻿<Solution>
+  <Project Path="Gentleland.SteampunkUI.DemoAndExample.csproj" />
+  <Project Path="fps.UI.csproj" />
+  <Project Path="fps.Gameplay.csproj" />
+  <Project Path="fps.Game.csproj" />
+  <Project Path="CoreBuster.Environment.Editor.csproj" />
+  <Project Path="Unity.Microgame.Tutorials.csproj" />
+  <Project Path="fps.AI.csproj" />
+  <Project Path="CoreBuster.AI.Editor.csproj" />
+  <Project Path="NavMeshComponentsEditor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Gentleland.Utils.SteampunkUI.csproj" />
+  <Project Path="NavMeshComponents.csproj" />
+  <Project Path="Unity.FPS.Tutorials.csproj" />
+  <Project Path="CoreBuster.UI.Editor.csproj" />
+</Solution>

@@ -1,0 +1,7 @@
+READ-ONLY graphics preflight; no baseline adoption or scene authoring.
+Scene: d76359d411fb4e1b537de4505f5328ff23f2ec1528e5d5577ed8755d476cbcdf
+Protected state: 8a25258136ec0401d6cd6127de2a8c4af7c62d1c262e45c3c7751aef3ffa7038 (62479)
+Shared assets: 0bcda75a113d119faa151e5b126985d9410a5e350d7050dae759160fd75121a3 (3508)
+Contract matches current state/assets: False
+Resolved Sign_Final_Assembly centre (-324.37, 8.15, 121.80) normal (1.00, 0.00, 0.00) size (4.00, 1.00)
+Texture hash: 33328addf006ef85f546d49135ce33d011303f0c4df296a7619d41829cffa8c2

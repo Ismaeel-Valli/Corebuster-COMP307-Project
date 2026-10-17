@@ -1,0 +1,29 @@
+BOSS HALL MELTDOWN VFX: 11 effects (5/6 emitters, 4 script-free arcs, 2 scorch decals), live-particle hard cap 92, 2 owned materials, 19/20 hall materials. Only Transform/ParticleSystem/renderers; collision/trigger/light/sub-emitter modules off; scaled time; no script, collider, light, audio, damage or gameplay state. Entry-to-turret sight line clear.
+Read-only saved/neutral review. Neutral lamps are unsaved; emitters are posed by 3 s edit-mode simulation and cleared afterwards.
+Room3_Master: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); hidden/hidden control 0 (0 outside); strict neighbour/backward view
+Room3_BossDoor: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); hidden/hidden control 0 (0 outside); strict neighbour/backward view
+Threshold_Forward: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); hidden/hidden control 5 (0 outside); permitted view into hall
+Incline_Back: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); hidden/hidden control 0 (0 outside); strict neighbour/backward view
+Landing_Back: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); hidden/hidden control 0 (0 outside); strict neighbour/backward view
+Incline_Reveal: 139 changed pixels, 123 outside the geometric hall projection (0 above delta 32); hidden/hidden control 1465 (1463 outside); permitted view into hall
+Landing_Forward: 27 changed pixels, 0 outside the geometric hall projection (0 above delta 32); hidden/hidden control 0 (0 outside); permitted view into hall
+Centre_Room: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); hidden/hidden control 0 (0 outside); strict neighbour/backward view
+Workshop: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); hidden/hidden control 0 (0 outside); strict neighbour/backward view
+Entry: VFX covers 27 px (0.01% of frame) at the t=3 s pose
+Arena_SouthEast: VFX covers 34 px (0.01% of frame) at the t=3 s pose
+Arena_West_Close: VFX covers 175 px (0.03% of frame) at the t=3 s pose
+Floor_To_Runway_South: VFX covers 266 px (0.05% of frame) at the t=3 s pose
+Gallery_South_To_Assembly: VFX covers 117 px (0.02% of frame) at the t=3 s pose
+Upper_Deck_To_Assembly: VFX covers 47 px (0.01% of frame) at the t=3 s pose
+Ring_Detail: VFX covers 1000 px (0.19% of frame) at the t=3 s pose
+Clamp_South_Detail: VFX covers 1162 px (0.22% of frame) at the t=3 s pose
+Runway_South_Detail: VFX covers 444 px (0.09% of frame) at the t=3 s pose
+Headless synchronised render+readback proxy at Upper_Deck_To_Assembly (2 renders per sample): off 60.12/64.93 ms, on 63.21/65.45 ms. Not a GPU profiler capture.
+Ambient sparks: amber hue 34 with white-hot core, looping, gravity 1.0, stretched; only below the two gantry-runway conductor boxes, Y 20.87-25.26 (upper-deck walking volume tops at 19.30). Nearest saturated weapon-hit hue distance 34 degrees.
+VFX_LazerSparksRed/VFX_LazerSparksRed: tint (1.00, 0.00, 0.00) hue 0, saturation 1.00; loop False, life 0.18 s, gravity 0.00, mode Billboard
+VFX_LazerSparksGreen/VFX_LazerSparksGreen: tint (0.05, 1.00, 0.00) hue 117, saturation 1.00; loop False, life 0.18 s, gravity 0.00, mode Billboard
+VFX_LazerSparksBlue/VFX_LazerSparksBlue: tint (0.00, 0.47, 1.00) hue 212, saturation 1.00; loop False, life 0.18 s, gravity 0.00, mode Billboard
+VFX_DisassemblerImpact/Sparks: tint (0.78, 0.93, 1.00) hue 199, saturation 0.22; loop False, life 0.40 s, gravity 1.20, mode Stretch
+VFX_DisassemblerImpact/Flash: tint (0.25, 0.60, 1.00) hue 212, saturation 0.75; loop False, life 0.16 s, gravity 0.00, mode Billboard
+Discharge: 1-2 violet billboards, 0.08-0.14 s, burst slots 1.9 s apart (p 0.5, 5.7 s loop): <= 0.53 flash events/s, under the 3 flashes/s comfort limit; arcs strobe between 0.81x and 1.20x brightness (_Flicker 0.3).
+Full scene/shared asset state and scene bytes preserved.

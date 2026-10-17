@@ -1,0 +1,28 @@
+corebuster_art_006 | Unity 6000.5.7f1 | 2026-10-04
+Scene SHA-256: e166153d1e65a4c8be2d347d1d382773627829ba3842350473a91c4c38c00e48
+PASS: contract keep-outs, arm/support bounds, source mesh provenance, joint connections, moderate scale, negative guards, isolated clear/Undo, save/reload, repeated asset hashes, 57387 outside-section states, 3358 shared asset/meta/settings entries, Centre and Room 3 validators.
+BOSS HALL ARMS: 2 assembly roots, 2 owned prefab instances (no nested source prefabs), 4 arms at 1,55x, 38 renderers, 23296 triangles, 6 owned first-principles meshes, 2 reused finishes; no collision/carving/lights/emitters.
+Turret: entry silhouette clear; 1657 lower-floor/tier-1/tier-2 firing rays clear of every arm renderer bound.
+Room3_Master: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Room3_BossDoor: 43 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Threshold_Forward: 813 changed pixels, 0 outside the geometric hall projection (0 above delta 32); permitted view into hall
+Incline_Back: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Landing_Back: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Incline_Reveal: 54427 changed pixels, 52890 outside the geometric hall projection (14960 above delta 32); permitted view into hall
+Landing_Forward: 1621 changed pixels, 0 outside the geometric hall projection (0 above delta 32); permitted view into hall
+Centre_Room: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Workshop: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+BOSS HALL BUDGETS (provisional ceilings; material shares are planning reservations)
+Assembly_Backdrop [corebuster_env_049]: assemblies 4/4, prefabs including nested 0/10, renderers 69, colliders 1, carving 1, lights 0/0, emitters 0/0, live particles 0, assigned materials 3, initial material planning share 3
+Mechanical_Arms [corebuster_art_006]: assemblies 2/2, prefabs including nested 2/8, renderers 38, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 2, initial material planning share 2
+Power_Services [corebuster_env_050]: assemblies 0/2, prefabs including nested 0/10, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 2
+Cooling_Services [corebuster_env_050]: assemblies 0/2, prefabs including nested 0/10, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 2
+Catwalk_Dressing [corebuster_env_051]: assemblies 0/0, prefabs including nested 0/10, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 1
+Lower_Arena_Dressing [corebuster_env_052]: assemblies 0/2, prefabs including nested 0/8, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 1
+Overhead [corebuster_env_050]: assemblies 0/0, prefabs including nested 0/8, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 1
+Meltdown_VFX [corebuster_env_054]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/6, live particles 0, assigned materials 0, initial material planning share 2
+Lighting [corebuster_env_055]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 0/24, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 2
+Wayfinding [corebuster_env_057]: assemblies 0/0, prefabs including nested 0/8, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 2
+Audio [corebuster_audio_003]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 0
+Rendering [corebuster_render_010]: assemblies 0/0, prefabs including nested 0/0, renderers 551, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 10, initial material planning share 2
+Whole pass: <=12 assembly roots, <=80 nested prefab instances, <=20 unique materials, <=24 architectural lights, <=6 emitters. Actor/core/weapon lights are separate; combined per-object limit remains 4.

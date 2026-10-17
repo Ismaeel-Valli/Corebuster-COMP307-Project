@@ -1,0 +1,45 @@
+corebuster_env_050 | Unity 6000.5.7f1 | 2026-10-04
+Saved scene SHA-256: e520cddf1609a199ed364e615c191c6c2be77f231d058c119a65d5b6e39e47f6
+PASS: contract keep-outs, service-band envelopes, wall stand-off, finishes, mesh provenance, hull/carve consolidation, support rays, backdrop face contacts, intersections, turret lines, negative guards, isolated clear/Undo per section, save/reload, deterministic assets, 57580 protected scene/section states, 3358 shared asset/meta/settings entries, Centre and Room 3 validators.
+Frame: wall band 1.19 m; floor band to Y 10.11 against the wall and Y 8.80 2.2 m out; gallery band Y 13.30-16.68; upper band Y 19.30-25.90; chase stations power X -276.31, cooling X -320.57; main Y 9.41, gallery line Y 16.35, tray Y 22.60.
+Hull Power_Feed_South: X [-284.71, -272.98], Y [6.20, 8.75], Z [82.80, 84.55]
+Hull Cooling_Loop_South: X [-317.77, -311.37], Y [6.20, 8.75], Z [82.80, 84.05]
+Hull Power_Feed_North: X [-284.71, -272.98], Y [6.20, 8.75], Z [145.48, 147.23]
+Hull Cooling_Loop_North: X [-317.77, -311.37], Y [6.20, 8.75], Z [145.98, 147.23]
+Contact Power_Feed_South junction box on the gantry corbel: X [-328.13, -327.43], Y [22.50, 23.20], Z [105.40, 106.00] -> Assembly_Backdrop/Assembly_Gantry/Gantry_Support_South
+Contact Cooling_Loop_South header seated on the lintel: X [-328.15, -327.41], Y [16.08, 16.58], Z [104.30, 105.85] -> Assembly_Backdrop/Service_Towers/Lintel_Girder
+Contact Overhead_Feeder_South runway conductor box on the gantry runway end: X [-322.33, -321.53], Y [24.95, 25.67], Z [100.25, 100.85] -> Assembly_Backdrop/Assembly_Gantry/Gantry_Runway
+Contact Power_Feed_North junction box on the gantry corbel: X [-328.13, -327.43], Y [22.50, 23.20], Z [124.60, 125.20] -> Assembly_Backdrop/Assembly_Gantry/Gantry_Support_North
+Contact Cooling_Loop_North header seated on the lintel: X [-328.15, -327.41], Y [16.08, 16.58], Z [124.75, 126.30] -> Assembly_Backdrop/Service_Towers/Lintel_Girder
+Contact Overhead_Feeder_North runway conductor box on the gantry runway end: X [-322.33, -321.53], Y [24.95, 25.67], Z [129.75, 130.35] -> Assembly_Backdrop/Assembly_Gantry/Gantry_Runway
+Envelope PowerServices: X [-328.53, -263.04], Y [6.20, 10.11], Z [82.45, 83.64]; X [-328.53, -263.04], Y [6.20, 8.79], Z [82.45, 84.65]; X [-328.53, -263.04], Y [13.30, 16.68], Z [82.45, 83.64]; X [-328.53, -263.04], Y [19.30, 25.90], Z [82.45, 83.64]; X [-328.53, -263.04], Y [6.20, 10.11], Z [146.39, 147.58]; X [-328.53, -263.04], Y [6.20, 8.79], Z [145.38, 147.58]; X [-328.53, -263.04], Y [13.30, 16.68], Z [146.39, 147.58]; X [-328.53, -263.04], Y [19.30, 25.90], Z [146.39, 147.58]; X [-328.53, -327.34], Y [13.30, 16.68], Z [82.45, 147.58]; X [-328.53, -327.34], Y [19.30, 25.90], Z [82.45, 147.58]; X [-264.23, -263.04], Y [19.30, 25.90], Z [82.45, 147.58]
+Envelope CoolingServices: X [-328.53, -263.04], Y [6.20, 10.11], Z [82.45, 83.64]; X [-328.53, -263.04], Y [6.20, 8.79], Z [82.45, 84.65]; X [-328.53, -263.04], Y [13.30, 16.68], Z [82.45, 83.64]; X [-328.53, -263.04], Y [19.30, 25.90], Z [82.45, 83.64]; X [-328.53, -263.04], Y [6.20, 10.11], Z [146.39, 147.58]; X [-328.53, -263.04], Y [6.20, 8.79], Z [145.38, 147.58]; X [-328.53, -263.04], Y [13.30, 16.68], Z [146.39, 147.58]; X [-328.53, -263.04], Y [19.30, 25.90], Z [146.39, 147.58]; X [-328.53, -327.34], Y [13.30, 16.68], Z [82.45, 147.58]; X [-328.53, -327.34], Y [19.30, 25.90], Z [82.45, 147.58]; X [-264.23, -263.04], Y [19.30, 25.90], Z [82.45, 147.58]
+Envelope Overhead: X [-328.53, -263.04], Y [19.30, 26.20], Z [100.20, 100.90]; X [-328.53, -263.04], Y [19.30, 26.20], Z [129.70, 130.40]
+BOSS HALL SERVICES: Power_Services 2 roots, Cooling_Services 2 roots, Overhead 2 feeder roots; 68 renderers (44 reused Room 3/Workshop source meshes, 24 owned composed meshes), 44136 triangles, 4 colliders + 4 carving footprints, 0 prefab instances/lights/emitters/audio; finishes Power Gunmetal/HazardYellow, Cooling RedOxide/Brass, Overhead Gunmetal; 14/20 whole-hall materials.
+Collision: 4 consolidated box hulls with matching carving footprints, one per under-gallery floor group, all 2.55 m high (jump-proof) and below the inter-tier firing volume; no collision or carving above the floor band.
+Attachments: 163 support rays hit original wall/ceiling/floor collision within reach; 6 face contacts sit on saved backdrop renderers (two corbel junction boxes, two lintel headers, two runway conductor boxes). Every run ends in a wall chase, a backdrop contact or a junction box.
+Intersections: 1455 primitive parts (shrunk up to 0.03 m per side; wall/floor/ceiling bearing faces up to 0.035 m) clear of all original colliders, 727 original hall renderers' triangles and 658 backdrop/arms/skin renderers' triangles.
+Turret: entry-to-head silhouette clear; 2818 floor eyes in detection (0 inside hull footprints, 0 blocked) and 954 tier-1/tier-2 eyes, 0 blocked by any service renderer bound.
+Room3_Master: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Room3_BossDoor: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Threshold_Forward: 361 changed pixels, 0 outside the geometric hall projection (0 above delta 32); permitted view into hall
+Incline_Back: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Landing_Back: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Incline_Reveal: 43774 changed pixels, 39922 outside the geometric hall projection (1517 above delta 32); permitted view into hall
+Landing_Forward: 10406 changed pixels, 0 outside the geometric hall projection (0 above delta 32); permitted view into hall
+Centre_Room: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Workshop: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+BOSS HALL BUDGETS (provisional ceilings; material shares are planning reservations)
+Assembly_Backdrop [corebuster_env_049]: assemblies 4/4, prefabs including nested 0/10, renderers 69, colliders 1, carving 1, lights 0/0, emitters 0/0, live particles 0, assigned materials 3, initial material planning share 3
+Mechanical_Arms [corebuster_art_006]: assemblies 2/2, prefabs including nested 2/8, renderers 38, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 2, initial material planning share 2
+Power_Services [corebuster_env_050]: assemblies 2/2, prefabs including nested 0/10, renderers 42, colliders 2, carving 2, lights 0/0, emitters 0/0, live particles 0, assigned materials 2, initial material planning share 2
+Cooling_Services [corebuster_env_050]: assemblies 2/2, prefabs including nested 0/10, renderers 24, colliders 2, carving 2, lights 0/0, emitters 0/0, live particles 0, assigned materials 2, initial material planning share 2
+Catwalk_Dressing [corebuster_env_051]: assemblies 0/0, prefabs including nested 0/10, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 1
+Lower_Arena_Dressing [corebuster_env_052]: assemblies 0/2, prefabs including nested 0/8, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 1
+Overhead [corebuster_env_050]: assemblies 0/0, prefabs including nested 0/8, renderers 2, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 1, initial material planning share 1
+Meltdown_VFX [corebuster_env_054]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/6, live particles 0, assigned materials 0, initial material planning share 2
+Lighting [corebuster_env_055]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 0/24, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 2
+Wayfinding [corebuster_env_057]: assemblies 0/0, prefabs including nested 0/8, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 2
+Audio [corebuster_audio_003]: assemblies 0/0, prefabs including nested 0/0, renderers 0, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 0, initial material planning share 0
+Rendering [corebuster_render_010]: assemblies 0/0, prefabs including nested 0/0, renderers 551, colliders 0, carving 0, lights 0/0, emitters 0/0, live particles 0, assigned materials 10, initial material planning share 2
+Whole pass: <=12 assembly roots, <=80 nested prefab instances, <=20 unique materials, <=24 architectural lights, <=6 emitters. Actor/core/weapon lights are separate; combined per-object limit remains 4.

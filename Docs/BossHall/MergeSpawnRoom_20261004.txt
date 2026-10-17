@@ -1,0 +1,6 @@
+PASS: disjoint Unity YAML object merge
+76 remote additions, 1 remote removal, 26 remote modifications retained exactly.
+1566 local additions, 954 local removals, 8 local modifications retained exactly.
+Zero colliding changes, duplicate file IDs, conflict markers or newly dangling local references.
+Merged blocks: 22543
+Scene SHA-256: 398f28174fd740665d66bb1a4cf2e0cd0b5898052d10c4d35c5b1495844803b1

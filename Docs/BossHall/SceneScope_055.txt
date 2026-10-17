@@ -1,0 +1,7 @@
+corebuster_env_055 scene scope audit
+Baseline HEAD SHA-256: 4580ae2aa656db743e2cd93e1d2b32a609953e11114b246197ff30ec5cd83ff5
+Saved MainScene SHA-256: f7197d7c4b5445fd570cf7e2ead21e8bd43898d2587e0d47492f25b8ad7ad4ee
+Added blocks: 99 (24 GameObjects, 24 Transforms, 24 Lights, 24 URP light data, 3 flicker bindings).
+Removed blocks: 0.
+Only changed original block: Lighting Transform 1959823203, child list only.
+All 24 direct children belong to Lighting. Every other original YAML block is identical to HEAD.

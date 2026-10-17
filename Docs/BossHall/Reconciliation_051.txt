@@ -1,0 +1,9 @@
+PASS: explicitly accepted the user-authorized spawn-room merge after exact two-parent YAML audit.
+Scene unchanged: 398f28174fd740665d66bb1a4cf2e0cd0b5898052d10c4d35c5b1495844803b1
+Prior contract: 11dfb8aa3c6eef2fe1a5bcb0bab68ca3023b75e264a57fb94d46de316ffaf4b6
+Current contract: 1009e5c7d3f58d2a275216a698ad22ab169d576cca8f9ae400f998b275f3aaae
+Protected state: 99b48d74bb87441d441af0227b2fb648ea5a76ad65efb9780ca0a9ef85ad5b2b (55245 entries)
+Shared assets unchanged: 47be0f4fb30342e9c82d2e0f7847f3af80aa1843047dd534dc7b55475cfcd404 (3358 entries)
+Existing Boss Hall services, arms, backdrop, rendering, Centre and Room 3 validators pass.
+All survey/reservation data and surface bindings retained; only fingerprint/count and manifest binding fields updated.
+Remote spawn-room and Player start retained as requested; this does not verify their gameplay.

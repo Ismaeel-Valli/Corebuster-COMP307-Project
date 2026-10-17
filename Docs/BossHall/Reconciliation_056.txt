@@ -1,0 +1,12 @@
+PASS: explicitly accepted the owner-approved merge 389eff4 (tutorial wing, corridor lamp, giant-core finale) for corebuster_env_056.
+Scene unchanged: 61deb08049452ba7e3dd403b7d6e5cf27f8495653ec908401271bac7dfbc2cb9
+Audit: Docs/BossHall/MergeAudit_056.txt 087cbf47444714aee40320b77a6a4ee480faa5ee53be2185ddfc933f2e2faf32
+Prior contract: 1009e5c7d3f58d2a275216a698ad22ab169d576cca8f9ae400f998b275f3aaae
+Current contract: 1cbc61bbb57fc352dc37bb7e719b1f5cdf02a2999cbd10e505bef4d2ad9c5206
+Protected state: 99b48d74bb87441d441af0227b2fb648ea5a76ad65efb9780ca0a9ef85ad5b2b (55245) -> ac8b63258b076d2be689ec706ae9b1a227842c5f75074aa3c206ca2bfb2aa3e7 (59929 entries)
+Shared assets: 47be0f4fb30342e9c82d2e0f7847f3af80aa1843047dd534dc7b55475cfcd404 (3358) -> 5913e3f29e62103803c65dce805867f0a0be71225c9c442b6ba8b1ae0a2ee1fc (3500 entries); changes listed in the audit.
+Framework, all installed section recipes, rendering skins, Centre and Room 3 validators pass. Survey/reservation data and surface bindings retained;
+only fingerprint/count fields and the manifest binding changed. This does not verify finale gameplay, containment or win ordering.
+Finale in hall: 149 renderers, 149 colliders (reported, not repaired; finale-owned).
+  Giant Core: 289 parts, bounds (-299.69, 15.35, 111.61)..(-292.31, 26.21, 118.99); contract reservation: outside measured hall; dressing bounds touched: none
+  Core Platform: 9 parts, bounds (-291.30, 16.68, 114.10)..(-283.90, 26.17, 116.50); contract reservation: Upper deck network walking volume; dressing bounds touched: none

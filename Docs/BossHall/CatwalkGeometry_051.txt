@@ -1,0 +1,11 @@
+BOSS HALL CATWALK 051 SAVED GEOMETRY: PASS. Original upper stair/rail defects retained under the approved first-tier scope.
+PASS decks, usable widths, headroom and joins: 3 complete measured records identical before/after.
+PASS stair/landing geometry and clearance: 8 complete measured records identical before/after.
+PASS original rail collider bounds and eye-height crossings: 60 complete measured records identical before/after.
+PASS rail-opening level/downward firing tests and blockers: 54 complete measured records identical before/after.
+PASS entry width, incline turret visibility and first reveal unchanged.
+North gallery: clear width minimum 1.00, median 6.75 m; minimum headroom 3.03 m.
+South gallery: clear width minimum 0.75, median 6.75 m; minimum headroom 2.23 m.
+Upper deck network: clear width minimum 0.25, median 5.25 m; minimum headroom 9.50 m.
+Baseline scene SHA-256: 398f28174fd740665d66bb1a4cf2e0cd0b5898052d10c4d35c5b1495844803b1
+Saved scene SHA-256: 4416fd5c7df65ae3e280c91effc4ebda7c8b0a44e216a7e2919959a647cc4746

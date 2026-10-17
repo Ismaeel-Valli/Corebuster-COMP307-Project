@@ -1,0 +1,13 @@
+Room3_Master: 0 changed pixels; strict neighbour
+Room3_BossDoor: 0 changed pixels; strict neighbour
+Threshold_Forward: 487 changed pixels; forward hall view
+Incline_Back: 0 changed pixels; strict neighbour
+Landing_Back: 0 changed pixels; strict neighbour
+Incline_Reveal: 4328 changed pixels; forward hall view
+Landing_Forward: 33174 changed pixels; forward hall view
+Centre_Room: 0 changed pixels; strict neighbour
+Workshop: 0 changed pixels; strict neighbour
+Entry: render/readback/PNG proxy, off 48.39 ms, on 47.89 ms per two renders. Not GPU/frame-time profiling.
+Arena: render/readback/PNG proxy, off 49.38 ms, on 50.57 ms per two renders. Not GPU/frame-time profiling.
+Gallery: render/readback/PNG proxy, off 57.10 ms, on 63.79 ms per two renders. Not GPU/frame-time profiling.
+Upper_Reverse: render/readback/PNG proxy, off 73.63 ms, on 76.74 ms per two renders. Not GPU/frame-time profiling.

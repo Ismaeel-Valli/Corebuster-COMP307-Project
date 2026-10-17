@@ -1,0 +1,6 @@
+{
+    "name": "CoreBuster.AI.Editor",
+    "references": ["fps.AI", "fps.Game", "fps.Gameplay", "fps.UI", "CoreBuster.Environment.Editor", "Unity.TextMeshPro", "UnityEngine.UI",
+        "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime"],
+    "includePlatforms": ["Editor"]
+}

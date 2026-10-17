@@ -1,0 +1,115 @@
+SCENE SCOPE env_056 (HEAD 389eff4 reconciled merge -> saved lighting refinement)
+HEAD 61deb08049452ba7e3dd403b7d6e5cf27f8495653ec908401271bac7dfbc2cb9 25695 blocks; saved fae109bf7cff7f620c51354b50eb78eb27a5434109785fd718951f3a1bca94bb 25695 blocks
+Changed blocks: 2584 raw; 2518 are only Unity's line wrapping/quoting of long references and bracketed paths.
+  1 blocks: TextMeshPro m_TextStyleHashCode filled on load (tutorial wing text)
+  65 other changed blocks
+  ==  314574903 Label - EMERGENCY ISSUE  /  OFFICER SIDEARM MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294954060
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1308629355 Title MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4281573119
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1047272085 Title MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4281573119
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  146153202 Label - EMERGENCY OFFICER  /  QUARTERS MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4281573119
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  184819894 Label - FABRICATION GALLERY MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4281573119
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1593451230 Title MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4281573119
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  384577176 Heading MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294106065
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  576473047 Category MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294934727
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1014388060 Body MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294962656
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1299868080 Label - EXIT  /  CORRIDOR TO THE WORKSHOP MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4281573119
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  918581677 Body MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294962656
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  473723876 Tag MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294954060
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1242331062 Tag MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294954060
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  759200982 Category MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4286971745
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1959823203 Lighting Transform:
+     -  - {fileID: 1022735819}
+     -  - {fileID: 391405782}
+     -  - {fileID: 68315799}
+     -  - {fileID: 176210059}
+     -  - {fileID: 937663785}
+     -  - {fileID: 2116927247}
+  ==  1683920971 Body MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294963936
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1197517840 Category MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4286971745
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1532672689 'Label - Built aboard, from first principles: meshes, textures and shaders MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294962137
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  850836657 Heading MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4294954060
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+  ==  1162003363 Heading MonoBehaviour:
+     -    rgba: 4294967295
+     +    rgba: 4281573119
+     -  m_TextStyleHashCode: 0
+     +  m_TextStyleHashCode: -1183493901
+Lighting rebuild: 99 blocks removed and 99 added (Undo-registered recreation of the 24 lights).
+  identical apart from file IDs: 97 of 99 ; owners: Arena_East_North, Arena_East_South, Arena_West_North, Arena_West_South, Assembly_Key, Entry_Key, Gallery_North_East, Gallery_North_West, Gallery_South_East, Gallery_South_West, Stair_Lower_NE, Stair_Lower_NW, Stair_Lower_SE, Stair_Lower_SW, Stair_Upper_NE, Stair_Upper_NW, Stair_Upper_SE, Stair_Upper_SW, Turret_Key, Upper_Warning_East, Upper_Warning_West, Warning_Flicker_North, Warning_Flicker_Ring, Warning_Flicker_South
+  content changed: Turret_Key Transform:
+  content changed: Turret_Key Light:
+
+CLASSIFICATION of non-formatting changes: 57 tutorial-wing TextMeshPro blocks only sync cached m_fontColor32 'rgba' and m_TextStyleHashCode on load/save (teammate content; in-memory protected snapshot unchanged); 1 child-list change (Level/Boss_Hall_Dressing/Lighting, recreated lights); 8 other: six further TextMeshPro blocks with the same sync plus long-text re-wrapping, one Canvas m_AdditionalShaderChannelsFlag set by TextMeshPro, and one UI prefab instance (4008933581619590512) whose redundant RectTransform overrides Unity pruned on save.
+Net authored change: Turret_Key Transform and Light only. No block outside Lighting changes authored state.
+All of these are Unity serialisation of state already present in memory at load: BossHallLighting.BuildBatch compared the full outside-Lighting snapshot (63,051 states, in-memory values) before the save and after reload, and every state matched. Any save of the merged scene in Unity 6000.5.7f1 produces the same normalisation.

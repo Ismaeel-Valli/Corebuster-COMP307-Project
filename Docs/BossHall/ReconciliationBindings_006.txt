@@ -1,0 +1,8 @@
+corebuster_art_006 prerequisite: explicitly reconciled verified corebuster_env_046 only.
+Scene: 37aa4910a9d2d9cb1f89caae9956b5f1b65899cefad3eab53f334bc6a6e859d7
+Audit: 2aa0a97f08152231b97bb3ec7fe1e52e0e573715034485c92c97607bc655c014
+Prior contract: 2b2d602edf5df9435d50a52969de39f6a169bc1d592f0a70d34edb6951802c4f
+Current contract: 11dfb8aa3c6eef2fe1a5bcb0bab68ca3023b75e264a57fb94d46de316ffaf4b6
+Protected scene: fdeb0255e65e2b61f2475147fe64aade4fd122f366334ad0d95e09037a1c604d (54871 states)
+Shared asset digest unchanged: 47be0f4fb30342e9c82d2e0f7847f3af80aa1843047dd534dc7b55475cfcd404 (3358 entries)
+PASS: backdrop, exact unchanged rendering skins, measured reservations, Centre and Room 3 validators. MainScene unchanged.

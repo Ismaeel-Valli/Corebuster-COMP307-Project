@@ -1,0 +1,7 @@
+READ-ONLY ENV053 PREFLIGHT
+Scene: d75d182da08efdc3d58e87f1fe037506678007addb057956d31752755199e6d4
+AssemblyBackdrop/Assembly_Ring/Energy_053/Contained_Stator_Field at (-327.987, 11.000, 115.300)
+PowerServices/Power_Feed_South/Energy_053/Junction_Interface at (-276.313, 15.063, 83.243)
+Overhead/Overhead_Feeder_South/Energy_053/Intake_Conductor_Strips at (-263.600, 24.500, 100.550)
+PowerServices/Power_Feed_North/Energy_053/Junction_Interface at (-276.313, 15.063, 146.784)
+Overhead/Overhead_Feeder_North/Energy_053/Intake_Conductor_Strips at (-263.632, 24.500, 130.050)

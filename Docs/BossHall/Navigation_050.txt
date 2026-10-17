@@ -1,0 +1,57 @@
+BOSS HALL SERVICES 050 NAVIGATION PROBE: PASS. Physics capsule and NavMesh probe with all service and cradle carves active; not live combat or human input.
+PASS 4/4 service hull carving obstacles enabled and carving in Play mode
+PASS overhead feeders add no runtime collision or carving
+PASS every feeder renderer is above a standing player on the second tier (Y 18.48)
+PASS Power_Feed_South carve: 0/69 samples inside the hull footprint are on the NavMesh
+PASS Power_Feed_South lane: 17/17 samples 1.2 m in front of and beside the hull on the NavMesh, 17/17 reachable from the entry
+PASS Power_Feed_North carve: 0/69 samples inside the hull footprint are on the NavMesh
+PASS Power_Feed_North lane: 17/17 samples 1.2 m in front of and beside the hull on the NavMesh, 17/17 reachable from the entry
+PASS Cooling_Loop_South carve: 0/26 samples inside the hull footprint are on the NavMesh
+PASS Cooling_Loop_South lane: 11/11 samples 1.2 m in front of and beside the hull on the NavMesh, 11/11 reachable from the entry
+PASS Cooling_Loop_North carve: 0/26 samples inside the hull footprint are on the NavMesh
+PASS Cooling_Loop_North lane: 11/11 samples 1.2 m in front of and beside the hull on the NavMesh, 11/11 reachable from the entry
+PASS Enemy_CyberSoldier_PistonFist (-303, 115) to entry inside: complete 37.4 m
+PASS Enemy_CyberSoldier_PistonFist (1) (-301, 116) to entry inside: complete 35.1 m
+PASS Enemy_CyberSoldier_RivetCannon (-302, 110) to entry inside: complete 36.0 m
+PASS Enemy_CyberSoldier_RivetCannon (1) (-298, 115) to entry inside: complete 31.7 m
+PASS Enemy_Elite_PistonFist (-313, 109) to entry inside: complete 47.4 m
+PASS Enemy_Elite_PistonFist (-313, 125) to entry inside: complete 48.0 m
+PASS Enemy_Elite_Rifleman (-325, 102) to entry inside: complete 60.4 m
+PASS Enemy_Elite_Rifleman (-325, 132) to entry inside: complete 61.3 m
+PASS Enemy_Robot1_RivetCannon (-275, 109) to entry inside: complete 11.8 m
+PASS Enemy_Robot1_RivetCannon (-299, 119) to entry inside: complete 33.3 m
+PASS Connector Entry inside to Lower NW stair foot: complete 62.2 m
+PASS Connector Entry inside to Lower SW stair foot: complete 62.3 m
+PASS Connector Entry inside to Lower NE stair foot: complete 17.2 m
+PASS Connector Entry inside to Lower SE stair foot: complete 17.7 m
+PASS Connector Lower NW stair foot to top: complete 9.4 m
+PASS Connector Lower SW stair foot to top: complete 9.4 m
+PASS Connector Upper SE stair foot to top: complete 10.4 m
+PASS Connector Upper NE stair foot to top: complete 10.4 m
+PASS Connector Upper NW stair foot to top: complete 10.4 m
+PASS Connector Upper SW stair foot to top: complete 10.4 m
+PASS Connector Lower NE stair foot to top: complete 9.4 m
+PASS Connector Lower SE stair foot to top: complete 9.4 m
+PASS Connector North gallery: Lower NW stair top to Upper NW stair foot: complete 17.5 m
+PASS Connector North gallery: Upper NW stair foot to Upper NE stair foot: complete 25.7 m
+PASS Connector North gallery: Upper NE stair foot to Lower NE stair top: complete 17.7 m
+PASS Connector South gallery: Lower SW stair top to Upper SW stair foot: complete 17.5 m
+PASS Connector South gallery: Upper SW stair foot to Upper SE stair foot: complete 28.4 m
+PASS Connector South gallery: Upper SE stair foot to Lower SE stair top: complete 17.7 m
+PASS Connector Upper spine south to north: complete 67.9 m
+PASS Connector Upper spine south to East bay-door approach: complete 50.5 m
+PASS Connector Upper spine south to West bay-door approach: complete 50.1 m
+PASS Connector Incline landing to entry inside: complete 3.3 m
+PASS Connector North-West threshold to entry inside: complete 15.1 m
+PASS live hall agents on the NavMesh with carving active: 11/11 (survey actors 11)
+Probe setup: PlayerCharacterController and input disabled, Health invincible, 21 hall actor colliders disabled (Play mode only).
+PASS player walks the south under-gallery lane (wall distance 3.2 m) east to west and back: Reached
+PASS player walks the north under-gallery lane (wall distance 3.2 m) east to west and back: Reached
+PASS player pushed into Power_Feed_South stops 0.35 m from the hull face (radius 0.35)
+PASS player with jump assist cannot get onto Power_Feed_South: highest foot Y 8.32, hull top 8.75
+PASS player pushed into Power_Feed_North stops 0.35 m from the hull face (radius 0.35)
+PASS player with jump assist cannot get onto Power_Feed_North: highest foot Y 8.32, hull top 8.75
+PASS player pushed into Cooling_Loop_South stops 0.35 m from the hull face (radius 0.35)
+PASS player with jump assist cannot get onto Cooling_Loop_South: highest foot Y 8.32, hull top 8.75
+PASS player pushed into Cooling_Loop_North stops 0.35 m from the hull face (radius 0.35)
+PASS player with jump assist cannot get onto Cooling_Loop_North: highest foot Y 8.32, hull top 8.75

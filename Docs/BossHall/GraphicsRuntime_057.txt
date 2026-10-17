@@ -1,0 +1,11 @@
+BOSS HALL GRAPHICS RUNTIME env_057 (Play mode, hall AI live; controlled capsule walk, not human input)
+Player armed through the real tutorial WeaponLocker.Interact: Blaster (Play mode only).
+Player camera 1.44 m above the capsule base; 21 hall actor colliders disabled so live actors cannot block the walk; player invincible; Boss Hall Door locked True.
+Entry run 1: reached (-273.04, 6.20, 115.30) from the threshold, 20.6 m in 5.1 s, Y 0.18..6.20, 20 frames, 33 NPC shots; door still locked True.
+Entry run 2: reached (-273.04, 6.20, 115.30) from the threshold, 20.9 m in 5.2 s, Y 0.18..6.20, 21 frames, 77 NPC shots; door still locked True.
+Entry run 3: reached (-273.04, 6.20, 115.30) from the threshold, 21.0 m in 5.3 s, Y 0.18..6.20, 21 frames, 85 NPC shots; door still locked True.
+Upper reverse: walked (-326.24, 16.68, 115.15) -> (-265.36, 16.68, 117.50) via 9 NavMesh/ramp-clear waypoints, 69.5 m in 17.4 s, Y 16.68..16.72, 18 frames facing the entry, 134 NPC shots.
+North_Gallery: reached measured original deck eye (-271.77, 12.14, 143.00), 1.9 m in 0.5 s.
+South_Gallery: reached measured original deck eye (-271.78, 12.14, 87.15), 1.7 m in 0.4 s.
+Saved plate facing/UV/material/component bindings unchanged with AI live; floor and both gallery approaches captured in Play mode.
+Nothing saved; Play-mode changes are discarded on exit. Human-input moving combat remains corebuster_env_058.

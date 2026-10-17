@@ -1,0 +1,15 @@
+corebuster_env_052 MainScene YAML scope audit (block-level by file ID) against HEAD 42ea7f0
+Before SHA-256: 4416fd5c7df65ae3e280c91effc4ebda7c8b0a44e216a7e2919959a647cc4746
+After SHA-256:  d75d182da08efdc3d58e87f1fe037506678007addb057956d31752755199e6d4
+blocks before 22567, after 22587; added 20, removed 0, changed 1
+added by type: {'1': 6, '4': 6, '23': 2, '33': 2, '208': 2, '65': 2}
+changed 983778869 --- !u!4 &983778869 Transform: 
+    --- 
+    +++ 
+    @@ -13 +13,3 @@
+    -  m_Children: []
+    +  m_Children:
+    +  - {fileID: 1294994804}
+    +  - {fileID: 229097584}
+added names: ['Housing', 'Blast_Housing_North', 'Consolidated_Collision_Hull', 'Housing', 'Blast_Housing_South', 'Consolidated_Collision_Hull']
+Type key: 1 GameObject, 4 Transform, 23 MeshRenderer, 33 MeshFilter, 65 BoxCollider, 208 NavMeshObstacle. The changed Transform 983778869 is Level/Boss_Hall_Dressing/Lower_Arena_Dressing; only its child list changes.

@@ -1,0 +1,6 @@
+{
+    "name": "CoreBuster.Environment.Editor",
+    "references": ["fps.Game", "fps.Gameplay", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Editor", "Unity.RenderPipelines.Universal.Editor"],
+    "includePlatforms": ["Editor"]
+}

@@ -1,0 +1,13 @@
+# Mechanical arm visual review - 2026-10-04
+
+Agent inspected the approved `target_design/boss_room.png` and the art_006 captures at entry/incline, lower arena from both sides, both first-tier galleries, second-tier overview and both close views. All captures use the saved spatial layout. `Neutral/` adds five temporary white lamps; `Saved/` preserves actual lighting. No review light/material/renderer change persists.
+
+The two pairs read as parked factory tooling attached to the existing red-oxide runway. Each arm has a supported base plate and braced hanger, connected original joints/rigid-part hose loops, supply fittings, an external boom cylinder/rod and a mandrel held in its gripper on an overhead fixture post. Mirrored pairs frame the central hoist and leave the bay-door approach open. Original gallery rails remain unchanged. The modestly enlarged Workshop-derived limbs carry a recognisable industrial silhouette at gallery and upper-tier distances; the turret remains the lower-arena focal point. There are no interaction labels, emissive cores, moving arms or reachable arm collision.
+
+The existing upper bridge occludes portions of the arm cells at entry and in wide lower-floor views. Their full joint silhouette is clear from the galleries and second-tier detail views. That limitation follows the protected architecture and approved overhead attachment bays; env_056 owns the later overall reveal. Saved lighting is dark on the machinery; env_055 owns final practical/focal lighting. Neutral lights verify composition and connections, not final scene brightness.
+
+Five strict neighbour/backward captures are pixel-identical. BossDoor changes only 43 pixels in its hall sliver, with zero changes outside the geometric hall projection. Forward hall views change as permitted; the incline frame also has animated sky visible through foreground grating, so no pixel-identical foreground claim is made there. `Neighbours/Report.txt` and diff masks preserve the raw counts.
+
+Evidence: `ReviewCaptures/BossHall/006/Neutral/Entry.png`, `Incline_Reveal.png`, `Arena_SouthEast.png`, `Arena_NorthEast.png`, `North_Gallery.png`, `South_Gallery.png`, `Upper_Arms.png`, `South_Arm_Detail.png`, `North_Arm_Detail.png`, and corresponding saved-lighting views. The neutral arm-hidden entry/landing/arena pairs isolate this pass. Automated ownership, attachment, sightline and traversal results are separate in `MechanicalArms_006.txt`, `SceneScope_006.txt` and `Navigation_006.txt`.
+
+No live combat, human-input run, player build, target-hardware profiling, containment or win-ordering verification is claimed. Existing shell/stair/rail findings remain open.

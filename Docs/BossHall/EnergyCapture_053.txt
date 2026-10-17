@@ -1,0 +1,11 @@
+Read-only saved/neutral review. Neutral lamps are unsaved. Field animation pinned to review time 0 only during captures.
+Room3_Master: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Room3_BossDoor: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Threshold_Forward: 629 changed pixels, 0 outside the geometric hall projection (0 above delta 32); permitted view into hall
+Incline_Back: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Landing_Back: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Incline_Reveal: 38595 changed pixels, 37948 outside the geometric hall projection (838 above delta 32); permitted view into hall
+Landing_Forward: 465 changed pixels, 0 outside the geometric hall projection (0 above delta 32); permitted view into hall
+Centre_Room: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Workshop: 0 changed pixels, 0 outside the geometric hall projection (0 above delta 32); strict neighbour/backward view
+Full scene/shared asset state and scene bytes preserved.
