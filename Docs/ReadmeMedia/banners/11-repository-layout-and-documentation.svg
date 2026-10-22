@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="116" viewBox="0 0 1200 116" role="img" aria-label="REPOSITORY &amp; DOCUMENTATION">
+<defs>
+ <linearGradient id="space" x2="0" y2="1"><stop stop-color="#07121a"/><stop offset=".48" stop-color="#13242e"/><stop offset="1" stop-color="#080e17"/></linearGradient>
+ <linearGradient id="bronze" x2="0" y2="1"><stop stop-color="#f1cb82"/><stop offset=".18" stop-color="#986438"/><stop offset=".48" stop-color="#5c3b25"/><stop offset=".7" stop-color="#bd8950"/><stop offset="1" stop-color="#3a2920"/></linearGradient>
+ <linearGradient id="inset" x2="0" y2="1"><stop stop-color="#182b36"/><stop offset=".48" stop-color="#101c27"/><stop offset="1" stop-color="#1a2228"/></linearGradient>
+ <linearGradient id="amber" x2="1"><stop stop-color="#c78449"/><stop offset=".55" stop-color="#ffbd44"/><stop offset="1" stop-color="#d96d28"/></linearGradient>
+ <radialGradient id="core"><stop stop-color="#fff2bd"/><stop offset=".18" stop-color="#75edff"/><stop offset=".54" stop-color="#3479ba"/><stop offset=".78" stop-color="#523b89"/><stop offset="1" stop-color="#211831"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1200" height="116" rx="8" fill="url(#space)"/>
+<!-- dim steel bulkhead grid -->
+<g opacity=".23" stroke="#65808d" fill="none"><path d="M0 18h1200M0 98h1200M52 0v116M220 0v116M980 0v116M1148 0v116"/><path d="M16 24h42v24H16zM1142 24h42v24h-42zM16 66h42v24H16zM1142 66h42v24h-42z"/></g>
+<!-- ambient nebula reflected through the ship windows -->
+<ellipse cx="1114" cy="59" rx="115" ry="35" fill="#672d66" opacity=".16" filter="url(#soft)"/>
+<ellipse cx="1065" cy="68" rx="90" ry="25" fill="#197b8b" opacity=".12" filter="url(#soft)"/>
+<!-- game HUD's signature forged bronze frame -->
+<path d="M39 17 57 7H1144l17 11 10 20v40l-10 20-17 11H57L39 98 29 78V38z" fill="#080b0e" opacity=".8"/>
+<path d="M39 14 56 5h1089l16 10 10 20v42l-10 20-16 10H56L39 98 28 77V37z" fill="url(#bronze)" stroke="#ddae68" stroke-width="1.4"/>
+<path d="m48 19 13-7h1077l13 8 8 18v40l-8 18-13 7H61l-13-7-8-18V38z" fill="url(#inset)" stroke="#32291f" stroke-width="2"/>
+<path d="M75 22H1109M75 94H1109" stroke="#d8ad6a" opacity=".45"/>
+<!-- corner rivets and notched armor -->
+<path d="m42 38 16-15v13l-9 10v24l9 10v13L42 78zM1158 38l-16-15v13l9 10v24l-9 10v13l16-15z" fill="#34261e" stroke="#d4a35e" stroke-width="1"/>
+<g fill="#e3bd7d" stroke="#483225" stroke-width="1"><circle cx="57" cy="16" r="2.6"/><circle cx="1144" cy="16" r="2.6"/><circle cx="57" cy="100" r="2.6"/><circle cx="1144" cy="100" r="2.6"/></g>
+<!-- core medallion, echoing the game's blue core gauge -->
+<circle cx="111" cy="58" r="33" fill="#110f15" stroke="#3f3027" stroke-width="3"/>
+<circle cx="111" cy="58" r="27" fill="url(#bronze)" stroke="#d7aa69" stroke-width="1.4"/>
+<circle cx="111" cy="58" r="21" fill="url(#core)" stroke="#223b62" stroke-width="3"/>
+<path d="M111 40v36M93 58h36M98 45l26 26M124 45 98 71" stroke="#d2faff" stroke-width="1" opacity=".8"/>
+<circle cx="111" cy="58" r="4" fill="#fff1c6"/>
+<text x="164" y="40" fill="#e3bd7d" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2.6">COREBUSTER  /  SECTION 11</text>
+<text x="163" y="73" fill="#f4ead5" font-family="Impact, 'Arial Narrow', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="1.1">REPOSITORY &amp; DOCUMENTATION</text>
+<text x="165" y="91" fill="#9db3c2" font-family="Arial, sans-serif" font-size="10" letter-spacing="2.1">PROJECT STRUCTURE / TECHNICAL NOTES</text>
+<!-- status light and compartment marker -->
+<g transform="translate(1040 37)"><rect width="73" height="39" rx="4" fill="#080e13" stroke="#8c623a"/><path d="M8 10h57M8 19h43M8 28h29" stroke="#49606d" stroke-width="2"/><circle cx="59" cy="28" r="3.4" fill="url(#amber)"/></g>
+<text x="1080" y="88" text-anchor="middle" fill="#e5c487" font-family="Arial, sans-serif" font-size="8" font-weight="700" letter-spacing="1.4">ARCHIVE</text>
+<path d="M164 101h817" stroke="#27c6cf" stroke-width="1" opacity=".45"/><path d="M164 101h543" stroke="url(#amber)" stroke-width="2.2"/>
+</svg>
