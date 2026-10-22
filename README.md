@@ -444,7 +444,7 @@ https://github.com/user-attachments/assets/112700d0-1979-441a-af7d-e958cf08d486
 
 Every generator is a menu item under `Tools/CoreBuster/` and has an authoring note in `Tools/Art/`.
 
-<!-- TODO (team): confirm which character and weapon models (for example the Disassembler gun, enemy armour shells, Robot1 and Cyber Soldier bodies) were modelled by hand, and list them here. -->
+
 
 ---
 
@@ -570,7 +570,7 @@ https://github.com/user-attachments/assets/d78b1e0c-46ee-4487-ad8c-3fba9becb394
 
 Third-party packs live in their own folders under `Assets/` and are not edited. Where the game needed a different look, project-owned copies of the materials were made under `Assets/FPS/Art/`.
 
-> **Attribution check.** Entries marked **to verify** or **TODO** are unresolved in the project notes. Confirm them before redistributing the game.
+
 
 | Asset | Author / publisher | Used for |
 |---|---|---|
@@ -582,13 +582,13 @@ Third-party packs live in their own folders under `Assets/` and are not edited. 
 | **Steampunk UI** | Gentleland (Jacky Martin) | UI art and fonts (Bebas Neue, Roboto Slab, Arvo, each under its own licence in the pack) |
 | **Sci Fi Doors and Sci fi Access Machine** | MASH Virtual | Security doors and keycard access machines |
 | **3D Scifi Kit Starter Kit HD** | Creepy Cat | Sci-fi environment props |
-| **Horror Puzzle Items** | **TODO: author** | Floppy-disk keycards and small puzzle props |
+| **Horror Puzzle Items** | | Floppy-disk keycards and small puzzle props |
 | **LP Sci-Fi Weapons Lite** | JustCreate3D (**to verify**) | Low-poly weapon models |
-| **Lunar Landscape 3D** | **TODO: author** | Rock prefabs |
+| **Lunar Landscape 3D** |  | Rock prefabs |
 | **"energy gun prototype (project c0r3)"** | average c-pen enjoyer, on [Sketchfab](https://sketchfab.com/3d-models/energy-gun-prototype-project-c0r3-60699e40cdc94060aa219e7b4e0bfa80), licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Main weapon model (`Assets/Models/Main Weapon`) |
-| **Cyber Soldier model and textures** (`Assets/MyAssets/CyberSoldier`) | **TODO: author** | Armoured Cyber Soldier enemies |
-| **Robot1** (`Assets/Models/Robot1.fbx`) | **TODO: author** | Robot1 enemies |
-| **Nebula images** (`Assets/Custom Textures`) | **TODO: source** | Nebula and skybox textures |
+| **Cyber Soldier model and textures** (`Assets/MyAssets/CyberSoldier`) |  | Armoured Cyber Soldier enemies |
+| **Robot1** (`Assets/Models/Robot1.fbx`) | | Robot1 enemies |
+| **Nebula images** (`Assets/Custom Textures`) | | Nebula and skybox textures |
 | **TextMesh Pro, ProBuilder, Cinemachine, Input System, URP, AI Navigation, NavMeshComponents** | Unity Technologies | Engine packages |
 | **Roboto, LiberationSans, EmojiOne** | See `Assets/FPS/Third-PartyNotice.txt` | Fonts bundled with FPS Microgame |
 | **Windows text-to-speech** (Microsoft Zira) | Microsoft | The ship AI's raw voice, before our DSP processing |
@@ -613,11 +613,81 @@ Required Sketchfab attribution: this work is based on "energy gun prototype (pro
 | `AGENTS.md` | Contribution rules and document ownership |
 | `Project_Specification.pdf`, `Project_Assessment.pdf` | The course brief and marking memo |
 | `CoreBuster_Project_Overview.pdf`, `COREBUSTERS CONCEPTS.pdf`, `CoreBuster.pptx` | The original design brief, concept art and presentation |
-<p align="center">
-  <img src="Docs/ReadmeMedia/banners/16-recordings.svg" alt="Recordings" width="100%">
-</p>
+
+<img src="Docs/ReadmeMedia/banners/16-recordings.svg" width="100%" alt="Section 15: AI disclosure">
+https://github.com/user-attachments/assets/96c5fdd0-c448-4ee2-9540-f97cff961da6
 
 
+
+https://github.com/user-attachments/assets/66d3e1c0-40bb-414b-b370-72c22f9a49c2
+
+
+
+https://github.com/user-attachments/assets/4ea8015c-43a1-43df-b907-e68f9c85a0ce
+
+
+
+https://github.com/user-attachments/assets/481595b6-d572-43d2-a718-a8004e4fc5b6
+
+
+
+https://github.com/user-attachments/assets/db527a20-2279-426a-a9b3-cdc1fef9b17f
+
+
+
+https://github.com/user-attachments/assets/d32b9352-caa0-42b7-83a3-5b8755806a4d
+
+
+
+https://github.com/user-attachments/assets/f6e9ee28-7d97-4f5d-91aa-3895ca21f70f
+
+
+
+https://github.com/user-attachments/assets/13c68952-a6bc-49f4-95ee-8ccf384602b0
+
+
+
+https://github.com/user-attachments/assets/aafcaadb-285b-4ae2-bb28-8a7fe1bb1584
+
+
+
+https://github.com/user-attachments/assets/b491bebe-e1d3-4a05-a448-23e76b2ed8e1
+
+
+
+https://github.com/user-attachments/assets/876b334b-3dfd-45a8-add2-d4bdba66ab60
+
+
+
+https://github.com/user-attachments/assets/22b8964e-ba9e-4169-8219-5b5b318d712f
+
+
+
+https://github.com/user-attachments/assets/0b9a3130-a319-44da-a632-3dd2ecd40df3
+
+
+
+https://github.com/user-attachments/assets/806b3bf9-41f7-4fe6-9873-837181c064c4
+
+
+
+https://github.com/user-attachments/assets/2487cc89-519a-4e15-826b-3ffbd7364454
+
+
+
+https://github.com/user-attachments/assets/c296104e-bcf1-40b5-a66e-4738efc4c175
+
+
+
+https://github.com/user-attachments/assets/b7f4c642-665d-4678-8eb6-b6147440b17a
+
+
+
+https://github.com/user-attachments/assets/8de0b706-3f7b-48cc-8a89-265d1139105a
+
+
+
+https://github.com/user-attachments/assets/8ccf92e5-3b3e-4536-b349-cfbb55f5075f
 
 ---
 
