@@ -4,7 +4,7 @@
 
 # C O R E B U S T E R
 
-### BREAK THE ARMOUR. TAKE THE CORE. CHOOSE THE SHIP'S FATE.
+### BREAK THE ARMOUR. TAKE THE CORE. CHOOSE THE SHIP'S FATE. 
 
 A first-person sci-fi shooter by **Cosmic Studios** · Unity 6 · University of KwaZulu-Natal · 2026
 
