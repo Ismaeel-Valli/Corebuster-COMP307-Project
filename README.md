@@ -42,7 +42,7 @@ Take all three keycards to the Master terminal and decide how the story ends: **
 
 | **Studio** | Cosmic Studios |
 |:--|:--|
-| **Course** | COMP307, Graphics & Modelling |
+| **Course** | COMP307, Computer Graphics & Modelling |
 | **Genre** | First-person shooter |
 | **Players** | Single player |
 | **Engine** | Unity 6000.5.7f1, URP |
